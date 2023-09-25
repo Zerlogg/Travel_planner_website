@@ -1,0 +1,1642 @@
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.22.iwj4kj3ssc.js
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\dotnet.wasm
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\icudt_CJK.dat
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\icudt_EFIGS.dat
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\icudt_no_CJK.dat
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\icudt.dat
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.CSharp.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Options.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.VisualBasic.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\mscorlib.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\MudBlazor.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\MudBlazorTemplates1.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\MudBlazorTemplates1.pdb
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\netstandard.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.AppContext.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Buffers.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Concurrent.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Immutable.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.NonGeneric.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Specialized.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.Annotations.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Configuration.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Console.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Core.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Data.Common.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Data.DataSetExtensions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Data.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Contracts.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Debug.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Process.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Tools.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Tracing.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Dynamic.Runtime.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Drawing.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Drawing.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Formats.Asn1.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.Calendars.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.Extensions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.Brotli.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.IsolatedStorage.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipelines.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipes.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Linq.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Expressions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Parallel.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Queryable.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Memory.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.Json.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.HttpListener.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Mail.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.NameResolution.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.NetworkInformation.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Ping.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Quic.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Requests.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Security.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.ServicePoint.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Sockets.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebClient.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebProxy.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebSockets.Client.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebSockets.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Numerics.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Numerics.Vectors.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ObjectModel.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.CoreLib.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.DataContractSerialization.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.Runtime.InteropServices.JavaScript.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.Uri.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.Xml.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.Xml.Linq.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Extensions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Metadata.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Resources.Reader.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Resources.ResourceManager.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Resources.Writer.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Extensions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Handles.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.InteropServices.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Intrinsics.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Loader.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Numerics.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.AccessControl.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Claims.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Principal.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Principal.Windows.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.SecureString.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ServiceModel.Web.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ServiceProcess.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encodings.Web.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Json.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.RegularExpressions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Channels.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Overlapped.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Thread.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.ThreadPool.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Timer.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Transactions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Transactions.Local.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ValueTuple.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Web.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Web.HttpUtility.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Windows.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.Linq.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.ReaderWriter.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.Serialization.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XDocument.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XmlDocument.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XmlSerializer.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\WindowsBase.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Intrinsics.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ServiceProcess.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Dynamic.Runtime.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Debug.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.AppContext.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.CoreLib.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ObjectModel.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.Uri.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipelines.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encodings.Web.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\MudBlazorTemplates1.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebProxy.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\icudt_EFIGS.dat.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.Xml.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Linq.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\dotnet.wasm.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ServiceModel.Web.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Contracts.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.ReaderWriter.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.CSharp.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Claims.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Primitives.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.Extensions.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XmlSerializer.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Drawing.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Principal.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Core.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Requests.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.Xml.Linq.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Buffers.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Transactions.Local.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Resources.ResourceManager.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.InteropServices.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.NonGeneric.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Tools.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Web.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Timer.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Transactions.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Memory.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Extensions.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.NameResolution.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Numerics.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.Serialization.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.ThreadPool.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Data.Common.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Sockets.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.SecureString.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.ServicePoint.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Concurrent.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Data.DataSetExtensions.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XDocument.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Json.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\icudt.dat.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Windows.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Principal.Windows.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.Json.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Numerics.Vectors.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Resources.Writer.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Process.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\icudt_CJK.dat.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Ping.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Channels.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ValueTuple.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\netstandard.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\WindowsBase.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Primitives.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Immutable.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.HttpListener.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.Primitives.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Data.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebSockets.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.RegularExpressions.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebSockets.Client.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Mail.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Extensions.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Console.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Loader.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.NetworkInformation.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.IsolatedStorage.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Numerics.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\MudBlazorTemplates1.pdb.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Quic.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Configuration.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.Runtime.InteropServices.JavaScript.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Overlapped.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.Calendars.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\icudt_no_CJK.dat.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Parallel.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.VisualBasic.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Resources.Reader.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\MudBlazor.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Metadata.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.Linq.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.Brotli.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipes.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Web.HttpUtility.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Registry.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Specialized.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Handles.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Formats.Asn1.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Tracing.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\mscorlib.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Thread.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.AccessControl.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Security.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Queryable.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Drawing.Primitives.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.22.iwj4kj3ssc.js.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebClient.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Expressions.dll.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\MudBlazorTemplates1.staticwebassets.runtime.json
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\MudBlazorTemplates1.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\MudBlazorTemplates1.pdb
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\MudBlazor.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.CSharp.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.VisualBasic.Core.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.VisualBasic.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Win32.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Win32.Registry.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.AppContext.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Buffers.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Collections.Concurrent.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Collections.Immutable.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Collections.NonGeneric.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Collections.Specialized.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Collections.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.ComponentModel.Annotations.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.ComponentModel.DataAnnotations.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.ComponentModel.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.ComponentModel.TypeConverter.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.ComponentModel.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Configuration.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Console.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Core.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Data.Common.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Data.DataSetExtensions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Data.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.Contracts.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.Debug.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.Process.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.StackTrace.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.Tools.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.TraceSource.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.Tracing.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Drawing.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Drawing.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Dynamic.Runtime.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Globalization.Calendars.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Globalization.Extensions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Globalization.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.Compression.Brotli.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.Compression.FileSystem.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.Compression.ZipFile.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.Compression.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.FileSystem.AccessControl.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.FileSystem.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.FileSystem.Watcher.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.FileSystem.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.IsolatedStorage.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.MemoryMappedFiles.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.Pipes.AccessControl.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.Pipes.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Linq.Expressions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Linq.Parallel.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Linq.Queryable.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Linq.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Memory.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Http.Json.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Http.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.HttpListener.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Mail.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.NameResolution.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.NetworkInformation.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Ping.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Quic.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Requests.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Security.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.ServicePoint.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Sockets.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.WebClient.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.WebHeaderCollection.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.WebProxy.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.WebSockets.Client.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.WebSockets.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Numerics.Vectors.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Numerics.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.ObjectModel.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Private.DataContractSerialization.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Private.Runtime.InteropServices.JavaScript.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Private.Uri.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Private.Xml.Linq.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Private.Xml.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.DispatchProxy.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.Emit.ILGeneration.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.Emit.Lightweight.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.Emit.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.Extensions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.Metadata.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.TypeExtensions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Resources.Reader.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Resources.ResourceManager.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Resources.Writer.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Extensions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Handles.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.InteropServices.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Intrinsics.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Loader.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Numerics.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Serialization.Formatters.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Serialization.Json.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Serialization.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Serialization.Xml.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Serialization.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.AccessControl.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Claims.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Cryptography.Algorithms.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Cryptography.Cng.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Cryptography.Csp.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Cryptography.Encoding.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Cryptography.OpenSsl.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Cryptography.Primitives.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Principal.Windows.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Principal.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.SecureString.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.ServiceModel.Web.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.ServiceProcess.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Text.Encoding.Extensions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Text.Encoding.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Text.RegularExpressions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.Channels.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.Overlapped.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.Tasks.Dataflow.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.Tasks.Extensions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.Tasks.Parallel.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.Tasks.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.Thread.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.ThreadPool.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.Timer.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Transactions.Local.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Transactions.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.ValueTuple.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Web.HttpUtility.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Web.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Windows.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.Linq.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.ReaderWriter.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.Serialization.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.XDocument.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.XPath.XDocument.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.XPath.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.XmlDocument.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.XmlSerializer.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\WindowsBase.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\mscorlib.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\netstandard.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\System.Private.CoreLib.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\dotnet.js
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\dotnet.timezones.blat
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\dotnet.wasm
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\icudt.dat
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\icudt_CJK.dat
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\icudt_EFIGS.dat
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\bin\Debug\net6.0\icudt_no_CJK.dat
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.csproj.AssemblyReference.cache
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.AssemblyInfoInputs.cache
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.AssemblyInfo.cs
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.csproj.CoreCompileInputs.cache
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\1sGArd64.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\eeF6G84e.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\DXO0XK+q.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Vv21NFFT.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\dXtJTbsN.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\eEeo2pHB.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\jYO6TI72.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\m+xlrt6q.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\9QV3o6UY.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\XJ+ZaZ7w.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\whaA2pdf.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\mqYWACAd.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\wsIZO+LF.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\gk++8jM5.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\m3soBkFc.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\bUq7BAF8.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\GvdIedeX.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\xRFylzuV.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\zDVoumhf.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\y5JlVY0r.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Atteo3Yi.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\mV0ABWFp.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\u2sShE9d.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\5F3KTmnQ.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\BBZPgUnf.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\11xTpJ7f.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\TJw+DUyk.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\MurjrAOa.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\VA9yuLgE.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\1CLj9NJt.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\EYTNttOD.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\IyOSkerr.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\oODISzbm.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Flz+bq8b.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\VrOa5Khc.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\ejPBCMcj.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\KCbIkdyN.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\kOHvL07w.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\+jbbLks8.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\oS5AyGc+.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\F5tR0yQU.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\HRugocVv.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\s7eGjpxP.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\quGwwh7c.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\d8FThywW.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\y++kNC+b.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\im80OQVy.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\p4i608xH.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\B2eyQlIL.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\0L+MseZe.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\FklJeewx.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\cAeQftxD.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\kwlq4cr+.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\ENZGU+LB.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\9Ku5ytD3.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Fn4WeRkV.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\r7jKG9pV.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\wvv0MjJ1.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\ZiT+W65w.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\coNwaZaL.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\05qUawb6.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\WOTamCl+.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\sFB9XbBU.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\c+daOQ3a.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\7ozQ56uC.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\UmuygamR.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\GHjcLMOl.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\lZ8K9Ut6.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\hlI+QsWI.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\7vm+Pc5c.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\GzDj++Ys.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\g7rycqNf.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\ZmPdFG0T.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\mvHXduKU.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\RDz6Arc0.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Jqp2bS3j.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\0d+tU2iA.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\uWRuF06W.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\S+zvjnsC.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\LPkOAUiK.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\zP8eaLkx.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\tjUK+A9S.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\ZgMv4RtN.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\a+mY0DsA.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\h51E8Ovo.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\KBVwnyMc.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\cGRWhmH5.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\oOrg3Vfi.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\qgvfhEYS.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\HEZUGQaQ.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\rBPnRiy5.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Mg9HdOIn.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\BMzsLpup.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\rNDB+3M+.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\E8Nf1s+u.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Zf8ZtpZz.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\iBlhtTwd.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\i+Ywt4+T.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\ZM+S5bth.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\2xd1xo1i.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\6O0qsaN1.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\qaX4s6E1.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\P6+bBA4p.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\YvQPwYZb.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\kF4p8B9A.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\hl0a+ENI.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\3iEqmiLz.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\9yaTjNUK.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\SB1BlHxw.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\5a2SgZg7.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\eI2Y19aj.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\8+9dN745.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\+JaXx6WZ.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\ghAOofvW.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\xL+vbSWy.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\vIlFMC4W.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\HE9Uyno7.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\udZWKfze.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\oY3h7Fqf.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Y3M24+XG.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\rbeSpjAP.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\TK5qcRkI.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\EOAe+AIl.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Kgove6IY.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\AV4zAMkV.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\7Uq5AarB.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\QKs10dID.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\WEhKZO3W.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\XvgS+8qX.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\F4JswD6G.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\+R3N3Z0A.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\R1JucHip.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\RHaGAKHr.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\wQJ8Om3O.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\wMZnUUi6.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\3mwjtTRo.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\jLKrPz+x.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\sNxNYa7y.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Nv9zKhg6.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\XX3cwpo7.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\BD9+VwOp.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\GMQ++jVR.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\hmhsQ1Od.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\fjnKkvDS.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\r+rvlrsp.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\QpuWQCcP.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\C2ESoS8p.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\uSNBJKZT.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\jZDCBW92.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\CQ8+27Hf.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\iB3W1zHI.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\q9inwVPC.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\AK9rbYcX.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\+x9Lbe5I.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\TbHvRKS+.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\czWv6f4A.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\8UmiDNz+.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\5tnn6kSy.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\YZE6lTtr.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\p8vU23eg.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\NEb3J7gl.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\scVnWWWy.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\uvFHT6pt.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\GSSl+H3F.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\c1vk3dMl.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\SqtT0ecS.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\xvdxvTOr.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\hxtexzTU.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\fVwoOZ6w.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\DhecSokO.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\EN7Pm68R.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\gtCyKhio.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\NQD4r+Ps.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\UXUgp8wk.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\FO15vkpZ.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\JOdPvUpH.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\ugZe02gJ.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\b5kO+LRz.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\HtsaxTvj.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\iozgvKcT.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\lZf4odJX.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\83QgOOcM.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\9KwKKhEV.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\CdS7NTtR.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Sm+ts0jw.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\XSHl8vU+.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\oEUOGA+K.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\XCO811+k.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\NSYZZsrh.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\2nZUH+tI.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\zJTPlxSc.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\U6aLH4wr.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Ahp4mDzr.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\JLI+5SY8.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\mekiZ5Tb.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\7+LBj1D8.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\TjRtKZB3.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\6FUsw+cD.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\RKJHoOYu.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\tlWtnFu0.gz
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\blazor.boot.json
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\staticwebassets\msbuild.MudBlazorTemplates1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\staticwebassets\msbuild.build.MudBlazorTemplates1.props
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MudBlazorTemplates1.props
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MudBlazorTemplates1.props
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\scopedcss\bundle\MudBlazorTemplates1.styles.css
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.csproj.CopyComplete
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\refint\MudBlazorTemplates1.dll
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.pdb
+C:\Users\Emils Mafija\RiderProjects\MudBlazorTemplates1\MudBlazorTemplates1\obj\Debug\net6.0\ref\MudBlazorTemplates1.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.22.iwj4kj3ssc.js
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\dotnet.wasm
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\icudt_CJK.dat
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\icudt_EFIGS.dat
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\icudt_no_CJK.dat
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\icudt.dat
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.CSharp.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Options.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.VisualBasic.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\mscorlib.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\MudBlazor.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\netstandard.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.AppContext.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Buffers.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Concurrent.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Immutable.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.NonGeneric.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Specialized.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.Annotations.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Configuration.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Console.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Core.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Data.Common.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Data.DataSetExtensions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Data.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Contracts.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Debug.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Process.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Tools.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Tracing.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Dynamic.Runtime.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Drawing.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Drawing.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Formats.Asn1.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.Calendars.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.Extensions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.Brotli.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.IsolatedStorage.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipelines.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipes.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Linq.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Expressions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Parallel.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Queryable.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Memory.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.Json.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.HttpListener.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Mail.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.NameResolution.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.NetworkInformation.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Ping.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Quic.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Requests.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Security.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.ServicePoint.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Sockets.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebClient.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebProxy.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebSockets.Client.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebSockets.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Numerics.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Numerics.Vectors.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ObjectModel.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.CoreLib.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.DataContractSerialization.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.Runtime.InteropServices.JavaScript.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.Uri.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.Xml.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.Xml.Linq.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Extensions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Metadata.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Resources.Reader.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Resources.ResourceManager.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Resources.Writer.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Extensions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Handles.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.InteropServices.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Intrinsics.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Loader.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Numerics.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.AccessControl.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Claims.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Principal.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Principal.Windows.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.SecureString.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ServiceModel.Web.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ServiceProcess.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encodings.Web.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Json.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.RegularExpressions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Channels.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Overlapped.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Thread.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.ThreadPool.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Timer.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Transactions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Transactions.Local.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ValueTuple.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Web.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Web.HttpUtility.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Windows.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.Linq.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.ReaderWriter.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.Serialization.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XDocument.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XmlDocument.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XmlSerializer.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\WindowsBase.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Intrinsics.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ServiceProcess.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Dynamic.Runtime.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Debug.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.AppContext.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.CoreLib.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ObjectModel.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.Uri.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipelines.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encodings.Web.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebProxy.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\icudt_EFIGS.dat.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.Xml.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Linq.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\dotnet.wasm.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ServiceModel.Web.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Contracts.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.ReaderWriter.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.CSharp.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Claims.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Primitives.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.Extensions.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XmlSerializer.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Drawing.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Principal.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Core.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Requests.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.Xml.Linq.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Buffers.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Transactions.Local.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Resources.ResourceManager.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.InteropServices.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.NonGeneric.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Tools.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Web.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Timer.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Transactions.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Memory.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Extensions.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.NameResolution.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Numerics.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.Serialization.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.ThreadPool.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Data.Common.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Sockets.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.SecureString.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.ServicePoint.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Concurrent.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Data.DataSetExtensions.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XDocument.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Json.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\icudt.dat.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Windows.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Principal.Windows.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.Json.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Numerics.Vectors.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Resources.Writer.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Process.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\icudt_CJK.dat.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Ping.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Channels.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ValueTuple.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\netstandard.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\WindowsBase.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Primitives.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Immutable.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.HttpListener.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.Primitives.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Data.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebSockets.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.RegularExpressions.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebSockets.Client.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Mail.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Extensions.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Console.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Loader.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.NetworkInformation.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.IsolatedStorage.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Numerics.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Quic.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Configuration.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Private.Runtime.InteropServices.JavaScript.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Overlapped.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.Calendars.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\icudt_no_CJK.dat.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Parallel.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.VisualBasic.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Resources.Reader.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\MudBlazor.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Metadata.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Xml.Linq.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.Brotli.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipes.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Web.HttpUtility.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Registry.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Specialized.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Handles.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Formats.Asn1.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Tracing.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\mscorlib.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Thread.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Security.AccessControl.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.Security.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Queryable.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Drawing.Primitives.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.22.iwj4kj3ssc.js.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebClient.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Expressions.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\MudBlazorTemplates1.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\MudBlazorTemplates1.pdb
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\MudBlazorTemplates1.dll.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\wwwroot\_framework\MudBlazorTemplates1.pdb.gz
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\MudBlazorTemplates1.staticwebassets.runtime.json
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\MudBlazorTemplates1.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\MudBlazorTemplates1.pdb
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\MudBlazor.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.CSharp.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.VisualBasic.Core.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.VisualBasic.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Win32.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Microsoft.Win32.Registry.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.AppContext.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Buffers.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Collections.Concurrent.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Collections.Immutable.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Collections.NonGeneric.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Collections.Specialized.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Collections.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.ComponentModel.Annotations.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.ComponentModel.DataAnnotations.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.ComponentModel.EventBasedAsync.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.ComponentModel.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.ComponentModel.TypeConverter.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.ComponentModel.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Configuration.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Console.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Core.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Data.Common.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Data.DataSetExtensions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Data.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.Contracts.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.Debug.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.FileVersionInfo.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.Process.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.StackTrace.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.TextWriterTraceListener.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.Tools.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.TraceSource.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Diagnostics.Tracing.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Drawing.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Drawing.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Dynamic.Runtime.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Globalization.Calendars.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Globalization.Extensions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Globalization.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.Compression.Brotli.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.Compression.FileSystem.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.Compression.ZipFile.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.Compression.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.FileSystem.AccessControl.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.FileSystem.DriveInfo.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.FileSystem.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.FileSystem.Watcher.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.FileSystem.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.IsolatedStorage.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.MemoryMappedFiles.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.Pipes.AccessControl.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.Pipes.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.UnmanagedMemoryStream.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.IO.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Linq.Expressions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Linq.Parallel.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Linq.Queryable.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Linq.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Memory.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Http.Json.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Http.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.HttpListener.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Mail.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.NameResolution.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.NetworkInformation.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Ping.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Quic.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Requests.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Security.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.ServicePoint.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.Sockets.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.WebClient.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.WebHeaderCollection.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.WebProxy.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.WebSockets.Client.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.WebSockets.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Net.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Numerics.Vectors.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Numerics.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.ObjectModel.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Private.DataContractSerialization.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Private.Runtime.InteropServices.JavaScript.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Private.Uri.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Private.Xml.Linq.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Private.Xml.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.DispatchProxy.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.Emit.ILGeneration.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.Emit.Lightweight.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.Emit.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.Extensions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.Metadata.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.TypeExtensions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Reflection.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Resources.Reader.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Resources.ResourceManager.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Resources.Writer.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.CompilerServices.VisualC.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Extensions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Handles.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.InteropServices.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Intrinsics.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Loader.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Numerics.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Serialization.Formatters.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Serialization.Json.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Serialization.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Serialization.Xml.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.Serialization.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Runtime.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.AccessControl.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Claims.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Cryptography.Algorithms.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Cryptography.Cng.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Cryptography.Csp.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Cryptography.Encoding.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Cryptography.OpenSsl.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Cryptography.Primitives.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Cryptography.X509Certificates.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Principal.Windows.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.Principal.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.SecureString.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Security.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.ServiceModel.Web.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.ServiceProcess.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Text.Encoding.Extensions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Text.Encoding.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Text.Json.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Text.RegularExpressions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.Channels.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.Overlapped.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.Tasks.Dataflow.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.Tasks.Extensions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.Tasks.Parallel.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.Tasks.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.Thread.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.ThreadPool.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.Timer.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Threading.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Transactions.Local.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Transactions.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.ValueTuple.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Web.HttpUtility.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Web.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Windows.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.Linq.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.ReaderWriter.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.Serialization.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.XDocument.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.XPath.XDocument.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.XPath.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.XmlDocument.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.XmlSerializer.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Xml.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\WindowsBase.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\mscorlib.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\netstandard.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\System.Private.CoreLib.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\dotnet.js
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\dotnet.timezones.blat
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\dotnet.wasm
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\icudt.dat
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\icudt_CJK.dat
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\icudt_EFIGS.dat
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\icudt_no_CJK.dat
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.csproj.AssemblyReference.cache
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.AssemblyInfoInputs.cache
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.AssemblyInfo.cs
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.csproj.CoreCompileInputs.cache
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.MvcApplicationPartsAssemblyInfo.cache
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\1sGArd64.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\eeF6G84e.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\DXO0XK+q.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Vv21NFFT.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\dXtJTbsN.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\eEeo2pHB.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\jYO6TI72.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\m+xlrt6q.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\9QV3o6UY.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\XJ+ZaZ7w.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\whaA2pdf.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\mqYWACAd.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\wsIZO+LF.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\gk++8jM5.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\m3soBkFc.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\bUq7BAF8.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\GvdIedeX.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\xRFylzuV.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\zDVoumhf.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\y5JlVY0r.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Atteo3Yi.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\mV0ABWFp.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\u2sShE9d.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\5F3KTmnQ.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\BBZPgUnf.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\11xTpJ7f.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\TJw+DUyk.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\MurjrAOa.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\VA9yuLgE.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\1CLj9NJt.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\EYTNttOD.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\IyOSkerr.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\oODISzbm.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Flz+bq8b.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\VrOa5Khc.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\ejPBCMcj.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\KCbIkdyN.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\kOHvL07w.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\+jbbLks8.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\oS5AyGc+.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\F5tR0yQU.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\HRugocVv.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\s7eGjpxP.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\quGwwh7c.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\d8FThywW.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\y++kNC+b.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\im80OQVy.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\p4i608xH.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\B2eyQlIL.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\0L+MseZe.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\FklJeewx.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\cAeQftxD.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\kwlq4cr+.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\ENZGU+LB.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\9Ku5ytD3.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Fn4WeRkV.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\r7jKG9pV.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\wvv0MjJ1.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\ZiT+W65w.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\coNwaZaL.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\05qUawb6.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\WOTamCl+.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\sFB9XbBU.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\c+daOQ3a.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\7ozQ56uC.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\UmuygamR.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\GHjcLMOl.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\lZ8K9Ut6.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\hlI+QsWI.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\7vm+Pc5c.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\GzDj++Ys.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\g7rycqNf.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\ZmPdFG0T.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\mvHXduKU.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\RDz6Arc0.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Jqp2bS3j.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\0d+tU2iA.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\uWRuF06W.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\S+zvjnsC.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\LPkOAUiK.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\zP8eaLkx.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\tjUK+A9S.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\ZgMv4RtN.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\a+mY0DsA.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\h51E8Ovo.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\KBVwnyMc.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\cGRWhmH5.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\oOrg3Vfi.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\qgvfhEYS.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\HEZUGQaQ.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\rBPnRiy5.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Mg9HdOIn.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\BMzsLpup.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\rNDB+3M+.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\E8Nf1s+u.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Zf8ZtpZz.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\iBlhtTwd.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\i+Ywt4+T.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\ZM+S5bth.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\2xd1xo1i.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\6O0qsaN1.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\qaX4s6E1.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\P6+bBA4p.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\YvQPwYZb.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\kF4p8B9A.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\hl0a+ENI.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\3iEqmiLz.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\9yaTjNUK.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\SB1BlHxw.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\5a2SgZg7.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\eI2Y19aj.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\8+9dN745.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\+JaXx6WZ.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\ghAOofvW.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\xL+vbSWy.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\vIlFMC4W.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\HE9Uyno7.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\udZWKfze.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\oY3h7Fqf.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Y3M24+XG.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\rbeSpjAP.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\TK5qcRkI.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\EOAe+AIl.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Kgove6IY.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\AV4zAMkV.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\7Uq5AarB.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\QKs10dID.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\WEhKZO3W.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\XvgS+8qX.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\F4JswD6G.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\+R3N3Z0A.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\R1JucHip.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\RHaGAKHr.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\wQJ8Om3O.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\wMZnUUi6.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\3mwjtTRo.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\jLKrPz+x.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\sNxNYa7y.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Nv9zKhg6.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\XX3cwpo7.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\BD9+VwOp.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\GMQ++jVR.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\hmhsQ1Od.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\fjnKkvDS.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\r+rvlrsp.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\QpuWQCcP.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\C2ESoS8p.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\uSNBJKZT.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\jZDCBW92.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\CQ8+27Hf.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\iB3W1zHI.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\q9inwVPC.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\AK9rbYcX.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\+x9Lbe5I.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\TbHvRKS+.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\czWv6f4A.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\8UmiDNz+.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\5tnn6kSy.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\YZE6lTtr.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\p8vU23eg.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\NEb3J7gl.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\scVnWWWy.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\uvFHT6pt.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\GSSl+H3F.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\c1vk3dMl.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\SqtT0ecS.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\xvdxvTOr.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\hxtexzTU.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\fVwoOZ6w.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\DhecSokO.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\EN7Pm68R.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\gtCyKhio.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\NQD4r+Ps.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\UXUgp8wk.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\FO15vkpZ.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\JOdPvUpH.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\ugZe02gJ.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\b5kO+LRz.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\HtsaxTvj.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\iozgvKcT.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\lZf4odJX.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\83QgOOcM.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\9KwKKhEV.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\CdS7NTtR.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Sm+ts0jw.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\XSHl8vU+.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\oEUOGA+K.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\XCO811+k.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\NSYZZsrh.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\2nZUH+tI.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\zJTPlxSc.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\U6aLH4wr.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\Ahp4mDzr.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\JLI+5SY8.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\mekiZ5Tb.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\7+LBj1D8.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\TjRtKZB3.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\G3y2ttbt.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\ibgqumdX.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\build-gz\tlWtnFu0.gz
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\blazor.boot.json
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\staticwebassets\msbuild.MudBlazorTemplates1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\staticwebassets\msbuild.build.MudBlazorTemplates1.props
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MudBlazorTemplates1.props
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MudBlazorTemplates1.props
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\scopedcss\bundle\MudBlazorTemplates1.styles.css
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.csproj.CopyComplete
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.dll
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\refint\MudBlazorTemplates1.dll
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\MudBlazorTemplates1.pdb
+C:\Work\Traveling\MudBlazorTemplates1\obj\Debug\net6.0\ref\MudBlazorTemplates1.dll
