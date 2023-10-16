@@ -2,6 +2,24 @@
 
 <PageTitle>Traveling trips</PageTitle>
 
-<MudText Typo="Typo.h3" GutterBottom="true">Welcome to travel page</MudText>
-<MudText Class="mb-8">Start by creating your first travel plan</MudText>
-<MudButton Variant="Variant.Outlined" Color="Color.Primary">Create</MudButton>
+<div Class="d-flex mb-6">
+    <MudText Typo="Typo.h5" Class="pr-4">Your recently viewed trips</MudText>
+    <MudButton Variant="Variant.Outlined" StartIcon="@Icons.Material.Filled.Add">Create</MudButton>
+</div>
+
+@for (int i = 0; i < 5; i++) {
+    <div class="d-inline-flex pr-4 pb-4">
+        <MudCard Style="width: 290px;" Class="blue lighten-5">
+            <MudCardMedia Image="MudBlazorTemplates1/MudBlazorTemplates1/Assets/img/Paris.jpg" Height="140"/>
+            <MudCardContent Class="pb-0">
+                <MudText Typo="Typo.h6">Trip to Paris</MudText>
+                <MudText Typo="Typo.body2" Class="pt-1">I wanna travel to paris because its cool</MudText>
+                <MudText Typo="Typo.body2" Class="pt-2">14/12/2024 - 24/12/2024</MudText>
+            </MudCardContent>
+            <MudCardActions>
+                <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
+                <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default" />
+            </MudCardActions>
+        </MudCard>
+    </div>
+}

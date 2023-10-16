@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IgSRf+88vq54ANHYQ9zMAdEDb/LwqvhyHVLbWwZ/oJuiMVP7tSnnkwTXmpC0iTypyyGPcIH+9k/OeD9IrxqF+Q==",
+  "dgSpecHash": "VX2LjcT5ABfFD6uBE3ksqOqM2merSbcJ/10lU1sQbgGRG2adb4w38wv5ddtFN4GBRuMH1qAfhsSGTlt9MSVwvg==",
   "success": true,
   "projectFilePath": "C:\\Work\\Traveling\\MudBlazorTemplates1\\MudBlazorTemplates1.csproj",
   "expectedPackageFiles": [
@@ -34,10 +34,10 @@
     "C:\\Users\\Emils Mafija\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Emils Mafija\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Emils Mafija\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\Emils Mafija\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
-    "C:\\Users\\Emils Mafija\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.22\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.22.nupkg.sha512",
-    "C:\\Users\\Emils Mafija\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
-    "C:\\Users\\Emils Mafija\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512"
+    "C:\\Users\\Emils Mafija\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.23\\microsoft.netcore.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\Emils Mafija\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.23\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.23.nupkg.sha512",
+    "C:\\Users\\Emils Mafija\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.23\\microsoft.windowsdesktop.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\Emils Mafija\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.23\\microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512"
   ],
   "logs": []
 }
