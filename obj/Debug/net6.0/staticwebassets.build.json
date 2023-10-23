@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2OI/DS/R9dQBDjPdNDIDKT5e0mt017iNwcEBpD+zbmY=",
+  "Hash": "IPBTWiRScUVTy8fLeHpGgOPB3tzTKqgPuab8ceGXcJI=",
   "Source": "MudBlazorTemplates1",
   "BasePath": "/",
   "Mode": "Root",
@@ -6917,6 +6917,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\Images\\America.jpg",
+      "SourceId": "MudBlazorTemplates1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/America.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\America.jpg"
+    },
+    {
+      "Identity": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\Images\\France.jpg",
+      "SourceId": "MudBlazorTemplates1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/France.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\France.jpg"
     },
     {
       "Identity": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\index.html",

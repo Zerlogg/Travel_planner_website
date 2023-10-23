@@ -12,9 +12,5 @@
         <PackageReference Include="MudBlazor" Version="6.0.13" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Assets\img\" />
-    </ItemGroup>
-
 
 </Project>

@@ -1,25 +1,70 @@
 ﻿@page "/"
+@inject IJSRuntime JSRuntime 
 
 <PageTitle>Traveling trips</PageTitle>
 
-<div Class="d-flex mb-6">
-    <MudText Typo="Typo.h5" Class="pr-4">Your recently viewed trips</MudText>
-    <MudButton Variant="Variant.Outlined" StartIcon="@Icons.Material.Filled.Add">Create</MudButton>
-</div>
+<MudCarousel Class="mud-width-full mb-14 rounded" Style="height:260px;" ShowArrows="true" ShowBullets="true" EnableSwipeGesture="true" AutoCycle="true" TData="object">
+    <MudCarouselItem Transition="Transition.Slide" Color="@Color.Primary">
+        <MudContainer class="d-flex flex-column justify-center align-center pb-2" style="height:100%" Fixed="true">
+            <MudText Typo="Typo.h2"><b>Welcome to Traveling Trips!</b></MudText>
+            <MudText Typo="Typo.h4">Plan your next travel today</MudText>
+        </MudContainer>
+    </MudCarouselItem>
+    <MudCarouselItem Transition="Transition.Slide" Color="@Color.Secondary">
+        <MudImage Src="/Images/France.jpg" Width="1300" Height="260" Alt="France" />
+    </MudCarouselItem>
+    <MudCarouselItem Transition="Transition.Slide" Color="Color.Dark">
+        <MudImage Src="/Images/America.jpg" Width="1300" Height="260" Alt="America" />
+    </MudCarouselItem>
+</MudCarousel>
 
-@for (int i = 0; i < 5; i++) {
-    <div class="d-inline-flex pr-4 pb-4">
-        <MudCard Style="width: 290px;" Class="blue lighten-5">
-            <MudCardMedia Image="MudBlazorTemplates1/MudBlazorTemplates1/Assets/img/Paris.jpg" Height="140"/>
-            <MudCardContent Class="pb-0">
-                <MudText Typo="Typo.h6">Trip to Paris</MudText>
-                <MudText Typo="Typo.body2" Class="pt-1">I wanna travel to paris because its cool</MudText>
-                <MudText Typo="Typo.body2" Class="pt-2">14/12/2024 - 24/12/2024</MudText>
-            </MudCardContent>
-            <MudCardActions>
-                <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
-                <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default" />
-            </MudCardActions>
-        </MudCard>
-    </div>
+<MudContainer Class="mb-14 pa-0">
+    <MudContainer Class="d-flex mb-6 pa-0">
+        <MudText Typo="Typo.h5" Class="pr-4">Your recently viewed trips</MudText>
+        <MudButton Variant="Variant.Outlined" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary">Create</MudButton>
+    </MudContainer>
+
+        <MudContainer class="d-inline-flex gap-3 justify-center pa-0" Fixed="true">
+        @for (int i = 0; i < 4; i++)
+        {
+            <MudCard Style="width: 310px;">
+                <MudCardMedia Image="/Images/France.jpg" Height="140"/>
+                <MudCardContent Class="pb-0">
+                    <MudText Typo="Typo.h6">Trip to Paris</MudText>
+                    <MudText Typo="Typo.body2" Class="pt-1">I wanna travel to paris because its cool</MudText>
+                    <MudText Typo="Typo.body2" Class="pt-2">14/12/2024 - 24/12/2024</MudText>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default"/>
+                    <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default"/>
+                </MudCardActions>
+            </MudCard>
+        }
+    </MudContainer>
+</MudContainer>
+
+<MudContainer Class="mb-6 pa-0">
+    <MudText Typo="Typo.h5" Class="pb-4">Where you want to go next?</MudText>
+    <MudContainer id="map" style="height:500px;width:100%;" Class="rounded"/>
+</MudContainer>
+
+@code { 
+    protected override async Task OnAfterRenderAsync ( bool firstRender ) 
+    { 
+        if (firstRender) 
+        { 
+            await JSRuntime.InvokeVoidAsync("initialize", null); 
+        } 
+    } 
 }
+
+<script>
+    function initialize() { 
+        var latlng = new google.maps.LatLng(48.716948, 28.003563); 
+        var options = { 
+            zoom: 4, center: latlng, 
+            mapTypeId: google.maps.MapTypeId.ROADMAP 
+        }; 
+        var map = new google.maps.Map(document.getElementById("map"), options); 
+    } 
+</script>
