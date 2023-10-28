@@ -1,51 +1,73 @@
 ﻿@page "/folders"
 
-<PageTitle>Plan travel</PageTitle>
+<MudContainer Class="pa-0 mb-4">
+    <MudPaper Class="mud-theme-primary pa-5 mb-4">
+        <MudText Typo="Typo.h4" Class="pb-1"><b>Welcome to Folders page</b></MudText>
+        <MudText Typo="Typo.h5">You currently have 2 folders</MudText>
+    </MudPaper>
 
-<MudPaper Class="d-flex mb-3 pa-4 mud-theme-primary">
-    <MudText Typo="Typo.h5" Style="color: #fff">Default</MudText>
-    <MudText Typo="Typo.h5" Style="color: #fff" Class="px-2">/</MudText>
-    <MudText Typo="Typo.h5" Style="color: #fff">4 objects</MudText>
-</MudPaper>
-
-<MudContainer class="d-inline-flex gap-3 justify-center px-0 mb-3 flex-wrap" Fixed="true">
-    @for (int i = 0; i < 4; i++)
-    {
-        <MudCard Style="width: 310px;">
-            <MudCardMedia Image="/Images/America.jpg" Height="140"/>
-            <MudCardContent Class="pb-0">
-                <MudText Typo="Typo.h6">Trip to Washington</MudText>
-                <MudText Typo="Typo.body2" Class="pt-1">I wanna travel to Washington because its cool</MudText>
-                <MudText Typo="Typo.body2" Class="pt-2">14/12/2024 - 24/12/2024</MudText>
-            </MudCardContent>
-            <MudCardActions>
-                <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default"/>
-                <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default"/>
-            </MudCardActions>
-        </MudCard>
-    }
+    <MudContainer Class="gap-2 align-center d-inline-flex pa-0">
+        <MudTextField AdornmentIcon="@Icons.Material.Filled.Search" Adornment="Adornment.Start" Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="TextValue" Class="ma-0" />
+        <MudButton Variant="Variant.Outlined" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary">Add folder</MudButton>
+    </MudContainer>
 </MudContainer>
 
-<MudPaper Class="d-flex mb-3 pa-4 blue accent-2">
-    <MudText Typo="Typo.h5" Style="color: #fff">France</MudText>
-    <MudText Typo="Typo.h5" Style="color: #fff" Class="px-2">/</MudText>
-    <MudText Typo="Typo.h5" Style="color: #fff">4 objects</MudText>
-</MudPaper>
+@code {
+    public string TextValue { get; set; }
+}
 
-<MudContainer class="d-inline-flex gap-3 justify-center px-0 mb-3 flex-wrap" Fixed="true">
-    @for (int i = 0; i < 4; i++)
-    {
-        <MudCard Style="width: 310px;">
-            <MudCardMedia Image="/Images/France.jpg" Height="140"/>
-            <MudCardContent Class="pb-0">
-                <MudText Typo="Typo.h6">Trip to Paris</MudText>
-                <MudText Typo="Typo.body2" Class="pt-1">I wanna travel to paris because its cool</MudText>
-                <MudText Typo="Typo.body2" Class="pt-2">14/12/2024 - 24/12/2024</MudText>
-            </MudCardContent>
-            <MudCardActions>
-                <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default"/>
-                <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default"/>
-            </MudCardActions>
-        </MudCard>
-    }
+<MudContainer Class="px-0 mb-6">
+    <MudPaper Class="d-flex mb-3 py-2 px-4 mud-theme-primary align-center">
+        <MudText Typo="Typo.h5" Color="Color.Inherit">Default / 4 objects</MudText>
+        <MudSpacer/>
+        <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="Color.Inherit"/>
+        <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Inherit"/>
+    </MudPaper>
+
+    <MudContainer class="d-inline-flex gap-3 justify-center px-0 mb-4 flex-wrap" Fixed="true">
+        @for (int i = 0; i < 4; i++)
+        {
+            <MudCard Style="width: 310px;">
+                <MudCardMedia Image="/Images/America.jpg" Height="140"/>
+                <MudCardContent Class="pb-0">
+                    <MudText Typo="Typo.h6">Trip to Washington</MudText>
+                    <MudText Typo="Typo.body2" Class="pt-1">I wanna travel to Washington because its cool</MudText>
+                    <MudText Typo="Typo.body2" Class="pt-2">14/12/2024 - 24/12/2024</MudText>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default"/>
+                    <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default"/>
+                </MudCardActions>
+            </MudCard>
+        }
+    </MudContainer>
+    <MudPagination Rectangular="true" Variant="Variant.Text" Count="6" Class="justify-center d-flex"/>
+</MudContainer>
+
+<MudContainer Class="px-0 mb-6">
+    <MudPaper Class="d-flex mb-3 py-2 px-4 align-center blue accent-2">
+        <MudText Typo="Typo.h5" Color="Color.Inherit">France / 4 objects</MudText>
+        <MudSpacer/>
+        <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="Color.Inherit"/>
+        <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Inherit"/>
+    </MudPaper>
+
+    <MudContainer class="d-inline-flex gap-3 justify-center px-0 mb-3 flex-wrap" Fixed="true">
+        @for (int i = 0; i < 4; i++)
+        {
+            <MudCard Style="width: 310px;">
+                <MudCardMedia Image="/Images/France.jpg" Height="140"/>
+                <MudCardContent Class="pb-0">
+                    <MudText Typo="Typo.h6">Trip to Paris</MudText>
+                    <MudText Typo="Typo.body2" Class="pt-1">I wanna travel to paris because its cool</MudText>
+                    <MudText Typo="Typo.body2" Class="pt-2">14/12/2024 - 24/12/2024</MudText>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default"/>
+                    <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default"/>
+                </MudCardActions>
+            </MudCard>
+        }
+    </MudContainer>
+    <MudPagination Rectangular="true" Variant="Variant.Text" Count="6" Class="justify-center d-flex"/>
 </MudContainer>

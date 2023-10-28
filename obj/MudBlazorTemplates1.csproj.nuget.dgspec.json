@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\01DPEStrelis\\Documents\\Travel_planner_website\\MudBlazorTemplates1.csproj": {}
+    "C:\\Work\\Traveling\\MudBlazorTemplates1\\MudBlazorTemplates1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\01DPEStrelis\\Documents\\Travel_planner_website\\MudBlazorTemplates1.csproj": {
+    "C:\\Work\\Traveling\\MudBlazorTemplates1\\MudBlazorTemplates1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\01DPEStrelis\\Documents\\Travel_planner_website\\MudBlazorTemplates1.csproj",
+        "projectUniqueName": "C:\\Work\\Traveling\\MudBlazorTemplates1\\MudBlazorTemplates1.csproj",
         "projectName": "MudBlazorTemplates1",
-        "projectPath": "C:\\Users\\01DPEStrelis\\Documents\\Travel_planner_website\\MudBlazorTemplates1.csproj",
-        "packagesPath": "C:\\Users\\01DPEStrelis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\01DPEStrelis\\Documents\\Travel_planner_website\\obj\\",
+        "projectPath": "C:\\Work\\Traveling\\MudBlazorTemplates1\\MudBlazorTemplates1.csproj",
+        "packagesPath": "C:\\Users\\Emils Mafija\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\Traveling\\MudBlazorTemplates1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\01DPEStrelis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emils Mafija\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,8 +67,20 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.18, 6.0.18]"
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
             }
           ],
           "frameworkReferences": {
@@ -76,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

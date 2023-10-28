@@ -1,35 +1,27 @@
 ﻿@inherits LayoutComponentBase
 
+<PageTitle>Traveling trips</PageTitle>
+
 <MudThemeProvider/>
 <MudDialogProvider/>
 <MudSnackbarProvider/>
 
 <MudLayout>
     <MudAppBar Elevation="0">
-        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())"/>
-        <MudSpacer/>
-        <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Inherit" Target="_blank"/>
-        <MudIconButton Icon="@Icons.Material.Filled.AccountCircle" Color="Color.Inherit" Target="_blank"/>
+        <MudContainer MaxWidth="MaxWidth.Large" Class="px-0 d-flex align-center">
+            <MudIcon Icon="@Icons.Material.Filled.Flight" Size="Size.Large" Class="pr-2"></MudIcon>
+            <MudText Typo="Typo.h5" Class="pr-8 cursor-default"><b>Traveling Trips</b></MudText>
+            <MudLink Href="" Color="Color.Inherit" Typo="Typo.h6" Class="pr-8">Home</MudLink>
+            <MudLink Href="/folders" Color="Color.Inherit" Typo="Typo.h6" Class="pr-8">Folders</MudLink>
+            <MudLink Href="/history" Color="Color.Inherit" Typo="Typo.h6" Class="pr-8">Map</MudLink>
+            <MudSpacer/>
+            <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Inherit" Target="_blank"/>
+            <MudIconButton Icon="@Icons.Material.Filled.AccountCircle" Color="Color.Inherit" Target="_blank"/>
+        </MudContainer>
     </MudAppBar>
-    <MudDrawer @bind-Open="_drawerOpen" Elevation="1">
-        <MudDrawerHeader>
-            <MudText Typo="Typo.h6">Traveling trips</MudText>
-        </MudDrawerHeader>
-        <NavMenu/>
-    </MudDrawer>
     <MudMainContent>
         <MudContainer MaxWidth="MaxWidth.Large" Class="my-16 px-0">
             @Body
         </MudContainer>
     </MudMainContent>
 </MudLayout>
-
-@code {
-    bool _drawerOpen = true;
-
-    void DrawerToggle()
-    {
-        _drawerOpen = !_drawerOpen;
-    }
-
-}

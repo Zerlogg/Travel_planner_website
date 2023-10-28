@@ -1,7 +1,5 @@
 ﻿@page "/"
-@inject IJSRuntime JSRuntime 
-
-<PageTitle>Traveling trips</PageTitle>
+@inject IJSRuntime JsRuntime 
 
 <MudCarousel Class="mud-width-full mb-14 rounded" Style="height:260px;" ShowArrows="true" ShowBullets="true" EnableSwipeGesture="true" AutoCycle="true" TData="object">
     <MudCarouselItem Transition="Transition.Slide" Color="@Color.Primary">
@@ -53,7 +51,7 @@
     { 
         if (firstRender) 
         { 
-            await JSRuntime.InvokeVoidAsync("initialize", null); 
+            await JsRuntime.InvokeVoidAsync("initialize", null); 
         } 
     } 
 }
