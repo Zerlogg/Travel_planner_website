@@ -1,0 +1,19 @@
+﻿@page "/map"
+@inject IJSRuntime JSRuntime
+
+<MudContainer id="map" style="height:760px; width:100%;"/>
+
+@code {
+    private async Task InitializeMapAsync()
+    {
+        await JSRuntime.InvokeVoidAsync("initializeMap");
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await InitializeMapAsync();
+        }
+    }
+}

@@ -1,5 +1,5 @@
 ﻿@page "/"
-@inject IJSRuntime JsRuntime 
+@inject IJSRuntime JSRuntime
 
 <MudCarousel Class="mud-width-full mb-14 rounded" Style="height:260px;" ShowArrows="true" ShowBullets="true" EnableSwipeGesture="true" AutoCycle="true" TData="object">
     <MudCarouselItem Transition="Transition.Slide" Color="@Color.Primary">
@@ -46,12 +46,18 @@
     <MudContainer id="map" style="height:500px;width:100%;" Class="rounded"/>
 </MudContainer>
 
-@code { 
-    protected override async Task OnAfterRenderAsync ( bool firstRender ) 
-    { 
-        if (firstRender) 
-        { 
-            await JsRuntime.InvokeVoidAsync("initialize", null); 
-        } 
-    } 
+
+@code {
+    private async Task InitializeMapAsync()
+    {
+        await JSRuntime.InvokeVoidAsync("initializeMap");
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await InitializeMapAsync();
+        }
+    }
 }
