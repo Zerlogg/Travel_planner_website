@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\Images\\France.jpg"
     },
     {
+      "Id": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\Images\\Travel.jpg",
+      "PackagePath": "staticwebassets\\Images\\Travel.jpg"
+    },
+    {
+      "Id": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
       "Id": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

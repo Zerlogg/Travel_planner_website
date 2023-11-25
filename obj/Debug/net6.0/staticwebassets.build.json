@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IPBTWiRScUVTy8fLeHpGgOPB3tzTKqgPuab8ceGXcJI=",
+  "Hash": "fRCuVmUEm+W9TWUX4r3ykK8viTrDsLRffAj3U5wBth0=",
   "Source": "MudBlazorTemplates1",
   "BasePath": "/",
   "Mode": "Root",
@@ -6902,6 +6902,23 @@
       "OriginalItemSpec": "C:\\Work\\Traveling\\MudBlazorTemplates1\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.DispatchProxy.dll"
     },
     {
+      "Identity": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\css\\styles.css",
+      "SourceId": "MudBlazorTemplates1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
       "Identity": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\favicon.ico",
       "SourceId": "MudBlazorTemplates1",
       "SourceType": "Discovered",
@@ -6951,6 +6968,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\France.jpg"
+    },
+    {
+      "Identity": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\Images\\Travel.jpg",
+      "SourceId": "MudBlazorTemplates1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/Travel.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Travel.jpg"
     },
     {
       "Identity": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\index.html",
