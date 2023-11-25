@@ -9,10 +9,10 @@
         </MudContainer>
     </MudCarouselItem>
     <MudCarouselItem Transition="Transition.Slide" Color="@Color.Secondary">
-        <MudImage Src="/Images/France.jpg" Width="1300" Height="260" Alt="France" />
+        <MudImage Src="/Images/France.jpg" Style="width: 100%" Alt="France" />
     </MudCarouselItem>
     <MudCarouselItem Transition="Transition.Slide" Color="Color.Dark">
-        <MudImage Src="/Images/America.jpg" Width="1300" Height="260" Alt="America" />
+        <MudImage Src="/Images/America.jpg" Style="width: 100%" Alt="America" />
     </MudCarouselItem>
 </MudCarousel>
 
@@ -26,7 +26,7 @@
         @for (int i = 0; i < 4; i++)
         {
             <MudCard Style="width: 310px;">
-                <MudCardMedia Image="/Images/France.jpg" Height="140"/>
+                <MudCardMedia Image="/Images/France.jpg" Height="160"/>
                 <MudCardContent Class="pb-0">
                     <MudText Typo="Typo.h6">Trip to Paris</MudText>
                     <MudText Typo="Typo.body2" Class="pt-1">I wanna travel to paris because its cool</MudText>
