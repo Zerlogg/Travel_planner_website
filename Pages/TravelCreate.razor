@@ -12,7 +12,13 @@
                     <MudDatePicker For="@(() => model.Date)" Class="mud-width-full" Label="End date" Required="true" />
                 </MudContainer>
                 <MudNumericField @bind-Value="doubleValue" Label="Trip budget" Required="true" Format="F1" Class="mt-4" HideSpinButtons="true" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Euro" />
-                <MudTextField T="string" Label="Accommodation preferences" HelperText="e.g. hotels, hostels, camping" Class="mt-4" Required="true" />
+                <MudSelect T="string" Label="Transport" Variant="Variant.Text" Required="true">
+                    <MudSelectItem Value="@("Rental car")" />
+                    <MudSelectItem Value="@("Bus")" />
+                    <MudSelectItem Value="@("Train")" />
+                    <MudSelectItem Value="@("Walking")" />
+                </MudSelect>
+                <MudTextField T="string" Label="Accommodation preferences" HelperText="e.g. hotels, hostels, camping" Class="mt-0" Required="true" />
                 <MudTextField T="string" Label="Personal preferences" Variant="Variant.Outlined" Lines="3" Class="mt-4"/>
                 <MudButton Variant="Variant.Filled" Color="Color.Primary" Disabled="@(!success)" Class="mt-4">Register</MudButton>
             </MudForm>   
