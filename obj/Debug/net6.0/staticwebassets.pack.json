@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\Images\\Travel.jpg"
     },
     {
+      "Id": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\Images\\User.png",
+      "PackagePath": "staticwebassets\\Images\\User.png"
+    },
+    {
       "Id": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },

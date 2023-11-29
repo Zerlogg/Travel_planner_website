@@ -40,6 +40,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Work/Traveling/MudBlazorTemplates1/Pages/ProfileDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZURpYWxvZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/Traveling/MudBlazorTemplates1/Pages/SettingsDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2V0dGluZ3NEaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Work/Traveling/MudBlazorTemplates1/Pages/TravelCreate.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ3JlYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

@@ -56,11 +56,16 @@
         </MudGrid>
     }
 </MudMainContent>
+
 @code {
     bool success;
+    
     string[] errors = { };
+    
     MudTextField<string> pwField1;
+    
     MudForm form;
+    
     private bool showSignUpForm = true;
 
     private void ToggleForm()
@@ -85,7 +90,7 @@
             yield return "Password must contain at least one digit";
     }
 
-    private string PasswordMatch(string arg)
+    private string? PasswordMatch(string arg)
     {
         if (pwField1.Value != arg)
             return "Passwords don't match";

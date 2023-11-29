@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fRCuVmUEm+W9TWUX4r3ykK8viTrDsLRffAj3U5wBth0=",
+  "Hash": "vtkWeRXqX98KyEWr1TFOigsDdAvIdV8UqoX7Wp9msAU=",
   "Source": "MudBlazorTemplates1",
   "BasePath": "/",
   "Mode": "Root",
@@ -6985,6 +6985,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Travel.jpg"
+    },
+    {
+      "Identity": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\Images\\User.png",
+      "SourceId": "MudBlazorTemplates1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/User.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\User.png"
     },
     {
       "Identity": "C:\\Work\\Traveling\\MudBlazorTemplates1\\wwwroot\\index.html",
