@@ -1,0 +1,1 @@
+C:\Work\Traveling\MudBlazorTemplates1\Travel_planner_website\web.config
