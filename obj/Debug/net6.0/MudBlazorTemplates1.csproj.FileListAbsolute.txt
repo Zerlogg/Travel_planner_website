@@ -2461,3 +2461,6 @@ C:\Users\01DPEStrelis\Documents\Travel_planner_website\obj\Debug\net6.0\staticwe
 C:\Users\01DPEStrelis\Documents\Travel_planner_website\obj\Debug\net6.0\scopedcss\bundle\MudBlazorTemplates1.styles.css
 C:\Users\01DPEStrelis\Documents\Travel_planner_website\obj\Debug\net6.0\MudBlazorTemplates1.csproj.CopyComplete
 C:\Users\01DPEStrelis\Documents\Travel_planner_website\obj\Debug\net6.0\ref\MudBlazorTemplates1.dll
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Travel_planner_website\web.config
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Travel_planner_website\wwwroot\sample-data\weather.json
+C:\Work\Traveling\MudBlazorTemplates1\bin\Debug\net6.0\Travel_planner_website\wwwroot\_framework\blazor.boot.json
