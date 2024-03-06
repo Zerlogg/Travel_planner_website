@@ -82,3 +82,4 @@ C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstraction
 C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.JSInterop.dll
 C:\Work\TravelingTrips\bin\Debug\net7.0\MudBlazor.dll
+C:\Work\TravelingTrips\obj\Debug\net7.0\TravelingTrips.sourcelink.json
