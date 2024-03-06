@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Apa18m0X44l6f82APLetf5OyBtgyexdg00Nk76tq1zc=",
+  "Hash": "JrU/hF4Qyzrtg9sGr/vem91gpn6JNSjBMmfdjjRHLMI=",
   "Source": "TravelingTrips",
   "BasePath": "_content/TravelingTrips",
   "Mode": "Default",
@@ -74,12 +74,12 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\favicon.png",
+      "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\favicon.ico",
       "SourceId": "TravelingTrips",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Work\\TravelingTrips\\wwwroot\\",
       "BasePath": "_content/TravelingTrips",
-      "RelativePath": "favicon.png",
+      "RelativePath": "favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,7 +90,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.png"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\Images\\America.jpg",
@@ -167,6 +167,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\User.png"
+    },
+    {
+      "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\index.html",
+      "SourceId": "TravelingTrips",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Work\\TravelingTrips\\wwwroot\\",
+      "BasePath": "_content/TravelingTrips",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\sample-data\\weather.json",
+      "SourceId": "TravelingTrips",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Work\\TravelingTrips\\wwwroot\\",
+      "BasePath": "_content/TravelingTrips",
+      "RelativePath": "sample-data/weather.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
     }
   ]
 }
