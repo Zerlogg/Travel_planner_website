@@ -1,0 +1,22 @@
+@inherits LayoutComponentBase
+
+<PageTitle>Traveling trips</PageTitle>
+
+<MudThemeProvider/>
+<MudDialogProvider/>
+<MudSnackbarProvider/>
+
+<MudLayout>
+    <MudAppBar Elevation="0">
+        <MudContainer MaxWidth="MaxWidth.Large" Class="px-0 d-flex align-center">
+            <MudIcon Icon="@Icons.Material.Filled.Flight" Size="Size.Large" Class="pr-2"></MudIcon>
+            <MudText Typo="Typo.h5" Class="pr-8 cursor-default"><b>Traveling Trips</b></MudText>
+            <MudSpacer/>
+            <MudLink Href="/signin" Color="Color.Inherit" Typo="Typo.h6">Sign in</MudLink>
+            <MudLink Href="/signin" Color="Color.Inherit" Typo="Typo.h6" Class="pl-8">Log in</MudLink>
+        </MudContainer>
+    </MudAppBar>
+    <MudMainContent Class="pa-0">
+        @Body
+    </MudMainContent>
+</MudLayout>

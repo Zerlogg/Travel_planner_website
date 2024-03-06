@@ -1,0 +1,21 @@
+﻿@page "/map"
+@inject IJSRuntime JSRuntime
+
+<MudMainContent class="full-page-background d-flex justify-center align-center">
+    <div id="map" Class="full-page-image"></div>
+</MudMainContent>
+
+@code {
+    private async Task InitializeMapAsync()
+    {
+        await JSRuntime.InvokeVoidAsync("initializeMap");
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await InitializeMapAsync();
+        }
+    }
+}

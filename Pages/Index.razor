@@ -1,12 +1,13 @@
-﻿@page "/"
+@page "/"
+@layout IndexLayout
 
-<PageTitle>Index</PageTitle>
-
-<MudText Typo="Typo.h3" GutterBottom="true">Hello, world!</MudText>
-<MudText Class="mb-8">Welcome to your new app, powered by MudBlazor!</MudText>
-<MudAlert Severity="Severity.Normal">
-    You can find documentation and examples on our website here:
-    <MudLink Href="https://mudblazor.com" Typo="Typo.body2" Color="Color.Inherit">
-        <b>www.mudblazor.com</b>
-    </MudLink>
-</MudAlert>
+<MudMainContent class="full-page-background d-flex justify-center align-center">
+    <div class="full-page-background">
+        <MudImage Src="Images/Travel.jpg" Alt="Travel" Class="full-page-image" />
+    </div>
+    <div class="d-flex flex-column align-center">
+        <MudText Typo="Typo.h1" Style="position: relative; color: white"><b>Welcome to Traveling Trips!</b></MudText>
+        <MudText Typo="Typo.h3" Style="position: relative; color: white" Class="mt-2">Create unforgettable memories, and plan your next trip today!</MudText>
+        <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" Size="Size.Large" Href="/travelcreate" Class="mt-6 px-8 py-3">Create</MudButton>
+    </div>
+</MudMainContent>

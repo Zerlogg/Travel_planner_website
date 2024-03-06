@@ -1,0 +1,48 @@
+<MudDialog>
+    <DialogContent>
+        <MudContainer Class="px-0 mb-2 d-flex flex-column">
+            <MudText Typo="Typo.h6">Date format</MudText>
+            <MudContainer Class="px-0 d-flex">
+                <MudRadioGroup @bind-SelectedOption="@RadioDate">
+                    <MudRadio Option="@("Radio 1")" Color="Color.Primary" Class="mr-2">Day/Month</MudRadio>
+                    <MudRadio Option="@("Radio 2")" Color="Color.Secondary">Month/Day</MudRadio>
+                </MudRadioGroup>
+            </MudContainer>
+        </MudContainer>
+        <MudContainer Class="px-0 mb-2 d-flex flex-column">
+            <MudText Typo="Typo.h6">Distance format</MudText>
+            <MudContainer Class="px-0 d-flex">
+                <MudRadioGroup @bind-SelectedOption="@RadioDistance">
+                    <MudRadio Option="@("Radio 1")" Color="Color.Primary" Class="mr-2">Kilometers</MudRadio>
+                    <MudRadio Option="@("Radio 2")" Color="Color.Secondary">Miles</MudRadio>
+                </MudRadioGroup>
+            </MudContainer>
+        </MudContainer>
+        <MudContainer Class="px-0 d-flex flex-column">
+            <MudText Typo="Typo.h6">Time format</MudText>
+            <MudContainer Class="px-0 d-flex">
+                <MudRadioGroup @bind-SelectedOption="@RadioTime">
+                    <MudRadio Option="@("Radio 1")" Color="Color.Primary" Class="mr-2">24-hours</MudRadio>
+                    <MudRadio Option="@("Radio 2")" Color="Color.Secondary">12-hours</MudRadio>
+                </MudRadioGroup>
+            </MudContainer>
+        </MudContainer>
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Cancel">Cancel</MudButton>
+        <MudButton Color="Color.Primary" OnClick="Submit">Save</MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter] MudDialogInstance MudDialog { get; set; }
+
+    void Submit() => MudDialog.Close(DialogResult.Ok(true));
+    void Cancel() => MudDialog.Cancel();
+
+    private string? RadioDate { get; set; }
+    
+    private string? RadioDistance { get; set; }
+    
+    private string? RadioTime { get; set; }
+}

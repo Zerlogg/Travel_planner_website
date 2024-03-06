@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\Images\\America.jpg",
+      "PackagePath": "staticwebassets\\Images\\America.jpg"
+    },
+    {
+      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\Images\\France.jpg",
+      "PackagePath": "staticwebassets\\Images\\France.jpg"
+    },
+    {
+      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\Images\\Travel.jpg",
+      "PackagePath": "staticwebassets\\Images\\Travel.jpg"
+    },
+    {
+      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\Images\\User.png",
+      "PackagePath": "staticwebassets\\Images\\User.png"
+    },
+    {
+      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TravelingTrips.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TravelingTrips.props",
+      "PackagePath": "build\\TravelingTrips.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TravelingTrips.props",
+      "PackagePath": "buildMultiTargeting\\TravelingTrips.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TravelingTrips.props",
+      "PackagePath": "buildTransitive\\TravelingTrips.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
