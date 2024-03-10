@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JrU/hF4Qyzrtg9sGr/vem91gpn6JNSjBMmfdjjRHLMI=",
+  "Hash": "iWPMIoqjOGhj95wjpBIYCq/iF4jenlruJ8geAeWvJgU=",
   "Source": "TravelingTrips",
   "BasePath": "_content/TravelingTrips",
   "Mode": "Default",
@@ -167,25 +167,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\User.png"
-    },
-    {
-      "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\index.html",
-      "SourceId": "TravelingTrips",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Work\\TravelingTrips\\wwwroot\\",
-      "BasePath": "_content/TravelingTrips",
-      "RelativePath": "index.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
       "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\sample-data\\weather.json",

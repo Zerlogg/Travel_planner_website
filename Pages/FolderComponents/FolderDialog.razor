@@ -1,0 +1,14 @@
+@inject DataContext Context
+@inject ISnackbar Snackbar
+
+<MudDialog>
+    <DialogContent>
+        <MudContainer Class="px-0 d-flex align-center">
+            <MudTextField T="string" Label="Title" @bind-Value="@CurrentFolder.Title" Variant="Variant.Outlined" Class="mt-0" Style="width: 400px"></MudTextField>
+        </MudContainer>
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Cancel">Cancel</MudButton>
+        <MudButton Color="Color.Primary" OnClick="HandleSubmit">Save</MudButton>
+    </DialogActions>
+</MudDialog>

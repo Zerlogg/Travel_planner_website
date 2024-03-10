@@ -1,0 +1,20 @@
+@inject DataContext Context
+@inject ISnackbar Snackbar
+
+<MudForm @ref="_form" @bind-IsValid="@_success" Model="CurrentTrip" @bind-Errors="@_errors">
+    <MudDialog>
+        <DialogContent>
+            <MudContainer Class="px-0 gap-4 d-flex flex-column" Style="width: 400px">
+                <MudTextField T="string" Label="City" @bind-Value="@CurrentTrip.City" Variant="Variant.Outlined" Class="mt-0" Required="true"></MudTextField>
+                <MudTextField T="string" Label="Description" @bind-Value="@CurrentTrip.Description" Variant="Variant.Outlined" Class="mt-0"></MudTextField>
+                <MudNumericField T="double?" Label="Budget" @bind-Value="@CurrentTrip.Budget" Format="F2" HideSpinButtons="true" Variant="Variant.Outlined" Required="true" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Euro" />
+                <MudTextField T="string" Label="Accommodation" @bind-Value="@CurrentTrip.Accommodation" Variant="Variant.Outlined" Class="mt-0" Required="true"></MudTextField>
+                <MudTextField T="string" Label="Personal Preferences" @bind-Value="@CurrentTrip.Preferences" Variant="Variant.Outlined" Class="mt-0"></MudTextField>
+            </MudContainer>
+        </DialogContent>
+        <DialogActions>
+            <MudButton OnClick="Cancel">Cancel</MudButton>
+            <MudButton Color="Color.Primary" Disabled="@(!_success)" OnClick="EditTrip">Save</MudButton>
+        </DialogActions>
+    </MudDialog>
+</MudForm>

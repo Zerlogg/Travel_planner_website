@@ -12,8 +12,8 @@ using TravelingTrips.Data;
 namespace TravelingTrips.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240226234100_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20240306212711_Folder")]
+    partial class Folder
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,34 @@ namespace TravelingTrips.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("TravelingTrips.Models.Folder", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Folders");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Title = "France"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Title = "America"
+                        });
+                });
 
             modelBuilder.Entity("TravelingTrips.Models.VideoGame", b =>
                 {
