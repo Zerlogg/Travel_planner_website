@@ -1,0 +1,36 @@
+<AuthorizeView>
+    <Authorized>
+        <MudDialog>
+            <DialogContent>
+                <MudDivider Class="mb-2"/>
+                <MudContainer Class="px-0 d-flex flex-column gap-1">
+                    <MudContainer Class="px-0 d-flex align-center gap-1">
+                        <MudText Typo="Typo.h6">@context.User.Identity?.Name</MudText>
+                        <MudIconButton Icon="@Icons.Material.Filled.Edit" Size="Size.Small"/>
+                    </MudContainer>
+                    <MudContainer Class="px-0 d-flex align-center gap-1">
+                        <MudText>abrahamlincoln@gmail.com</MudText>
+                        <MudIconButton Icon="@Icons.Material.Filled.Edit" Size="Size.Small"/>
+                    </MudContainer>
+                </MudContainer>
+                <MudContainer Class="px-0 mt-4 d-flex align-center gap-2">
+                    <MudButton Variant="Variant.Outlined" Size="Size.Small" Href="/logout">Sign out</MudButton>
+                    <MudButton Variant="Variant.Outlined" Size="Size.Small" Color="Color.Error">Delete account</MudButton>
+                </MudContainer>
+                <MudDivider Class="mt-4" />
+            </DialogContent>
+            <DialogActions>
+                <MudButton OnClick="Cancel">Cancel</MudButton>
+                <MudButton Color="Color.Primary" OnClick="Submit">Save</MudButton>
+            </DialogActions>
+        </MudDialog>
+    </Authorized>
+</AuthorizeView>
+
+@code {
+
+    [CascadingParameter] MudDialogInstance MudDialog { get; set; }
+
+    void Submit() => MudDialog.Close(DialogResult.Ok(true));
+    void Cancel() => MudDialog.Cancel();
+}

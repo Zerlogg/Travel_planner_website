@@ -13,8 +13,12 @@
       "PackagePath": "staticwebassets\\Images\\Travel.jpg"
     },
     {
-      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\Images\\User.png",
-      "PackagePath": "staticwebassets\\Images\\User.png"
+      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
       "Id": "C:\\Work\\TravelingTrips\\wwwroot\\css\\styles.css",

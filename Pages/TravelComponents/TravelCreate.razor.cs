@@ -23,6 +23,8 @@ public partial class TravelCreate : ComponentBase
         Context.Travels.Add(CurrentTrip);
         
         await Context.SaveChangesAsync();
+        
+        NavigationManager.NavigateTo("/travels");
 
         Snackbar.Add("Trip was successfully created");
     }

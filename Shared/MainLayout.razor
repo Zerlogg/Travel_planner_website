@@ -1,6 +1,6 @@
 ﻿@inherits LayoutComponentBase
 @inject IDialogService DialogService
-@using TravelingTrips.Pages
+@using TravelingTrips.Pages.UserComponents
 
 <PageTitle>Traveling trips</PageTitle>
 
@@ -20,6 +20,7 @@
             <MudSpacer/>
             <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Inherit" Target="_blank" @onclick="Settings"/>
             <MudIconButton Icon="@Icons.Material.Filled.AccountCircle" Color="Color.Inherit" Target="_blank" @onclick="Profile"/>
+            <MudLink Href="/logout" Color="Color.Inherit" Typo="Typo.h6" Underline="Underline.None" Class="pl-4">Logout</MudLink>
         </MudContainer>
     </MudAppBar>
     <MudMainContent>

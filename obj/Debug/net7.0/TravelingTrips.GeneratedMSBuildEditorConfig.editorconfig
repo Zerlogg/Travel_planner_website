@@ -46,14 +46,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Work/TravelingTrips/Pages/ProfileDialog.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZURpYWxvZy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Work/TravelingTrips/Pages/SettingsDialog.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2V0dGluZ3NEaWFsb2cucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Work/TravelingTrips/Pages/TravelComponents/TravelCollection.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxDb2xsZWN0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -70,6 +62,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Work/TravelingTrips/Pages/UserComponents/ProfileDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckNvbXBvbmVudHNcUHJvZmlsZURpYWxvZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/TravelingTrips/Pages/UserComponents/SettingsDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckNvbXBvbmVudHNcU2V0dGluZ3NEaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Work/TravelingTrips/Shared/IndexLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEluZGV4TGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -80,6 +80,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Work/TravelingTrips/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/TravelingTrips/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/TravelingTrips/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/TravelingTrips/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/TravelingTrips/Areas/Identity/Pages/_IdentityLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX0lkZW50aXR5TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/TravelingTrips/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/TravelingTrips/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Work/TravelingTrips/Pages/_Host.cshtml]
