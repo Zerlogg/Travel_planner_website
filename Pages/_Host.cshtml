@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     <link href="css/styles.css" rel="stylesheet" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo" crossorigin=""></script>
+    <script src="js/L.timezones.js"></script>
     <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
 </head>
 <body>
@@ -37,11 +38,39 @@
     <script>
         function initializeMap() {
             var map = L.map('map').setView([56.941978, 24.120483], 4);
-
-            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                maxZoom: 16,
-                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            
+            var customBounds = L.latLngBounds(
+                L.latLng(-140, -160),
+                L.latLng(140, 160) 
+            );
+            
+            map.setMaxBounds(customBounds);
+            map.on('drag', function() {
+                map.panInsideBounds(customBounds, { animate: false });
+            });
+           
+            var Basemap = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              maxZoom: 16,
+              minZoom: 3
             }).addTo(map);
+            
+            map.on("click", function(e){
+                var marker = new L.marker([e.latlng.lat, e.latlng.lng]).addTo(map).on('click', e=> e.target.remove());
+            })
+            
+            var timezones = L.timezones.bindPopup(function (layer) {
+                return layer.feature.properties.time_zone;
+            }).addTo(map);
+            
+            var baseMaps = {
+                'Base map' : Basemap
+            }
+            
+            var overlayMaps = {
+                'Time zones' : timezones
+            }
+            
+            L.control.layers(baseMaps, overlayMaps).addTo(map);
         }
     </script>
 </body>

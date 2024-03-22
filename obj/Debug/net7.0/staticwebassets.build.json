@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gUZ1znX+YqDUWSwUXIGPx1YbnjqHLZKHiSNmmvH9eJ4=",
+  "Hash": "HYPP0agLVrwRXgHBQhacywovFsM/PVyUCWUqylwvFl4=",
   "Source": "TravelingTrips",
   "BasePath": "_content/TravelingTrips",
   "Mode": "Default",
@@ -186,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Travel.jpg"
+    },
+    {
+      "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\js\\L.timezones.js",
+      "SourceId": "TravelingTrips",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Work\\TravelingTrips\\wwwroot\\",
+      "BasePath": "_content/TravelingTrips",
+      "RelativePath": "js/L.timezones.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\L.timezones.js"
     },
     {
       "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\sample-data\\weather.json",

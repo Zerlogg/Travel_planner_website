@@ -1,6 +1,7 @@
 ﻿@page "/home"
 @inject IJSRuntime JSRuntime
 @inject DataContext Context
+@inject AuthenticationStateProvider AuthenticationStateProvider
 @attribute [Authorize]
 
 <AuthorizeView>
@@ -37,29 +38,29 @@
             </MudContainer>
 
             <MudContainer class="d-inline-flex gap-3 justify-left px-0 flex-wrap" Fixed="true">
-            @foreach (var travel in _travels)
-            {
-                <MudCard Style="width: 310px;">
-                    <MudCardMedia Image="/Images/France.jpg" Height="160"/>
-                    <MudCardContent Class="pb-0">
-                        <MudText Typo="Typo.h6">Trip to @travel.City</MudText>
-                        <MudText Typo="Typo.body2" Class="pt-1">@travel.Description</MudText>
-                        <MudText Typo="Typo.body2" Class="pt-2">@($"{travel.StartDate:dd.MM.yyyy} - {travel.EndDate:dd.MM.yyyy}")</MudText>
-                    </MudCardContent>
-                    <MudCardActions>
-                        <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default"/>
-                        <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default"/>
-                        <MudSpacer/>
-                        <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="Color.Default"/>
-                    </MudCardActions>
-                </MudCard>
-            }
+                @foreach (var travel in _travels.Take(4))
+                {
+                    <MudCard Style="width: 310px;">
+                        <MudCardMedia Image="/Images/France.jpg" Height="160"/>
+                        <MudCardContent Class="pb-0">
+                            <MudText Typo="Typo.h6">Trip to @travel.City</MudText>
+                            <MudText Typo="Typo.body2" Class="pt-1">@travel.Description</MudText>
+                            <MudText Typo="Typo.body2" Class="pt-2">@($"{travel.StartDate:dd.MM.yyyy} - {travel.EndDate:dd.MM.yyyy}")</MudText>
+                        </MudCardContent>
+                        <MudCardActions>
+                            <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default"/>
+                            <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default"/>
+                            <MudSpacer/>
+                            <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="Color.Default"/>
+                        </MudCardActions>
+                    </MudCard>
+                }
             </MudContainer>
         </MudContainer>
 
         <MudContainer Class="mb-6 pa-0">
             <MudText Typo="Typo.h5" Class="pb-4">Where you want to go next?</MudText>
-            <MudContainer id="map" style="height:500px;width:100%;" Class="rounded"/>
+            <MudContainer id="map" style="height: 500px; width: 100%;" Class="rounded"/>
         </MudContainer>
     
     </Authorized>
@@ -84,8 +85,15 @@
 
     private List<Travel> _travels = new List<Travel>();
     
+    async Task<string> getUserId(){
+        var user = (await AuthenticationStateProvider.GetAuthenticationStateAsync()).User;
+        var UserId = user.FindFirst(u => u.Type.Contains("nameidentifier"))?.Value;
+        return UserId;
+    }
+    
     protected override async Task OnInitializedAsync()
     {
-        _travels = await Context.Travels.ToListAsync();
+        var userId = await getUserId();
+        _travels = await Context.Travels.Where(x => x.UserId == userId).ToListAsync();
     }
 }

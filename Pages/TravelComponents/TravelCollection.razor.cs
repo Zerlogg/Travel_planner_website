@@ -10,9 +10,24 @@ public partial class TravelCollection
 
     private List<Travel> _travels = new List<Travel>();
     
+    private List<Travel> _filteredTravels = new List<Travel>();
+    
+    async Task<string> getUserId(){
+        var user = (await AuthenticationStateProvider.GetAuthenticationStateAsync()).User;
+        var UserId = user.FindFirst(u => u.Type.Contains("nameidentifier"))?.Value;
+        return UserId;
+    }
+    
     protected override async Task OnInitializedAsync()
     {
-        _travels = await Context.Travels.ToListAsync();
+        await LoadTravels();
+    }
+
+    private async Task LoadTravels()
+    {
+        var userId = await getUserId();
+        _travels = await Context.Travels.Where(x => x.UserId == userId).ToListAsync();
+        ApplySearchFilter();
     }
     
     private void EditTravel(int id)
@@ -36,5 +51,24 @@ public partial class TravelCollection
     private void NavigateToDetails(int id)
     {
         NavigationManager.NavigateTo($"travelpage/{id}");
+    }
+    
+        
+    private void ApplySearchFilter()
+    {
+        if (!string.IsNullOrWhiteSpace(TextValue))
+        {
+            _filteredTravels = _travels.Where(t => t.City != null && t.City.Contains(TextValue, StringComparison.OrdinalIgnoreCase)).ToList();
+        }
+        else
+        {
+            _filteredTravels = new List<Travel>(_travels);
+        }
+    }
+    
+    private void SearchTravel()
+    {
+        ApplySearchFilter();
+        StateHasChanged();
     }
 }

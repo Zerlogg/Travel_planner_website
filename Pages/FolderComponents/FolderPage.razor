@@ -2,47 +2,64 @@
 @inject DataContext Context
 @inject IDialogService DialogService
 @inject ISnackbar Snackbar
+@inject AuthenticationStateProvider AuthenticationStateProvider
 @attribute [Authorize]
 
 <MudContainer Class="pa-0 mb-4">
     <MudPaper Class="mud-theme-primary pa-5 mb-4">
         <MudText Typo="Typo.h4" Class="pb-1"><b>Your Folders page</b></MudText>
-        <MudText Typo="Typo.h5">You currently have 2 folders created</MudText>
+        <MudText Typo="Typo.h5">You currently have @_folderList.Count folders created</MudText>
     </MudPaper>
 
     <MudContainer Class="gap-2 align-center d-inline-flex pa-0">
-        <MudTextField AdornmentIcon="@Icons.Material.Filled.Search" Adornment="Adornment.Start" Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="TextValue" Class="ma-0" />
+        <MudTextField AdornmentIcon="@Icons.Material.Filled.Search" Adornment="Adornment.Start" Margin="Margin.Dense" Placeholder="Search folder" Variant="Variant.Outlined" @bind-Value="TextValue" Class="ma-0" />
+        <MudButton Variant="Variant.Outlined" Color="Color.Primary" StartIcon="@Icons.Material.Filled.Search" OnClick="SearchFolders">Search</MudButton>
         <MudButton Variant="Variant.Outlined" StartIcon="@Icons.Material.Filled.Add" OnClick="AddFolder" Color="Color.Primary">Add folder</MudButton>
     </MudContainer>
 </MudContainer>
 
-@foreach (var folder in _folderList)
+@if (_folderList.Any())
 {
-    <MudContainer Class="px-0 mb-6">
-        <MudPaper Class="d-flex mb-3 py-2 px-4 align-center blue accent-2">
-            <MudText Typo="Typo.h5" Style="color: white">@folder.Title / 4 Objects</MudText>
-            <MudSpacer/>
-            <MudIconButton Icon="@Icons.Material.Filled.Edit" Style="color: white" @onclick="() => EditFolder(folder.Id)"/>
-            <MudIconButton Icon="@Icons.Material.Filled.Delete" Style="color: white" @onclick="() => DeleteFolder(folder.Id)"/>
-        </MudPaper>
+    @if (_filteredFolders != null && _filteredFolders.Any())
+    {
+        @foreach (var folder in _filteredFolders)
+        {
+            <MudContainer Class="px-0 mb-4">
+                <MudPaper Class="d-flex mb-3 py-2 px-4 align-center blue accent-2">
+                    <MudText Typo="Typo.h5" Style="color: white">@folder.Title / 4 Objects</MudText>
+                    <MudSpacer/>
+                    <MudIconButton Icon="@Icons.Material.Filled.Edit" Style="color: white" @onclick="() => EditFolder(folder.Id)"/>
+                    <MudIconButton Icon="@Icons.Material.Filled.Delete" Style="color: white" @onclick="() => DeleteFolder(folder.Id)"/>
+                </MudPaper>
 
-        <MudContainer class="d-inline-flex gap-3 justify-left px-0 mb-3 flex-wrap" Fixed="true">
-            @for (int i = 0; i < 4; i++)
-            {
-                <MudCard Style="width: 310px;">
-                    <MudCardMedia Image="/Images/France.jpg" Height="160"/>
-                    <MudCardContent Class="pb-0">
-                        <MudText Typo="Typo.h6">Trip to Paris</MudText>
-                        <MudText Typo="Typo.body2" Class="pt-1">I wanna travel to paris because its cool</MudText>
-                        <MudText Typo="Typo.body2" Class="pt-2">14/12/2024 - 24/12/2024</MudText>
-                    </MudCardContent>
-                    <MudCardActions>
-                        <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default"/>
-                        <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default"/>
-                    </MudCardActions>
-                </MudCard>
-            }
-        </MudContainer>
-        <MudPagination Rectangular="true" Variant="Variant.Text" Count="6" Class="justify-center d-flex"/>
+                <MudContainer class="d-inline-flex gap-3 justify-left px-0 mb-3 flex-wrap" Fixed="true">
+                    @for (int i = 0; i < 4; i++)
+                    {
+                        <MudCard Style="width: 310px;">
+                            <MudCardMedia Image="/Images/France.jpg" Height="160"/>
+                            <MudCardContent Class="pb-0">
+                                <MudText Typo="Typo.h6">Trip to Paris</MudText>
+                                <MudText Typo="Typo.body2" Class="pt-1">I wanna travel to paris because its cool</MudText>
+                                <MudText Typo="Typo.body2" Class="pt-2">14/12/2024 - 24/12/2024</MudText>
+                            </MudCardContent>
+                            <MudCardActions>
+                                <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default"/>
+                                <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default"/>
+                            </MudCardActions>
+                        </MudCard>
+                    }
+                </MudContainer>
+            </MudContainer>
+        }
+    }
+    else
+    {
+        <MudText Typo="Typo.body1">No folders found.</MudText>
+    }
+}
+else
+{
+    <MudContainer class="d-flex px-0">
+        <MudText Typo="Typo.h5" Class="ml-auto mr-auto mt-16">You haven't created any folders yet</MudText>
     </MudContainer>
 }

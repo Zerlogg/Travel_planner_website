@@ -1,11 +1,19 @@
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
+using MudBlazor.Utilities;
 using TravelingTrips.Models;
 
 namespace TravelingTrips.Pages.FolderComponents;
 
 public partial class FolderDialog
 {
+    private bool _success;
+    
+    private string[] _errors = Array.Empty<string>();
+
+    private MudForm? _form;
+
+    
     [Parameter]
     public int? Id { get; set; }
 
@@ -56,9 +64,16 @@ public partial class FolderDialog
 
         MudDialog?.Close(DialogResult.Ok(true));
     }
+    
+    async Task<string> getUserId(){
+        var user = (await AuthenticationStateProvider.GetAuthenticationStateAsync()).User;
+        var UserId = user.FindFirst(u => u.Type.Contains("nameidentifier"))?.Value;
+        return UserId;
+    }
 
     private async Task CreateFolder()
     {
+        CurrentFolder.UserId = await getUserId();
         Context.Folders.Add(CurrentFolder);
         
         await Context.SaveChangesAsync();

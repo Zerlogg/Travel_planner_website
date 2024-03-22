@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\js\\L.timezones.js",
+      "PackagePath": "staticwebassets\\js\\L.timezones.js"
+    },
+    {
       "Id": "C:\\Work\\TravelingTrips\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },

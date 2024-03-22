@@ -31,7 +31,12 @@ public class Login : PageModel
         {
             var result = await _signInManager.PasswordSignInAsync(Input.Username, Input.Password, false, lockoutOnFailure: false);
 
-            if (result.Succeeded) return LocalRedirect(ReturnUrl);
+            if (result.Succeeded)
+            {
+                var user = await _signInManager.UserManager.FindByNameAsync(Input.Username);
+                ViewData["UserId"] = user.Id;
+                return LocalRedirect(ReturnUrl);
+            }
         }
 
         return Page();

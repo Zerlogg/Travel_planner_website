@@ -9,10 +9,25 @@ public partial class FolderPage
     private string? TextValue { get; set; }
 
     private List<Folder> _folderList = new List<Folder>();
+    
+    private List<Folder> _filteredFolders = new List<Folder>();
         
     protected override async Task OnInitializedAsync()
     {
-        _folderList = await Context.Folders.ToListAsync();
+        await LoadFolders();
+    }
+    
+    private async Task LoadFolders()
+    {
+        var userId = await getUserId();
+        _folderList = await Context.Folders.Where(x => x.UserId == userId).ToListAsync();
+        ApplySearchFilter();
+    }
+    
+    async Task<string> getUserId(){
+        var user = (await AuthenticationStateProvider.GetAuthenticationStateAsync()).User;
+        var UserId = user.FindFirst(u => u.Type.Contains("nameidentifier"))?.Value;
+        return UserId;
     }
     
     private void EditFolder(int id)
@@ -37,5 +52,23 @@ public partial class FolderPage
     {
         var options = new DialogOptions { CloseOnEscapeKey = true };
         DialogService.Show<FolderDialog>("Add folder", options);
+    }
+    
+    private void ApplySearchFilter()
+    {
+        if (!string.IsNullOrWhiteSpace(TextValue))
+        {
+            _filteredFolders = _folderList.Where(f => f.Title != null && f.Title.Contains(TextValue, StringComparison.OrdinalIgnoreCase)).ToList();
+        }
+        else
+        {
+            _filteredFolders = new List<Folder>(_folderList);
+        }
+    }
+    
+    private void SearchFolders()
+    {
+        ApplySearchFilter();
+        StateHasChanged();
     }
 }

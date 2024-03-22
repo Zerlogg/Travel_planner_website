@@ -2,6 +2,7 @@
 @inject DataContext Context
 @inject ISnackbar Snackbar
 @inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
 
 <MudText Typo="Typo.h3" Class="justify-center d-flex"><b>Plan new trip</b></MudText>
 
@@ -9,16 +10,17 @@
     <MudItem xs="12" sm="5">
         <MudPaper Class="pa-4">
             <MudForm @ref="_form" @bind-IsValid="@_success" Model="CurrentTrip" @bind-Errors="@_errors">
-                <MudTextField T="string" Label="Where to?" HelperText="e.g. Paris, Washington, Riga" @bind-Value="CurrentTrip.City" Required="true" />
-                <MudTextField T="string" Label="Description" @bind-Value="CurrentTrip.Description" />
+                <MudTextField T="string" Label="Where to?" HelperText="e.g. Paris, Washington, Riga" @bind-Value="CurrentTrip.City" Required="true"/>
+                <MudTextField T="string" Label="Description" @bind-Value="CurrentTrip.Description"/>
                 <MudContainer Class="d-inline-flex gap-4 pa-0">
-                    <MudDatePicker @bind-Date="CurrentTrip.StartDate" Class="mud-width-full" Label="Start date" Required="true" />
-                    <MudDatePicker @bind-Date="CurrentTrip.EndDate" Class="mud-width-full" Label="End date" Required="true" />
+                    <MudDatePicker @bind-Date="CurrentTrip.StartDate" MinDate="_minDate" Class="mud-width-full" Label="Start date" Required="true"/>
+                    <MudDatePicker @bind-Date="CurrentTrip.EndDate" MinDate="_minDate" Class="mud-width-full" Label="End date" Required="true"/>
                 </MudContainer>
-                <MudNumericField @bind-Value="CurrentTrip.Budget" Label="Trip budget" Required="true" Format="F2" Class="mt-4" HideSpinButtons="true" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Euro" />
-                <MudTextField T="string" Label="Accommodation preferences" HelperText="e.g. hotels, hostels, camping" @bind-Value="CurrentTrip.Accommodation" Required="true" />
+                <MudNumericField @bind-Value="CurrentTrip.Budget" Label="Trip budget" Required="true" Format="F2" Class="mt-4" HideSpinButtons="true" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Euro"/>
+                <MudTextField T="string" Label="Accommodation preferences" HelperText="e.g. hotels, hostels, camping" @bind-Value="CurrentTrip.Accommodation" Required="true"/>
                 <MudTextField T="string" Label="Personal preferences" Variant="Variant.Outlined" Lines="3" Class="mt-4" @bind-Value="CurrentTrip.Preferences"/>
                 <MudButton Variant="Variant.Filled" Color="Color.Primary" Disabled="@(!_success)" OnClick="CreateTrip" Class="mt-4">Register</MudButton>
+                <MudButton Href="/travels" Class="mt-4">Cancel</MudButton>
             </MudForm>   
         </MudPaper> 
     </MudItem>

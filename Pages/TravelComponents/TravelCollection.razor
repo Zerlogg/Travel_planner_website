@@ -3,37 +3,53 @@
 @inject NavigationManager NavigationManager
 @inject ISnackbar Snackbar
 @inject IDialogService DialogService
+@inject AuthenticationStateProvider AuthenticationStateProvider
 @attribute [Authorize]
 
 <MudContainer Class="pa-0 mb-4">
     <MudPaper Class="mud-theme-primary pa-5 mb-4">
         <MudText Typo="Typo.h4" Class="pb-1"><b>Your Trips page</b></MudText>
-        <MudText Typo="Typo.h5">You currently have 2 trips created</MudText>
+        <MudText Typo="Typo.h5">You currently have @_travels.Count trips created</MudText>
     </MudPaper>
 
     <MudContainer Class="gap-2 align-center d-inline-flex pa-0">
-        <MudTextField AdornmentIcon="@Icons.Material.Filled.Search" Adornment="Adornment.Start" Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="TextValue" Class="ma-0" />
+        <MudTextField AdornmentIcon="@Icons.Material.Filled.Search" Adornment="Adornment.Start" Margin="Margin.Dense" Placeholder="Search trip" Variant="Variant.Outlined" @bind-Value="TextValue" Class="ma-0" />
+        <MudButton Variant="Variant.Outlined" Color="Color.Primary" StartIcon="@Icons.Material.Filled.Search" OnClick="SearchTravel">Search</MudButton>
         <MudButton Variant="Variant.Outlined" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" Href="/travelcreate">Add trip</MudButton>
     </MudContainer>
 </MudContainer>
 
 <MudContainer class="d-inline-flex gap-3 justify-left px-0 mb-3 flex-wrap" Fixed="true">
-    @foreach (var travel in _travels)
+    @if (_travels.Any())
     {
-        <MudCard Style="width: 310px;" Class="cursor-pointer" @onclick="() => NavigateToDetails(travel.Id)">
-            <MudCardMedia Image="/Images/France.jpg" Height="160"/>
-            <MudCardContent Class="pb-0">
-                <MudText Typo="Typo.h6">Trip to @travel.City</MudText>
-                <MudText Typo="Typo.body2" Class="pt-1">@travel.Description</MudText>
-                <MudText Typo="Typo.body2" Class="pt-2">@($"{travel.StartDate:dd.MM.yyyy} - {travel.EndDate:dd.MM.yyyy}")</MudText>
-            </MudCardContent>
-            <MudCardActions>
-                <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default"/>
-                <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default" @onclick="() => DeleteTravel(travel.Id)"/>
-                <MudSpacer/>
-                <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="Color.Default" @onclick="() => EditTravel(travel.Id)"/>
-            </MudCardActions>
-        </MudCard>
+        @if (_filteredTravels != null && _filteredTravels.Any())
+        {
+            @foreach (var travel in _filteredTravels)
+            {
+                <MudCard Style="width: 310px;" Class="cursor-pointer" @onclick="() => NavigateToDetails(travel.Id)">
+                    <MudCardMedia Image="/Images/France.jpg" Height="160"/>
+                    <MudCardContent Class="pb-0">
+                        <MudText Typo="Typo.h6">Trip to @travel.City</MudText>
+                        <MudText Typo="Typo.body2" Class="pt-1">@travel.Description</MudText>
+                        <MudText Typo="Typo.body2" Class="pt-2">@($"{travel.StartDate:dd.MM.yyyy} - {travel.EndDate:dd.MM.yyyy}")</MudText>
+                    </MudCardContent>
+                    <MudCardActions>
+                        <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default"/>
+                        <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default" @onclick="() => DeleteTravel(travel.Id)"/>
+                        <MudSpacer/>
+                        <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="Color.Default" @onclick="() => EditTravel(travel.Id)"/>
+                    </MudCardActions>
+                </MudCard>
+            }
+        }
+        else
+        {
+            <MudText Typo="Typo.body1">No Travels found.</MudText>
+        }
+    }
+    else
+    {
+        <MudText Typo="Typo.h5" Class="ml-auto mr-auto mt-16">You haven't created any trips yet</MudText>
     }
 </MudContainer>
 
