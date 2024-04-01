@@ -17,10 +17,23 @@ public partial class FolderPage
         await LoadFolders();
     }
     
+    private void ReloadPage()
+    {
+        NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
+    }
+    
     private async Task LoadFolders()
     {
         var userId = await getUserId();
         _folderList = await Context.Folders.Where(x => x.UserId == userId).ToListAsync();
+        foreach (var item in _folderList)
+        {
+            item.Travels = await Context.Travels.Join(Context.TravelFolders.Where(x => x.FolderId == item.Id && x.IsEnabled == true),
+                    t => t.Id,
+                    tf => tf.TravelId,
+                    (t, tf) => t)
+                .ToListAsync();
+        }
         ApplySearchFilter();
     }
     
@@ -46,6 +59,7 @@ public partial class FolderPage
             await Context.SaveChangesAsync();
             Snackbar.Add("Folder was successfully deleted");
         }
+        ReloadPage();
     }
     
     private void AddFolder()

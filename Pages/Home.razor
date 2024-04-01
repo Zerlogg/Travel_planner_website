@@ -59,7 +59,10 @@
         </MudContainer>
 
         <MudContainer Class="mb-6 pa-0">
-            <MudText Typo="Typo.h5" Class="pb-4">Where you want to go next?</MudText>
+            <MudContainer Class="d-flex pb-4 pa-0 align-center">
+                <MudText Typo="Typo.h5" Class="pr-4">Where you want to go next?</MudText>
+                <MudButton Variant="Variant.Outlined" StartIcon="@Icons.Material.Filled.Explore" Color="Color.Primary" Href="/map">Explore</MudButton>
+            </MudContainer>
             <MudContainer id="map" style="height: 500px; width: 100%;" Class="rounded"/>
         </MudContainer>
     

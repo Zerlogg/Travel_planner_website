@@ -21,6 +21,11 @@ public partial class FolderDialog
     private Folder CurrentFolder { get; set; } = new();
 
     [CascadingParameter] private MudDialogInstance? MudDialog { get; set; }
+    
+    private void ReloadPage()
+    {
+        NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
+    }
 
     protected override async Task OnParametersSetAsync()
     {
@@ -63,6 +68,7 @@ public partial class FolderDialog
         }
 
         MudDialog?.Close(DialogResult.Ok(true));
+        ReloadPage();
     }
     
     async Task<string> getUserId(){
@@ -81,6 +87,7 @@ public partial class FolderDialog
         MudDialog?.Close(DialogResult.Ok(true));
         
         Snackbar.Add("Folder was successfully created");
+        ReloadPage();
     }
 
     private void Cancel() => MudDialog?.Cancel();

@@ -1,6 +1,7 @@
 @inject DataContext Context
 @inject ISnackbar Snackbar
 @inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
 
 <MudForm @ref="_form" @bind-IsValid="@_success" Model="CurrentFolder" @bind-Errors="@_errors">
     <MudDialog>

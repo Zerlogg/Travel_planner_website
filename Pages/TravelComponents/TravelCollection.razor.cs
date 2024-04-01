@@ -22,6 +22,11 @@ public partial class TravelCollection
     {
         await LoadTravels();
     }
+    
+    private void ReloadPage()
+    {
+        NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
+    }
 
     private async Task LoadTravels()
     {
@@ -46,6 +51,7 @@ public partial class TravelCollection
             await Context.SaveChangesAsync();
             Snackbar.Add("Trip was successfully deleted");
         }
+        ReloadPage();
     }
     
     private void NavigateToDetails(int id)

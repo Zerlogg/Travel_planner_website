@@ -3,6 +3,7 @@
 @inject IDialogService DialogService
 @inject ISnackbar Snackbar
 @inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
 @attribute [Authorize]
 
 <MudContainer Class="pa-0 mb-4">
@@ -25,7 +26,7 @@
         @foreach (var folder in _filteredFolders)
         {
             <MudContainer Class="px-0 mb-4">
-                <MudPaper Class="d-flex mb-3 py-2 px-4 align-center blue accent-2">
+                <MudPaper Class="d-flex mb-3 py-2 px-4 align-center mud-theme-primary">
                     <MudText Typo="Typo.h5" Style="color: white">@folder.Title / 4 Objects</MudText>
                     <MudSpacer/>
                     <MudIconButton Icon="@Icons.Material.Filled.Edit" Style="color: white" @onclick="() => EditFolder(folder.Id)"/>
@@ -33,18 +34,20 @@
                 </MudPaper>
 
                 <MudContainer class="d-inline-flex gap-3 justify-left px-0 mb-3 flex-wrap" Fixed="true">
-                    @for (int i = 0; i < 4; i++)
+                    @foreach (var travel in folder.Travels)
                     {
                         <MudCard Style="width: 310px;">
                             <MudCardMedia Image="/Images/France.jpg" Height="160"/>
                             <MudCardContent Class="pb-0">
-                                <MudText Typo="Typo.h6">Trip to Paris</MudText>
-                                <MudText Typo="Typo.body2" Class="pt-1">I wanna travel to paris because its cool</MudText>
-                                <MudText Typo="Typo.body2" Class="pt-2">14/12/2024 - 24/12/2024</MudText>
+                                <MudText Typo="Typo.h6">@travel.City</MudText>
+                                <MudText Typo="Typo.body2" Class="pt-1">@travel.Description</MudText>
+                                <MudText Typo="Typo.body2" Class="pt-2">@($"{travel.StartDate:dd.MM.yyyy} - {travel.EndDate:dd.MM.yyyy}")</MudText>
                             </MudCardContent>
                             <MudCardActions>
                                 <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default"/>
                                 <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default"/>
+                                <MudSpacer/>
+                                <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="Color.Default"/>
                             </MudCardActions>
                         </MudCard>
                     }

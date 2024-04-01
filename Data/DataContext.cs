@@ -29,4 +29,6 @@ public class DataContext : IdentityDbContext
     public DbSet<Folder> Folders { get; set; }
     
     public DbSet<Travel> Travels { get; set; }
+    
+    public DbSet<TravelFolders> TravelFolders { get; set; }
 }

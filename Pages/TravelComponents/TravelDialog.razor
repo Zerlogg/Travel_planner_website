@@ -1,5 +1,7 @@
 @inject DataContext Context
 @inject ISnackbar Snackbar
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
 
 <MudForm @ref="_form" @bind-IsValid="@_success" Model="CurrentTrip" @bind-Errors="@_errors">
     <MudDialog>
@@ -10,6 +12,12 @@
                 <MudNumericField T="double?" Label="Budget" @bind-Value="@CurrentTrip.Budget" Format="F2" HideSpinButtons="true" Variant="Variant.Outlined" Required="true" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Euro" />
                 <MudTextField T="string" Label="Accommodation" @bind-Value="@CurrentTrip.Accommodation" Variant="Variant.Outlined" Class="mt-0" Required="true"></MudTextField>
                 <MudTextField T="string" Label="Personal Preferences" @bind-Value="@CurrentTrip.Preferences" Variant="Variant.Outlined" Class="mt-0"></MudTextField>
+                <MudSelect Label="Folder" Variant="Variant.Outlined" @bind-SelectedValues="@options" MultiSelection="true" AnchorOrigin="Origin.BottomCenter">
+                    @foreach (var folder in _folders)
+                    {
+                        <MudSelectItem Value="@folder">@folder.Title</MudSelectItem>
+                    }
+                </MudSelect>
             </MudContainer>
         </DialogContent>
         <DialogActions>
@@ -18,3 +26,5 @@
         </DialogActions>
     </MudDialog>
 </MudForm>
+
+       
