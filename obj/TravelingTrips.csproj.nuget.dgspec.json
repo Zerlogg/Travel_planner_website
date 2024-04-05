@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Work\\TravelingTrips\\TravelingTrips.csproj": {}
+    "C:\\Work\\Traveling Trips\\TravelingTrips.csproj": {}
   },
   "projects": {
-    "C:\\Work\\TravelingTrips\\TravelingTrips.csproj": {
+    "C:\\Work\\Traveling Trips\\TravelingTrips.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\TravelingTrips\\TravelingTrips.csproj",
+        "projectUniqueName": "C:\\Work\\Traveling Trips\\TravelingTrips.csproj",
         "projectName": "TravelingTrips",
-        "projectPath": "C:\\Work\\TravelingTrips\\TravelingTrips.csproj",
+        "projectPath": "C:\\Work\\Traveling Trips\\TravelingTrips.csproj",
         "packagesPath": "C:\\Users\\Emils Mafija\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\TravelingTrips\\obj\\",
+        "outputPath": "C:\\Work\\Traveling Trips\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Emils Mafija\\AppData\\Roaming\\NuGet\\NuGet.Config",

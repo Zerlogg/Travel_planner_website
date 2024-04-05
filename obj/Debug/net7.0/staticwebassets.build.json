@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HYPP0agLVrwRXgHBQhacywovFsM/PVyUCWUqylwvFl4=",
+  "Hash": "SMF/BdMzaHY5ULkCErLay8AT4XCpO5r83whvF4bZtEU=",
   "Source": "TravelingTrips",
   "BasePath": "_content/TravelingTrips",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "TravelingTrips\\wwwroot",
       "Source": "TravelingTrips",
-      "ContentRoot": "C:\\Work\\TravelingTrips\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\Traveling Trips\\wwwroot\\",
       "BasePath": "_content/TravelingTrips",
       "Pattern": "**"
     }
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "C:\\Users\\Emils Mafija\\.nuget\\packages\\mudblazor\\6.17.0\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "TravelingTrips",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Work\\TravelingTrips\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\Traveling Trips\\wwwroot\\",
       "BasePath": "_content/TravelingTrips",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "TravelingTrips",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Work\\TravelingTrips\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\Traveling Trips\\wwwroot\\",
       "BasePath": "_content/TravelingTrips",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\css\\styles.css",
+      "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\css\\styles.css",
       "SourceId": "TravelingTrips",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Work\\TravelingTrips\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\Traveling Trips\\wwwroot\\",
       "BasePath": "_content/TravelingTrips",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\favicon.ico",
       "SourceId": "TravelingTrips",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Work\\TravelingTrips\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\Traveling Trips\\wwwroot\\",
       "BasePath": "_content/TravelingTrips",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\Images\\America.jpg",
+      "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\Images\\America.jpg",
       "SourceId": "TravelingTrips",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Work\\TravelingTrips\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\Traveling Trips\\wwwroot\\",
       "BasePath": "_content/TravelingTrips",
       "RelativePath": "Images/America.jpg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\America.jpg"
     },
     {
-      "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\Images\\France.jpg",
+      "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\Images\\France.jpg",
       "SourceId": "TravelingTrips",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Work\\TravelingTrips\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\Traveling Trips\\wwwroot\\",
       "BasePath": "_content/TravelingTrips",
       "RelativePath": "Images/France.jpg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\France.jpg"
     },
     {
-      "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\Images\\Travel.jpg",
+      "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\Images\\Travel.jpg",
       "SourceId": "TravelingTrips",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Work\\TravelingTrips\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\Traveling Trips\\wwwroot\\",
       "BasePath": "_content/TravelingTrips",
       "RelativePath": "Images/Travel.jpg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Travel.jpg"
     },
     {
-      "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\js\\L.timezones.js",
+      "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\js\\L.timezones.js",
       "SourceId": "TravelingTrips",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Work\\TravelingTrips\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\Traveling Trips\\wwwroot\\",
       "BasePath": "_content/TravelingTrips",
       "RelativePath": "js/L.timezones.js",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\js\\L.timezones.js"
     },
     {
-      "Identity": "C:\\Work\\TravelingTrips\\wwwroot\\sample-data\\weather.json",
+      "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\sample-data\\weather.json",
       "SourceId": "TravelingTrips",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Work\\TravelingTrips\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\Traveling Trips\\wwwroot\\",
       "BasePath": "_content/TravelingTrips",
       "RelativePath": "sample-data/weather.json",
       "AssetKind": "All",

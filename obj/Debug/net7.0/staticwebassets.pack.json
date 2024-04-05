@@ -1,39 +1,39 @@
 {
   "Files": [
     {
-      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\Images\\America.jpg",
+      "Id": "C:\\Work\\Traveling Trips\\wwwroot\\Images\\America.jpg",
       "PackagePath": "staticwebassets\\Images\\America.jpg"
     },
     {
-      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\Images\\France.jpg",
+      "Id": "C:\\Work\\Traveling Trips\\wwwroot\\Images\\France.jpg",
       "PackagePath": "staticwebassets\\Images\\France.jpg"
     },
     {
-      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\Images\\Travel.jpg",
+      "Id": "C:\\Work\\Traveling Trips\\wwwroot\\Images\\Travel.jpg",
       "PackagePath": "staticwebassets\\Images\\Travel.jpg"
     },
     {
-      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Work\\Traveling Trips\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Work\\Traveling Trips\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\css\\styles.css",
+      "Id": "C:\\Work\\Traveling Trips\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\favicon.ico",
+      "Id": "C:\\Work\\Traveling Trips\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\js\\L.timezones.js",
+      "Id": "C:\\Work\\Traveling Trips\\wwwroot\\js\\L.timezones.js",
       "PackagePath": "staticwebassets\\js\\L.timezones.js"
     },
     {
-      "Id": "C:\\Work\\TravelingTrips\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Work\\Traveling Trips\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

@@ -1,180 +1,180 @@
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\appsettings.json
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\TravelingTrips.staticwebassets.runtime.json
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\TravelingTrips.exe
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\TravelingTrips.deps.json
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\TravelingTrips.runtimeconfig.json
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\TravelingTrips.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\TravelingTrips.pdb
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Azure.Core.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Humanizer.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.JSInterop.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\MudBlazor.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\System.Memory.Data.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\cimpal55\source\TravelingTrips\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\TravelingTrips.csproj.AssemblyReference.cache
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\TravelingTrips.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\TravelingTrips.AssemblyInfoInputs.cache
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\TravelingTrips.AssemblyInfo.cs
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\TravelingTrips.csproj.CoreCompileInputs.cache
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\TravelingTrips.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\TravelingTrips.RazorAssemblyInfo.cache
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\TravelingTrips.RazorAssemblyInfo.cs
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\TravelingTrips.sourcelink.json
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\staticwebassets\msbuild.TravelingTrips.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\staticwebassets\msbuild.build.TravelingTrips.props
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.TravelingTrips.props
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.TravelingTrips.props
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\scopedcss\bundle\TravelingTrips.styles.css
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\TravelingTrips.csproj.CopyComplete
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\TravelingTrips.dll
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\refint\TravelingTrips.dll
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\TravelingTrips.pdb
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\TravelingTrips.genruntimeconfig.cache
-C:\Users\cimpal55\source\TravelingTrips\obj\Debug\net7.0\ref\TravelingTrips.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\appsettings.Development.json
-C:\Work\TravelingTrips\bin\Debug\net7.0\appsettings.json
-C:\Work\TravelingTrips\bin\Debug\net7.0\TravelingTrips.staticwebassets.runtime.json
-C:\Work\TravelingTrips\bin\Debug\net7.0\TravelingTrips.exe
-C:\Work\TravelingTrips\bin\Debug\net7.0\TravelingTrips.deps.json
-C:\Work\TravelingTrips\bin\Debug\net7.0\TravelingTrips.runtimeconfig.json
-C:\Work\TravelingTrips\bin\Debug\net7.0\TravelingTrips.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\TravelingTrips.pdb
-C:\Work\TravelingTrips\bin\Debug\net7.0\Azure.Core.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Azure.Identity.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Humanizer.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.JSInterop.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\MudBlazor.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\System.CodeDom.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\System.Memory.Data.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Work\TravelingTrips\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Work\TravelingTrips\obj\Debug\net7.0\TravelingTrips.csproj.AssemblyReference.cache
-C:\Work\TravelingTrips\obj\Debug\net7.0\TravelingTrips.GeneratedMSBuildEditorConfig.editorconfig
-C:\Work\TravelingTrips\obj\Debug\net7.0\TravelingTrips.AssemblyInfoInputs.cache
-C:\Work\TravelingTrips\obj\Debug\net7.0\TravelingTrips.AssemblyInfo.cs
-C:\Work\TravelingTrips\obj\Debug\net7.0\TravelingTrips.csproj.CoreCompileInputs.cache
-C:\Work\TravelingTrips\obj\Debug\net7.0\TravelingTrips.MvcApplicationPartsAssemblyInfo.cache
-C:\Work\TravelingTrips\obj\Debug\net7.0\TravelingTrips.RazorAssemblyInfo.cache
-C:\Work\TravelingTrips\obj\Debug\net7.0\TravelingTrips.RazorAssemblyInfo.cs
-C:\Work\TravelingTrips\obj\Debug\net7.0\TravelingTrips.sourcelink.json
-C:\Work\TravelingTrips\obj\Debug\net7.0\staticwebassets.build.json
-C:\Work\TravelingTrips\obj\Debug\net7.0\staticwebassets.development.json
-C:\Work\TravelingTrips\obj\Debug\net7.0\staticwebassets\msbuild.TravelingTrips.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Work\TravelingTrips\obj\Debug\net7.0\staticwebassets\msbuild.build.TravelingTrips.props
-C:\Work\TravelingTrips\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.TravelingTrips.props
-C:\Work\TravelingTrips\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.TravelingTrips.props
-C:\Work\TravelingTrips\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Work\TravelingTrips\obj\Debug\net7.0\scopedcss\bundle\TravelingTrips.styles.css
-C:\Work\TravelingTrips\obj\Debug\net7.0\Travelin.DB980E92.Up2Date
-C:\Work\TravelingTrips\obj\Debug\net7.0\TravelingTrips.dll
-C:\Work\TravelingTrips\obj\Debug\net7.0\refint\TravelingTrips.dll
-C:\Work\TravelingTrips\obj\Debug\net7.0\TravelingTrips.pdb
-C:\Work\TravelingTrips\obj\Debug\net7.0\TravelingTrips.genruntimeconfig.cache
-C:\Work\TravelingTrips\obj\Debug\net7.0\ref\TravelingTrips.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\appsettings.Development.json
+C:\Repositories\Новая папка\bin\Debug\net7.0\appsettings.json
+C:\Repositories\Новая папка\bin\Debug\net7.0\TravelingTrips.staticwebassets.runtime.json
+C:\Repositories\Новая папка\bin\Debug\net7.0\TravelingTrips.exe
+C:\Repositories\Новая папка\bin\Debug\net7.0\TravelingTrips.deps.json
+C:\Repositories\Новая папка\bin\Debug\net7.0\TravelingTrips.runtimeconfig.json
+C:\Repositories\Новая папка\bin\Debug\net7.0\TravelingTrips.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\TravelingTrips.pdb
+C:\Repositories\Новая папка\bin\Debug\net7.0\Azure.Core.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Azure.Identity.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Humanizer.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.JSInterop.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\MudBlazor.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\System.CodeDom.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Repositories\Новая папка\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Repositories\Новая папка\obj\Debug\net7.0\TravelingTrips.csproj.AssemblyReference.cache
+C:\Repositories\Новая папка\obj\Debug\net7.0\TravelingTrips.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositories\Новая папка\obj\Debug\net7.0\TravelingTrips.AssemblyInfoInputs.cache
+C:\Repositories\Новая папка\obj\Debug\net7.0\TravelingTrips.AssemblyInfo.cs
+C:\Repositories\Новая папка\obj\Debug\net7.0\TravelingTrips.csproj.CoreCompileInputs.cache
+C:\Repositories\Новая папка\obj\Debug\net7.0\TravelingTrips.MvcApplicationPartsAssemblyInfo.cache
+C:\Repositories\Новая папка\obj\Debug\net7.0\TravelingTrips.RazorAssemblyInfo.cache
+C:\Repositories\Новая папка\obj\Debug\net7.0\TravelingTrips.RazorAssemblyInfo.cs
+C:\Repositories\Новая папка\obj\Debug\net7.0\TravelingTrips.sourcelink.json
+C:\Repositories\Новая папка\obj\Debug\net7.0\staticwebassets.build.json
+C:\Repositories\Новая папка\obj\Debug\net7.0\staticwebassets.development.json
+C:\Repositories\Новая папка\obj\Debug\net7.0\staticwebassets\msbuild.TravelingTrips.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Repositories\Новая папка\obj\Debug\net7.0\staticwebassets\msbuild.build.TravelingTrips.props
+C:\Repositories\Новая папка\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.TravelingTrips.props
+C:\Repositories\Новая папка\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.TravelingTrips.props
+C:\Repositories\Новая папка\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Repositories\Новая папка\obj\Debug\net7.0\scopedcss\bundle\TravelingTrips.styles.css
+C:\Repositories\Новая папка\obj\Debug\net7.0\TravelingTrips.csproj.CopyComplete
+C:\Repositories\Новая папка\obj\Debug\net7.0\TravelingTrips.dll
+C:\Repositories\Новая папка\obj\Debug\net7.0\refint\TravelingTrips.dll
+C:\Repositories\Новая папка\obj\Debug\net7.0\TravelingTrips.pdb
+C:\Repositories\Новая папка\obj\Debug\net7.0\TravelingTrips.genruntimeconfig.cache
+C:\Repositories\Новая папка\obj\Debug\net7.0\ref\TravelingTrips.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\appsettings.Development.json
+C:\Work\Traveling Trips\bin\Debug\net7.0\appsettings.json
+C:\Work\Traveling Trips\bin\Debug\net7.0\TravelingTrips.staticwebassets.runtime.json
+C:\Work\Traveling Trips\bin\Debug\net7.0\TravelingTrips.exe
+C:\Work\Traveling Trips\bin\Debug\net7.0\TravelingTrips.deps.json
+C:\Work\Traveling Trips\bin\Debug\net7.0\TravelingTrips.runtimeconfig.json
+C:\Work\Traveling Trips\bin\Debug\net7.0\TravelingTrips.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\TravelingTrips.pdb
+C:\Work\Traveling Trips\bin\Debug\net7.0\Azure.Core.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Azure.Identity.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Humanizer.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.JSInterop.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\MudBlazor.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\System.CodeDom.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Work\Traveling Trips\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Work\Traveling Trips\obj\Debug\net7.0\TravelingTrips.csproj.AssemblyReference.cache
+C:\Work\Traveling Trips\obj\Debug\net7.0\TravelingTrips.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Traveling Trips\obj\Debug\net7.0\TravelingTrips.AssemblyInfoInputs.cache
+C:\Work\Traveling Trips\obj\Debug\net7.0\TravelingTrips.AssemblyInfo.cs
+C:\Work\Traveling Trips\obj\Debug\net7.0\TravelingTrips.csproj.CoreCompileInputs.cache
+C:\Work\Traveling Trips\obj\Debug\net7.0\TravelingTrips.MvcApplicationPartsAssemblyInfo.cache
+C:\Work\Traveling Trips\obj\Debug\net7.0\TravelingTrips.RazorAssemblyInfo.cache
+C:\Work\Traveling Trips\obj\Debug\net7.0\TravelingTrips.RazorAssemblyInfo.cs
+C:\Work\Traveling Trips\obj\Debug\net7.0\TravelingTrips.sourcelink.json
+C:\Work\Traveling Trips\obj\Debug\net7.0\staticwebassets.build.json
+C:\Work\Traveling Trips\obj\Debug\net7.0\staticwebassets.development.json
+C:\Work\Traveling Trips\obj\Debug\net7.0\staticwebassets\msbuild.TravelingTrips.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Work\Traveling Trips\obj\Debug\net7.0\staticwebassets\msbuild.build.TravelingTrips.props
+C:\Work\Traveling Trips\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.TravelingTrips.props
+C:\Work\Traveling Trips\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.TravelingTrips.props
+C:\Work\Traveling Trips\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Work\Traveling Trips\obj\Debug\net7.0\scopedcss\bundle\TravelingTrips.styles.css
+C:\Work\Traveling Trips\obj\Debug\net7.0\Travelin.DB980E92.Up2Date
+C:\Work\Traveling Trips\obj\Debug\net7.0\TravelingTrips.dll
+C:\Work\Traveling Trips\obj\Debug\net7.0\refint\TravelingTrips.dll
+C:\Work\Traveling Trips\obj\Debug\net7.0\TravelingTrips.pdb
+C:\Work\Traveling Trips\obj\Debug\net7.0\TravelingTrips.genruntimeconfig.cache
+C:\Work\Traveling Trips\obj\Debug\net7.0\ref\TravelingTrips.dll

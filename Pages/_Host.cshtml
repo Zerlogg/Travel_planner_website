@@ -1,8 +1,12 @@
 ﻿@page "/"
+@using Microsoft.AspNetCore.Components.Authorization
 @using Microsoft.AspNetCore.Components.Web
 @using Microsoft.AspNetCore.Mvc.TagHelpers
+@using TravelingTrips.Services
 @namespace TravelingTrips.Pages
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@inject IUserService UserService
+@inject AuthenticationStateProvider AuthenticationStateProvider
 
 <!DOCTYPE html>
 <html lang="en">
@@ -36,9 +40,24 @@
     <script src="_framework/blazor.server.js"></script>
     <script src="_content/MudBlazor/MudBlazor.min.js"></script>
     <script>
-        function initializeMap() {
+        async function initializeMap() {
+            const list = [];
             var map = L.map('map').setView([56.941978, 24.120483], 4);
             
+            // Fetch pins from the server
+            var pinsResponse = await fetch('/api/pins');
+            var pins = await pinsResponse.json();
+            
+            pins.forEach(pin => {
+                var marker = L.marker([pin.latitude, pin.longitude]).addTo(map);
+                marker.on('click', async function() {
+                    var deleteResponse = await fetch(`/api/pins?latitude=${pin.latitude}&longitude=${pin.longitude}`, {
+                        method: 'DELETE'
+                    });
+                    map.removeLayer(marker);
+                });
+            });
+
             var customBounds = L.latLngBounds(
                 L.latLng(-140, -160),
                 L.latLng(140, 160) 
@@ -54,8 +73,22 @@
               minZoom: 3
             }).addTo(map);
             
+            list.forEach(element => {
+                element.map(x => x.longitude);
+                console.log(element);
+            });
+            
             map.on("click", function(e){
-                var marker = new L.marker([e.latlng.lat, e.latlng.lng]).addTo(map).on('click', e=> e.target.remove());
+                // Extract latitude and longitude from the event object
+                var latitude = e.latlng.lat;
+                var longitude = e.latlng.lng;
+
+                // Now you can use latitude and longitude to save the pin to the database
+                // For example, you can call a JavaScript function to send this data to the server
+                savePinToDatabase(latitude, longitude);
+
+                // Add a marker to the clicked location
+                var marker = new L.marker([latitude, longitude]).addTo(map).on('click', e=> e.target.remove());
             })
             
             var timezones = L.timezones.bindPopup(function (layer) {
@@ -71,6 +104,30 @@
             }
             
             L.control.layers(baseMaps, overlayMaps).addTo(map);
+        }
+
+        // Function to save pin to the database
+        function savePinToDatabase(latitude, longitude) {
+            // You can send an HTTP request to your server to save the pin data
+            // For example, you can use fetch API or Axios to send a POST request to your server endpoint
+            // Example using fetch API:
+            // longitude = longitude.toString().replace(".", ",");
+            // latitude = latitude.toString().replace(".", ",");
+            fetch('/api/pins', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ latitude: latitude, longitude: longitude }),
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Failed to save pin to the database. Server responded with status: ' + response.status);
+                }
+            })
+            .catch(error => {
+                console.error('Error while saving pin to the database:', error);
+            });
         }
     </script>
 </body>

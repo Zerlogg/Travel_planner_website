@@ -1,9 +1,10 @@
 @page "/travels"
+@using TravelingTrips.Services
 @inject DataContext Context
 @inject NavigationManager NavigationManager
 @inject ISnackbar Snackbar
 @inject IDialogService DialogService
-@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject IUserService UserService
 @attribute [Authorize]
 
 <MudContainer Class="pa-0 mb-4">

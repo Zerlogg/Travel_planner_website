@@ -31,4 +31,6 @@ public class DataContext : IdentityDbContext
     public DbSet<Travel> Travels { get; set; }
     
     public DbSet<TravelFolders> TravelFolders { get; set; }
+    
+    public DbSet<MapPin> MapPins { get; set; }
 }

@@ -1,22 +1,20 @@
 using Microsoft.EntityFrameworkCore;
 using MudBlazor;
 using TravelingTrips.Models;
+using TravelingTrips.Services;
 
 namespace TravelingTrips.Pages.TravelComponents;
 
 public partial class TravelCollection 
 {
+    public TravelCollection()
+    {
+    }
     private string? TextValue { get; set; }
 
     private List<Travel> _travels = new List<Travel>();
     
     private List<Travel> _filteredTravels = new List<Travel>();
-    
-    async Task<string> getUserId(){
-        var user = (await AuthenticationStateProvider.GetAuthenticationStateAsync()).User;
-        var UserId = user.FindFirst(u => u.Type.Contains("nameidentifier"))?.Value;
-        return UserId;
-    }
     
     protected override async Task OnInitializedAsync()
     {
@@ -30,7 +28,7 @@ public partial class TravelCollection
 
     private async Task LoadTravels()
     {
-        var userId = await getUserId();
+        var userId = await UserService.GetUserId();
         _travels = await Context.Travels.Where(x => x.UserId == userId).ToListAsync();
         ApplySearchFilter();
     }

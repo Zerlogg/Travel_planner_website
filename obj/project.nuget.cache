@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JRuGaPzJ8HxUQmkVIeWe/PN98lmOY5Y5YBNar0Y2iXZTsVoHm1WfTjI3WOgU2w6YHeWzMzTp8ypHEZbFum6hPA==",
+  "dgSpecHash": "ulYhlOh468OfWGP/Gw09E+m4YTHMMoGuTL6+CZo6H+RYlthedNWGGFAMWaNl8j9caN69DT6VwxO/QbT9mT+1TQ==",
   "success": true,
-  "projectFilePath": "C:\\Work\\TravelingTrips\\TravelingTrips.csproj",
+  "projectFilePath": "C:\\Work\\Traveling Trips\\TravelingTrips.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emils Mafija\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Emils Mafija\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
