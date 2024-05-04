@@ -29,6 +29,14 @@ public class Login : PageModel
 
         if (ModelState.IsValid)
         {
+            var userExists = await _signInManager.UserManager.FindByNameAsync(Input.Username);
+        
+            if (userExists == null)
+            {
+                ModelState.AddModelError(string.Empty, "User does not exist.");
+                return Page();
+            }
+            
             var result = await _signInManager.PasswordSignInAsync(Input.Username, Input.Password, false, lockoutOnFailure: false);
 
             if (result.Succeeded)
@@ -37,8 +45,13 @@ public class Login : PageModel
                 ViewData["UserId"] = user.Id;
                 return LocalRedirect(ReturnUrl);
             }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                return Page();
+            }
         }
-
+        
         return Page();
     }
     

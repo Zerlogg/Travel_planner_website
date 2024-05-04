@@ -6,8 +6,13 @@
 <MudForm @ref="_form" @bind-IsValid="@_success" Model="CurrentFolder" @bind-Errors="@_errors">
     <MudDialog>
         <DialogContent>
-            <MudContainer Class="px-0 d-flex align-center">
-                <MudTextField T="string" Label="Title" Required="true" @bind-Value="@CurrentFolder.Title" Variant="Variant.Outlined" Class="mt-0" Style="width: 400px"></MudTextField>
+            <MudContainer Class="px-0 gap-2 align-center d-flex flex-column">
+                <MudTextField T="string" Label="Title" Required="true" @bind-Value="@CurrentFolder.Title" Variant="Variant.Outlined" Class="mt-0" Style="width: 300px"/>
+                <MudColorPicker Rounded="true" Class="rounded-tr-0" PickerVariant="PickerVariant.Static" Value="_pickerColor" ValueChanged="UpdateSelectedColor" 
+                                DisableModeSwitch="true"
+                                DisableColorField="true"
+                                DisableInputs="true"
+                                DisableAlpha="true"/>
             </MudContainer>
         </DialogContent>
         <DialogActions>

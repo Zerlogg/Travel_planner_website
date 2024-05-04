@@ -8,7 +8,7 @@
 
 <MudGrid Class="justify-center d-flex mt-4">
     <MudItem xs="12" sm="5">
-        <MudPaper Class="pa-4">
+        <MudPaper Class="pa-4 grey lighten-5" Elevation="4">
             <MudForm @ref="_form" @bind-IsValid="@_success" Model="CurrentTrip" @bind-Errors="@_errors">
                 <MudTextField T="string" Label="Where to?" HelperText="e.g. Paris, Washington, Riga" @bind-Value="CurrentTrip.City" Required="true"/>
                 <MudTextField T="string" Label="Description" @bind-Value="CurrentTrip.Description"/>
@@ -19,7 +19,7 @@
                 <MudNumericField @bind-Value="CurrentTrip.Budget" Label="Trip budget" Required="true" Format="F2" Class="mt-4" HideSpinButtons="true" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Euro"/>
                 <MudTextField T="string" Label="Accommodation preferences" HelperText="e.g. hotels, hostels, camping" @bind-Value="CurrentTrip.Accommodation" Required="true"/>
                 <MudTextField T="string" Label="Personal preferences" Variant="Variant.Outlined" Lines="3" Class="mt-4" @bind-Value="CurrentTrip.Preferences"/>
-                <MudButton Variant="Variant.Filled" Color="Color.Primary" Disabled="@(!_success)" OnClick="CreateTrip" Class="mt-4">Register</MudButton>
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" Disabled="@(!_success)" OnClick="CreateTrip" Class="mt-4">Create</MudButton>
                 <MudButton Href="/travels" Class="mt-4">Cancel</MudButton>
             </MudForm>   
         </MudPaper> 

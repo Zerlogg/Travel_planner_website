@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using TravelingTrips.Models;
+using Folder = TravelingTrips.Models.Folder;
+using MapPin = TravelingTrips.Models.MapPin;
+using Travel = TravelingTrips.Models.Travel;
+using TravelFolders = TravelingTrips.Models.TravelFolders;
 
 namespace TravelingTrips.Data;
 

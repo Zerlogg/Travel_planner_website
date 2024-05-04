@@ -1,21 +1,22 @@
-﻿@page "/folders"
+﻿@page "/collections"
 @inject DataContext Context
 @inject IDialogService DialogService
 @inject ISnackbar Snackbar
 @inject AuthenticationStateProvider AuthenticationStateProvider
 @inject NavigationManager NavigationManager
+@inject IJSRuntime js
 @attribute [Authorize]
 
 <MudContainer Class="pa-0 mb-4">
     <MudPaper Class="mud-theme-primary pa-5 mb-4">
-        <MudText Typo="Typo.h4" Class="pb-1"><b>Your Folders page</b></MudText>
-        <MudText Typo="Typo.h5">You currently have @_folderList.Count folders created</MudText>
+        <MudText Typo="Typo.h4" Class="pb-1"><b>Your Collections page</b></MudText>
+        <MudText Typo="Typo.h5">You currently have @_folderList.Count collections created</MudText>
     </MudPaper>
 
     <MudContainer Class="gap-2 align-center d-inline-flex pa-0">
-        <MudTextField AdornmentIcon="@Icons.Material.Filled.Search" Adornment="Adornment.Start" Margin="Margin.Dense" Placeholder="Search folder" Variant="Variant.Outlined" @bind-Value="TextValue" Class="ma-0" />
+        <MudTextField AdornmentIcon="@Icons.Material.Filled.Search" Adornment="Adornment.Start" Margin="Margin.Dense" Placeholder="Search collection" Variant="Variant.Outlined" @bind-Value="TextValue" Class="ma-0" />
         <MudButton Variant="Variant.Outlined" Color="Color.Primary" StartIcon="@Icons.Material.Filled.Search" OnClick="SearchFolders">Search</MudButton>
-        <MudButton Variant="Variant.Outlined" StartIcon="@Icons.Material.Filled.Add" OnClick="AddFolder" Color="Color.Primary">Add folder</MudButton>
+        <MudButton Variant="Variant.Outlined" StartIcon="@Icons.Material.Filled.Add" OnClick="AddFolder" Color="Color.Primary">Add collection</MudButton>
     </MudContainer>
 </MudContainer>
 
@@ -26,17 +27,18 @@
         @foreach (var folder in _filteredFolders)
         {
             <MudContainer Class="px-0 mb-4">
-                <MudPaper Class="d-flex mb-3 py-2 px-4 align-center mud-theme-primary">
-                    <MudText Typo="Typo.h5" Style="color: white">@folder.Title / 4 Objects</MudText>
+                <MudPaper Class="d-flex mb-3 py-2 px-4 align-center"
+                          Style="@($"background-color: {(folder.Color ?? "#FFFFFF")}; color: {GetTextColorForBackground(folder.Color)}")">
+                    <MudText Color="Color.Inherit" Typo="Typo.h5">@($"{folder.Title} / {folder.Travels.Count} Objects")</MudText>
                     <MudSpacer/>
-                    <MudIconButton Icon="@Icons.Material.Filled.Edit" Style="color: white" @onclick="() => EditFolder(folder.Id)"/>
-                    <MudIconButton Icon="@Icons.Material.Filled.Delete" Style="color: white" @onclick="() => DeleteFolder(folder.Id)"/>
+                    <MudIconButton Color="Color.Inherit" Icon="@Icons.Material.Filled.Edit" @onclick="() => EditFolder(folder.Id)"/>
+                    <MudIconButton Color="Color.Inherit" Icon="@Icons.Material.Filled.Delete" @onclick="() => DeleteFolder(folder.Id)"/>
                 </MudPaper>
 
                 <MudContainer class="d-inline-flex gap-3 justify-left px-0 mb-3 flex-wrap" Fixed="true">
                     @foreach (var travel in folder.Travels)
                     {
-                        <MudCard Style="width: 310px;">
+                        <MudCard Style="width: 310px;" Class="cursor-pointer" @onclick="() => NavigateToDetails(travel.Id)">
                             <MudCardMedia Image="/Images/France.jpg" Height="160"/>
                             <MudCardContent Class="pb-0">
                                 <MudText Typo="Typo.h6">@travel.City</MudText>
@@ -44,10 +46,10 @@
                                 <MudText Typo="Typo.body2" Class="pt-2">@($"{travel.StartDate:dd.MM.yyyy} - {travel.EndDate:dd.MM.yyyy}")</MudText>
                             </MudCardContent>
                             <MudCardActions>
-                                <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default"/>
-                                <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default"/>
+                                <MudIconButton Icon="@Icons.Material.Filled.PictureAsPdf" Color="Color.Default" @onclick="@(p=>DownloadFile("YourTrip.pdf"))"/>
+                                <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default" @onclick="() => DeleteTravel(travel.Id)"/>
                                 <MudSpacer/>
-                                <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="Color.Default"/>
+                                <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="Color.Default" @onclick="() => EditTravel(travel.Id)"/>
                             </MudCardActions>
                         </MudCard>
                     }
@@ -57,12 +59,12 @@
     }
     else
     {
-        <MudText Typo="Typo.body1">No folders found.</MudText>
+        <MudText Typo="Typo.body1">No collections found.</MudText>
     }
 }
 else
 {
     <MudContainer class="d-flex px-0">
-        <MudText Typo="Typo.h5" Class="ml-auto mr-auto mt-16">You haven't created any folders yet</MudText>
+        <MudText Typo="Typo.h5" Class="ml-auto mr-auto mt-16">You haven't created any collections yet</MudText>
     </MudContainer>
 }

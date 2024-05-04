@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\js\\L.timezones.js"
     },
     {
+      "Id": "C:\\Work\\Traveling Trips\\wwwroot\\js\\PDFGenerate.js",
+      "PackagePath": "staticwebassets\\js\\PDFGenerate.js"
+    },
+    {
       "Id": "C:\\Work\\Traveling Trips\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },

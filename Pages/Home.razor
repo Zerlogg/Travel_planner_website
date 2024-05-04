@@ -1,7 +1,12 @@
 ﻿@page "/home"
-@inject IJSRuntime JSRuntime
+@using TravelingTrips.Pages.TravelComponents
+@using TravelingTrips.Pages.TravelComponents.Print
+@inject IJSRuntime js
 @inject DataContext Context
 @inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
+@inject ISnackbar Snackbar
+@inject IDialogService DialogService
 @attribute [Authorize]
 
 <AuthorizeView>
@@ -33,27 +38,36 @@
 
         <MudContainer Class="mb-14 pa-0">
             <MudContainer Class="d-flex mb-6 pa-0">
-                <MudText Typo="Typo.h5" Class="pr-4">Your recently viewed trips</MudText>
+                <MudText Typo="Typo.h5" Class="pr-4">Your recently created trips</MudText>
                 <MudButton Variant="Variant.Outlined" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" Href="/travelcreate">Create</MudButton>
             </MudContainer>
 
             <MudContainer class="d-inline-flex gap-3 justify-left px-0 flex-wrap" Fixed="true">
-                @foreach (var travel in _travels.Take(4))
+                @if (_travels.Any())
                 {
-                    <MudCard Style="width: 310px;">
-                        <MudCardMedia Image="/Images/France.jpg" Height="160"/>
-                        <MudCardContent Class="pb-0">
-                            <MudText Typo="Typo.h6">Trip to @travel.City</MudText>
-                            <MudText Typo="Typo.body2" Class="pt-1">@travel.Description</MudText>
-                            <MudText Typo="Typo.body2" Class="pt-2">@($"{travel.StartDate:dd.MM.yyyy} - {travel.EndDate:dd.MM.yyyy}")</MudText>
-                        </MudCardContent>
-                        <MudCardActions>
-                            <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default"/>
-                            <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default"/>
-                            <MudSpacer/>
-                            <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="Color.Default"/>
-                        </MudCardActions>
-                    </MudCard>
+                    @foreach (var travel in _travels.Take(4))
+                    {
+                        <MudCard Style="width: 310px;">
+                            <MudCardMedia Image="/Images/France.jpg" Height="160"/>
+                            <MudCardContent Class="pb-0">
+                                <MudText Typo="Typo.h6">Trip to @travel.City</MudText>
+                                <MudText Typo="Typo.body2" Class="pt-1">@travel.Description</MudText>
+                                <MudText Typo="Typo.body2" Class="pt-2">@($"{travel.StartDate:dd.MM.yyyy} - {travel.EndDate:dd.MM.yyyy}")</MudText>
+                            </MudCardContent>
+                            <MudCardActions>
+                                <MudIconButton Icon="@Icons.Material.Filled.PictureAsPdf" Color="Color.Default" @onclick="@(p=>DownloadFile("YourTrip.pdf"))"/>
+                                <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default" @onclick="() => DeleteTravel(travel.Id)"/>
+                                <MudSpacer/>
+                                <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="Color.Default" @onclick="() => EditTravel(travel.Id)"/>
+                            </MudCardActions>
+                        </MudCard>
+                    }
+                }
+                else
+                {
+                    <MudContainer class="d-flex flex-column justify-center align-center" Fixed="true">
+                        <MudText Typo="Typo.h5">You haven't created any trips yet</MudText>
+                    </MudContainer>
                 }
             </MudContainer>
         </MudContainer>
@@ -70,10 +84,10 @@
 </AuthorizeView>
 
 
-    @code {
+@code {
     private async Task InitializeMapAsync()
     {
-        await JSRuntime.InvokeVoidAsync("initializeMap");
+        await js.InvokeVoidAsync("initializeMap");
     }
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
@@ -98,5 +112,35 @@
     {
         var userId = await getUserId();
         _travels = await Context.Travels.Where(x => x.UserId == userId).ToListAsync();
+    }
+    
+    private void ReloadPage()
+    {
+        NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
+    }
+    
+    private void DownloadFile(string filename)
+    {
+        var pdf = new PDFGenerator();
+        pdf.DownloadPDF(js, filename);
+    }
+    
+    private void EditTravel(int id)
+    {
+        var parameters = new DialogParameters { { "Id", id } };
+        var options = new DialogOptions { CloseOnEscapeKey = true };
+        DialogService.Show<TravelDialog>("Edit trip", parameters, options);
+    }
+    
+    private async Task DeleteTravel(int id)
+    {
+        var dbTravel = await Context.Travels.FindAsync(id);
+        if (dbTravel != null)
+        {
+            Context.Remove(dbTravel);
+            await Context.SaveChangesAsync();
+            Snackbar.Add("Trip was successfully deleted");
+        }
+        ReloadPage();
     }
 }

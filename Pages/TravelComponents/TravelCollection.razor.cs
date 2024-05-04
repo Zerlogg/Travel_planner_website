@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using MudBlazor;
 using TravelingTrips.Models;
+using TravelingTrips.Pages.TravelComponents.Print;
 using TravelingTrips.Services;
 
 namespace TravelingTrips.Pages.TravelComponents;
@@ -31,6 +32,12 @@ public partial class TravelCollection
         var userId = await UserService.GetUserId();
         _travels = await Context.Travels.Where(x => x.UserId == userId).ToListAsync();
         ApplySearchFilter();
+    }
+    
+    private void DownloadFile(string filename)
+    {
+        var pdf = new PDFGenerator();
+        pdf.DownloadPDF(js, filename);
     }
     
     private void EditTravel(int id)

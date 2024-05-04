@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SMF/BdMzaHY5ULkCErLay8AT4XCpO5r83whvF4bZtEU=",
+  "Hash": "Pz9U16hAPOK08tOXlfadodoyMQMxk5GP+XMX5Ne8qWI=",
   "Source": "TravelingTrips",
   "BasePath": "_content/TravelingTrips",
   "Mode": "Default",
@@ -205,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\L.timezones.js"
+    },
+    {
+      "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\js\\PDFGenerate.js",
+      "SourceId": "TravelingTrips",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Work\\Traveling Trips\\wwwroot\\",
+      "BasePath": "_content/TravelingTrips",
+      "RelativePath": "js/PDFGenerate.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\PDFGenerate.js"
     },
     {
       "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\sample-data\\weather.json",

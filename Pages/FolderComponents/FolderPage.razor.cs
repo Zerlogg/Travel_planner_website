@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using MudBlazor;
 using TravelingTrips.Models;
+using TravelingTrips.Pages.TravelComponents;
+using TravelingTrips.Pages.TravelComponents.Print;
 
 namespace TravelingTrips.Pages.FolderComponents;
 
@@ -65,7 +67,7 @@ public partial class FolderPage
     private void AddFolder()
     {
         var options = new DialogOptions { CloseOnEscapeKey = true };
-        DialogService.Show<FolderDialog>("Add folder", options);
+        DialogService.Show<FolderDialog>("Add collection", options);
     }
     
     private void ApplySearchFilter()
@@ -84,5 +86,49 @@ public partial class FolderPage
     {
         ApplySearchFilter();
         StateHasChanged();
+    }
+    
+    private void NavigateToDetails(int id)
+    {
+        NavigationManager.NavigateTo($"travelpage/{id}");
+    }
+    
+    private void DownloadFile(string filename)
+    {
+        var pdf = new PDFGenerator();
+        pdf.DownloadPDF(js, filename);
+    }
+    
+    private void EditTravel(int id)
+    {
+        var parameters = new DialogParameters { { "Id", id } };
+        var options = new DialogOptions { CloseOnEscapeKey = true };
+        DialogService.Show<TravelDialog>("Edit trip", parameters, options);
+    }
+    
+    private async Task DeleteTravel(int id)
+    {
+        var dbTravel = await Context.Travels.FindAsync(id);
+        if (dbTravel != null)
+        {
+            Context.Remove(dbTravel);
+            await Context.SaveChangesAsync();
+            Snackbar.Add("Trip was successfully deleted");
+        }
+        ReloadPage();
+    }
+    
+    private string GetTextColorForBackground(string? backgroundColor)
+    {
+        if (string.IsNullOrWhiteSpace(backgroundColor))
+        {
+            return "black";
+        }
+        
+        var color = System.Drawing.ColorTranslator.FromHtml(backgroundColor);
+        
+        double luminance = 0.2126 * color.R + 0.7152 * color.G + 0.0722 * color.B;
+        
+        return luminance > 128 ? "black" : "white";
     }
 }

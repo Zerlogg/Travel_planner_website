@@ -3,13 +3,13 @@
 
 <MudPaper Style="overflow:hidden; position:relative;" Class="px-0">
     <MudDrawerContainer>
-        <MudDrawer @bind-Open="@_open" Fixed="false" Elevation="1" Variant="@DrawerVariant.Mini" OpenMiniOnHover="true">
+        <MudDrawer @bind-Open="@_open" Fixed="false" Elevation="1" Color="Color.Primary" Variant="@DrawerVariant.Mini" OpenMiniOnHover="true">
             <MudNavMenu>
                 <MudText Typo="Typo.h5" Class="px-5 py-3"><b>Trip to @CurrentTrip.City</b></MudText>
                 <MudDivider />
-                <MudNavLink Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home" @onclick="@(e => OnNavLinkClick("Home"))">Home</MudNavLink>
-                <MudNavLink Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Hotel" @onclick="@(e => OnNavLinkClick("Accommodation"))">Accommodation</MudNavLink>
-                <MudNavLink Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.CalendarToday" @onclick="@(e => OnNavLinkClick("Days"))">Days</MudNavLink>
+                <MudNavLink Match="NavLinkMatch.All" IconColor="Color.Inherit" Icon="@Icons.Material.Filled.Home" @onclick="@(e => OnNavLinkClick("Home"))">Home</MudNavLink>
+                <MudNavLink Match="NavLinkMatch.All" IconColor="Color.Inherit" Icon="@Icons.Material.Filled.Hotel" @onclick="@(e => OnNavLinkClick("Accommodation"))">Accommodation</MudNavLink>
+                <MudNavLink Match="NavLinkMatch.All" IconColor="Color.Inherit" Icon="@Icons.Material.Filled.CalendarToday" @onclick="@(e => OnNavLinkClick("Days"))">Days</MudNavLink>
             </MudNavMenu>
         </MudDrawer>
         @if (_selectedPage == "Home")

@@ -12,7 +12,8 @@ public partial class FolderDialog
     private string[] _errors = Array.Empty<string>();
 
     private MudForm? _form;
-
+    
+    private MudColor _pickerColor = "#594AE2";
     
     [Parameter]
     public int? Id { get; set; }
@@ -55,15 +56,14 @@ public partial class FolderDialog
     private async Task EditFolder()
     {
         var dbFolder = await Context.Folders.FindAsync(Id);
-        
+
         if (dbFolder != null)
         {
             dbFolder.Title = CurrentFolder.Title;
+            dbFolder.Color = ConvertMudColorToHex(_pickerColor); // Convert MudColor to hex string
 
             await Context.SaveChangesAsync();
-            
-            StateHasChanged();
-            
+
             Snackbar.Add("Folder was successfully saved");
         }
 
@@ -80,15 +80,25 @@ public partial class FolderDialog
     private async Task CreateFolder()
     {
         CurrentFolder.UserId = await getUserId();
+        CurrentFolder.Color = ConvertMudColorToHex(_pickerColor); // Convert MudColor to hex string
+
         Context.Folders.Add(CurrentFolder);
-        
         await Context.SaveChangesAsync();
 
         MudDialog?.Close(DialogResult.Ok(true));
-        
         Snackbar.Add("Folder was successfully created");
         ReloadPage();
     }
 
+    private void UpdateSelectedColor(MudColor value)
+    {
+        _pickerColor = value;
+    }
+    
+    private string ConvertMudColorToHex(MudColor color)
+    {
+        return $"#{color.R:X2}{color.G:X2}{color.B:X2}";
+    }
+    
     private void Cancel() => MudDialog?.Cancel();
 }
