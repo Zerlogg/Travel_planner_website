@@ -1,6 +1,6 @@
 ﻿@inherits LayoutComponentBase
 @inject IDialogService DialogService
-@using TravelingTrips.Pages.UserComponents
+@using TravelingTrips.Pages
 
 <PageTitle>Traveling trips</PageTitle>
 
@@ -18,9 +18,8 @@
             <MudLink Href="/collections" Color="Color.Inherit" Typo="Typo.h6" Class="pr-8">Collections</MudLink>
             <MudLink Href="/map" Color="Color.Inherit" Typo="Typo.h6" Class="pr-8">Map</MudLink>
             <MudSpacer/>
-            <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Inherit" Target="_blank" @onclick="Settings"/>
             <MudIconButton Icon="@Icons.Material.Filled.AccountCircle" Color="Color.Inherit" Target="_blank" @onclick="Profile"/>
-            <MudLink Href="/logout" Color="Color.Inherit" Typo="Typo.h6" Underline="Underline.None" Class="pl-4">Sign out</MudLink>
+            <MudLink Href="/logout" Color="Color.Inherit" Typo="Typo.h6" Underline="Underline.None" Class="pl-3">Sign out</MudLink>
         </MudContainer>
     </MudAppBar>
     <MudMainContent>
@@ -36,14 +35,5 @@
     {
         var options = new DialogOptions { CloseOnEscapeKey = true };
         DialogService.Show<ProfileDialog>("Your profile", options);
-    }
-}
-
-@code {
-
-    private void Settings()
-    {
-        var options = new DialogOptions { CloseOnEscapeKey = true };
-        DialogService.Show<SettingsDialog>("Your settings", options);
     }
 }

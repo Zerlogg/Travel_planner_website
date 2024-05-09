@@ -1,7 +1,12 @@
-﻿namespace TravelingTrips.Services
+﻿using TravelingTrips.Models;
+
+namespace TravelingTrips.Services;
+
+public interface IUserService
 {
-    public interface IUserService
-    {
-        Task<string> GetUserId();
-    }
+    Task UpdateUser(User user);
+    Task<User> GetCurrentUser();
+    Task<string> GetUserId(); 
+    Task<bool> VerifyUserPassword(User user, string password);
+    Task<bool> ChangeUserPassword(string userId, string currentPassword, string newPassword);
 }

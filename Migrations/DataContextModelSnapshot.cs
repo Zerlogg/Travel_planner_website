@@ -239,7 +239,7 @@ namespace TravelingTrips.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Folders");
+                    b.ToTable("Folders", (string)null);
 
                     b.HasData(
                         new
@@ -273,7 +273,7 @@ namespace TravelingTrips.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("MapPins");
+                    b.ToTable("MapPins", (string)null);
                 });
 
             modelBuilder.Entity("TravelingTrips.Models.Travel", b =>
@@ -310,7 +310,7 @@ namespace TravelingTrips.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Travels");
+                    b.ToTable("Travels", (string)null);
 
                     b.HasData(
                         new
@@ -356,7 +356,7 @@ namespace TravelingTrips.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("TravelFolders");
+                    b.ToTable("TravelFolders", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

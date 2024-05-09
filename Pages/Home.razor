@@ -1,4 +1,5 @@
 ﻿@page "/home"
+@using System.Security.Claims
 @using TravelingTrips.Pages.TravelComponents
 @using TravelingTrips.Pages.TravelComponents.Print
 @inject IJSRuntime js
@@ -11,30 +12,33 @@
 
 <AuthorizeView>
     <Authorized>
-        <MudCarousel Class="mud-width-full mb-14 rounded" Style="height:260px;" ShowArrows="true" ShowBullets="true" EnableSwipeGesture="true" AutoCycle="true" TData="object">
-            <MudCarouselItem Transition="Transition.Slide" Color="@Color.Primary">
-                <MudContainer class="d-flex flex-column justify-center align-center pb-2" style="height:100%" Fixed="true">
-                    <MudText Typo="Typo.h2"><b>Welcome @context.User.Identity?.Name to Traveling Trips!</b></MudText>
-                    <MudText Typo="Typo.h4">Plan your next travel today</MudText>
-                </MudContainer>
-            </MudCarouselItem>
-            <MudCarouselItem Transition="Transition.Slide" Color="@Color.Secondary" class="d-flex align-center">
-                <MudImage Src="/Images/France.jpg" Style="width: 100%; height: 350px" Alt="France"/>
-                <MudContainer class="d-flex flex-column justify-center align-center pb-2" style="height:100%; position: absolute" Fixed="true">
-                    <MudText Typo="Typo.h3" Class="mb-2 outline-text"><b>Trip to Paris</b></MudText>
-                    <MudText Typo="Typo.h4" Class="mb-3 outline-text">Save 20% on your next trip!</MudText>
-                    <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.BookmarkAdded" Color="Color.Primary" Size="Size.Small" Href="/travelcreate" Class="py-3">Book now</MudButton>
-                </MudContainer>
-            </MudCarouselItem>
-            <MudCarouselItem Transition="Transition.Slide" Color="Color.Dark" class="d-flex align-center">
-                <MudImage Src="/Images/America.jpg" Style="width: 100%; height: 350px" Alt="America"/>
-                <MudContainer class="d-flex flex-column justify-center align-center pb-2" style="height:100%; position: absolute" Fixed="true">
-                    <MudText Typo="Typo.h3" Class="mb-2 outline-text"><b>Trip to Washington</b></MudText>
-                    <MudText Typo="Typo.h4" Class="mb-3 outline-text">Save 15% on your next trip!</MudText>
-                    <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.BookmarkAdded" Color="Color.Primary" Size="Size.Small" Href="/travelcreate" Class="py-3">Book now</MudButton>
-                </MudContainer>
-            </MudCarouselItem>
-        </MudCarousel>
+        @if (currentUser != null)
+        {
+            <MudCarousel Class="mud-width-full mb-14 rounded" Style="height:260px;" ShowArrows="true" ShowBullets="true" EnableSwipeGesture="true" AutoCycle="true" TData="object">
+                <MudCarouselItem Transition="Transition.Slide" Color="@Color.Primary">
+                    <MudContainer class="d-flex flex-column justify-center align-center pb-2" style="height:100%" Fixed="true">
+                        <MudText Typo="Typo.h2"><b>Welcome @currentUser.UserName to Traveling Trips!</b></MudText>
+                        <MudText Typo="Typo.h4">Plan your next travel today</MudText>
+                    </MudContainer>
+                </MudCarouselItem>
+                <MudCarouselItem Transition="Transition.Slide" Color="@Color.Secondary" class="d-flex align-center">
+                    <MudImage Src="/Images/France.jpg" Style="width: 100%; height: 350px" Alt="France"/>
+                    <MudContainer class="d-flex flex-column justify-center align-center pb-2" style="height:100%; position: absolute" Fixed="true">
+                        <MudText Typo="Typo.h3" Class="mb-2 outline-text"><b>Trip to Paris</b></MudText>
+                        <MudText Typo="Typo.h4" Class="mb-3 outline-text">Save 20% on your next trip!</MudText>
+                        <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.BookmarkAdded" Color="Color.Primary" Size="Size.Small" Href="/travelcreate" Class="py-3">Book now</MudButton>
+                    </MudContainer>
+                </MudCarouselItem>
+                <MudCarouselItem Transition="Transition.Slide" Color="Color.Dark" class="d-flex align-center">
+                    <MudImage Src="/Images/America.jpg" Style="width: 100%; height: 350px" Alt="America"/>
+                    <MudContainer class="d-flex flex-column justify-center align-center pb-2" style="height:100%; position: absolute" Fixed="true">
+                        <MudText Typo="Typo.h3" Class="mb-2 outline-text"><b>Trip to Washington</b></MudText>
+                        <MudText Typo="Typo.h4" Class="mb-3 outline-text">Save 15% on your next trip!</MudText>
+                        <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.BookmarkAdded" Color="Color.Primary" Size="Size.Small" Href="/travelcreate" Class="py-3">Book now</MudButton>
+                    </MudContainer>
+                </MudCarouselItem>
+            </MudCarousel>
+        }
 
         <MudContainer Class="mb-14 pa-0">
             <MudContainer Class="d-flex mb-6 pa-0">
@@ -85,9 +89,23 @@
 
 
 @code {
-    private async Task InitializeMapAsync()
+    private User currentUser;
+    private List<Travel> _travels = new List<Travel>();
+    private ElementReference mapElement;
+
+    protected override async Task OnInitializedAsync()
     {
-        await js.InvokeVoidAsync("initializeMap");
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var userId = authState.User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+        if (!string.IsNullOrEmpty(userId))
+        {
+            currentUser = await Context.Users.FindAsync(userId);
+            if (currentUser != null)
+            {
+                _travels = await Context.Travels.Where(x => x.UserId == userId).ToListAsync();
+            }
+        }
     }
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
@@ -97,41 +115,35 @@
             await InitializeMapAsync();
         }
     }
-    
-    private string? TextValue { get; set; }
 
-    private List<Travel> _travels = new List<Travel>();
-    
-    async Task<string> getUserId(){
-        var user = (await AuthenticationStateProvider.GetAuthenticationStateAsync()).User;
-        var UserId = user.FindFirst(u => u.Type.Contains("nameidentifier"))?.Value;
-        return UserId;
-    }
-    
-    protected override async Task OnInitializedAsync()
+    private async Task InitializeMapAsync()
     {
-        var userId = await getUserId();
-        _travels = await Context.Travels.Where(x => x.UserId == userId).ToListAsync();
+        try {
+            // Call JavaScript function to initialize the map
+            await js.InvokeVoidAsync("initializeMap", mapElement);
+        } catch (Exception ex) {
+            Console.WriteLine($"Error initializing map: {ex.Message}");
+        }
     }
-    
+
     private void ReloadPage()
     {
         NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
     }
-    
+
     private void DownloadFile(string filename)
     {
         var pdf = new PDFGenerator();
         pdf.DownloadPDF(js, filename);
     }
-    
+
     private void EditTravel(int id)
     {
         var parameters = new DialogParameters { { "Id", id } };
         var options = new DialogOptions { CloseOnEscapeKey = true };
         DialogService.Show<TravelDialog>("Edit trip", parameters, options);
     }
-    
+
     private async Task DeleteTravel(int id)
     {
         var dbTravel = await Context.Travels.FindAsync(id);

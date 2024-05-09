@@ -1,6 +1,8 @@
 @page "/logout"
+@using TravelingTrips.Models
 @attribute [IgnoreAntiforgeryToken]
-@inject SignInManager<IdentityUser> SignInManager
+@inject SignInManager<User> SignInManager
+
 @functions
 {
     public async Task<IActionResult> OnGet()

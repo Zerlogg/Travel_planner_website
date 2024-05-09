@@ -1,0 +1,37 @@
+@using TravelingTrips.Services
+@inject IUserService userService
+@inject DataContext _context
+@inject NavigationManager NavigationManager
+@inject IDialogService DialogService
+@inject IJSRuntime JSRuntime
+
+<AuthorizeView>
+    <Authorized>
+        <MudDialog>
+            <DialogContent>
+                <MudDivider Class="mb-4" />
+                <MudContainer Class="px-0 d-flex flex-column gap-2" Style="width: 350px">
+                    @if (user != null)
+                    {
+                        <MudTextField T="string" Label="Username" Variant="Variant.Outlined" @bind-Value="user.UserName" Class="mt-0" />
+                        <MudTextField T="string" Label="E-mail" Variant="Variant.Outlined" @bind-Value="user.Email" Class="mt-0" />
+                        <MudDivider Class="my-2" />
+                        <MudTextField T="string" Label="Current Password" Variant="Variant.Outlined" @bind-Value="currentPassword" Class="mt-0" InputType="@PasswordInput" Adornment="Adornment.End" AdornmentIcon="@PasswordInputIcon" OnAdornmentClick="ShowPassword"/>
+                        <MudTextField T="string" Label="New Password" Variant="Variant.Outlined" @bind-Value="newPassword" Class="mt-0" InputType="@PasswordInput" Adornment="Adornment.End" AdornmentIcon="@PasswordInputIcon" OnAdornmentClick="ShowPassword"/>
+                        <MudTextField T="string" Label="Confirm New Password" Variant="Variant.Outlined" @bind-Value="confirmPassword" Class="mt-0" InputType="@PasswordInput" Adornment="Adornment.End" AdornmentIcon="@PasswordInputIcon" OnAdornmentClick="ShowPassword"/>
+                        <MudDivider Class="mt-2" />
+                    }
+                </MudContainer>
+                <MudContainer Class="px-0 mt-4 d-flex align-center gap-2">
+                    <MudButton Variant="Variant.Outlined" Size="Size.Small" Color="Color.Primary" OnClick="ChangePassword">Change password</MudButton>
+                    <MudButton Variant="Variant.Outlined" Size="Size.Small" Color="Color.Error" OnClick="DeleteAccount">Delete account</MudButton>
+                </MudContainer>
+                <MudDivider Class="mt-4" />
+            </DialogContent>
+            <DialogActions>
+                <MudButton OnClick="Cancel">Cancel</MudButton>
+                <MudButton Color="Color.Primary" OnClick="Submit">Save</MudButton>
+            </DialogActions>
+        </MudDialog>
+    </Authorized>
+</AuthorizeView>

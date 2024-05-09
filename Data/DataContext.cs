@@ -1,13 +1,10 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Folder = TravelingTrips.Models.Folder;
-using MapPin = TravelingTrips.Models.MapPin;
-using Travel = TravelingTrips.Models.Travel;
-using TravelFolders = TravelingTrips.Models.TravelFolders;
+using TravelingTrips.Models;
 
 namespace TravelingTrips.Data;
 
-public class DataContext : IdentityDbContext
+public class DataContext : IdentityDbContext<User>
 {
     public DataContext(DbContextOptions<DataContext> options) : base(options)
     {
@@ -32,6 +29,8 @@ public class DataContext : IdentityDbContext
     public DbSet<Folder> Folders { get; set; }
     
     public DbSet<Travel> Travels { get; set; }
+    
+    public DbSet<User> Users { get; set; }
     
     public DbSet<TravelFolders> TravelFolders { get; set; }
     
