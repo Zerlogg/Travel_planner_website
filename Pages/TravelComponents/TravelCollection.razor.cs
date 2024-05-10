@@ -8,9 +8,6 @@ namespace TravelingTrips.Pages.TravelComponents;
 
 public partial class TravelCollection 
 {
-    public TravelCollection()
-    {
-    }
     private string? TextValue { get; set; }
 
     private List<Travel> _travels = new List<Travel>();

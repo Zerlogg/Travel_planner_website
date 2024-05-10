@@ -40,12 +40,13 @@
     <script src="_framework/blazor.server.js"></script>
     <script src="_content/MudBlazor/MudBlazor.min.js"></script>
     <script src="~/js/PDFGenerate.js"></script>
+    <script src="~/js/googleImageSearch.js"></script>
+    <script async src="https://cse.google.com/cse.js?cx=b3c6c1426b5dd4fb3"></script>
     <script>
         async function initializeMap() {
             const list = [];
             var map = L.map('map').setView([56.941978, 24.120483], 4);
             
-            // Fetch pins from the server
             var pinsResponse = await fetch('/api/pins');
             var pins = await pinsResponse.json();
             
@@ -80,15 +81,11 @@
             });
             
             map.on("click", function(e){
-                // Extract latitude and longitude from the event object
                 var latitude = e.latlng.lat;
                 var longitude = e.latlng.lng;
-
-                // Now you can use latitude and longitude to save the pin to the database
-                // For example, you can call a JavaScript function to send this data to the server
+                
                 savePinToDatabase(latitude, longitude);
-
-                // Add a marker to the clicked location
+                
                 var marker = new L.marker([latitude, longitude]).addTo(map).on('click', e=> e.target.remove());
             })
             
@@ -106,14 +103,8 @@
             
             L.control.layers(baseMaps, overlayMaps).addTo(map);
         }
-
-        // Function to save pin to the database
+        
         function savePinToDatabase(latitude, longitude) {
-            // You can send an HTTP request to your server to save the pin data
-            // For example, you can use fetch API or Axios to send a POST request to your server endpoint
-            // Example using fetch API:
-            // longitude = longitude.toString().replace(".", ",");
-            // latitude = latitude.toString().replace(".", ",");
             fetch('/api/pins', {
                 method: 'POST',
                 headers: {

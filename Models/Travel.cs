@@ -11,5 +11,5 @@ public class Travel
     public double? Budget { get; set; }
     public string? Accommodation { get; set; }
     public string? Preferences { get; set; }
-    
+    public string? Image { get; set; }
 }

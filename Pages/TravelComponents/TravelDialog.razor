@@ -2,6 +2,7 @@
 @inject ISnackbar Snackbar
 @inject AuthenticationStateProvider AuthenticationStateProvider
 @inject NavigationManager NavigationManager
+@inject IJSRuntime js
 
 <MudForm @ref="_form" @bind-IsValid="@_success" Model="CurrentTrip" @bind-Errors="@_errors">
     <MudDialog>

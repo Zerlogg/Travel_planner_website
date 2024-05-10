@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\js\\PDFGenerate.js"
     },
     {
+      "Id": "C:\\Work\\Traveling Trips\\wwwroot\\js\\googleImageSearch.js",
+      "PackagePath": "staticwebassets\\js\\googleImageSearch.js"
+    },
+    {
       "Id": "C:\\Work\\Traveling Trips\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },

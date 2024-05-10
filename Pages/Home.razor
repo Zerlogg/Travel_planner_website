@@ -52,7 +52,12 @@
                     @foreach (var travel in _travels.Take(4))
                     {
                         <MudCard Style="width: 310px;">
-                            <MudCardMedia Image="/Images/France.jpg" Height="160"/>
+                            @if (travel != null)
+                            {
+                                string imageUrl = !string.IsNullOrEmpty(travel.Image) ? travel.Image : "/Images/default-image.jpg";
+
+                                <MudCardMedia Image="@imageUrl" Height="160" />
+                            }
                             <MudCardContent Class="pb-0">
                                 <MudText Typo="Typo.h6">Trip to @travel.City</MudText>
                                 <MudText Typo="Typo.body2" Class="pt-1">@travel.Description</MudText>
@@ -103,7 +108,11 @@
             currentUser = await Context.Users.FindAsync(userId);
             if (currentUser != null)
             {
-                _travels = await Context.Travels.Where(x => x.UserId == userId).ToListAsync();
+                // Fetch travels ordered by Id (assuming Id is auto-incrementing)
+                _travels = await Context.Travels
+                    .Where(x => x.UserId == userId)
+                    .OrderByDescending(x => x.Id)  // Assuming Id is the primary key
+                    .ToListAsync();
             }
         }
     }

@@ -55,15 +55,13 @@ public class MapPinsController : ControllerBase
     {
         var principal = _contextAccessor.HttpContext.User;
         var userId = principal.FindFirstValue(ClaimTypes.NameIdentifier);
-
-        // Find pin to delete
+        
         var pinToDelete = await _context.MapPins.FirstOrDefaultAsync(x => x.UserId == userId && x.Latitude == latitude && x.Longitude == longitude);
         if (pinToDelete == null)
         {
             return NotFound();
         }
-
-        // Delete pin from the database
+        
         _context.MapPins.Remove(pinToDelete);
         await _context.SaveChangesAsync();
 

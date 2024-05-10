@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Components;
+using Microsoft.JSInterop;
 using MudBlazor;
 using TravelingTrips.Models;
 
@@ -25,16 +26,43 @@ public partial class TravelCreate : ComponentBase
         var UserId = user.FindFirst(u => u.Type.Contains("nameidentifier"))?.Value;
         return UserId;
     }
+    
+    private async Task<string?> GetGoogleImage(string cityName)
+    {
+        try
+        {
+            return await js.InvokeAsync<string>("searchGoogleImages", cityName);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error invoking JavaScript interop: {ex.Message}");
+            return null;
+        }
+    }
 
     private async Task CreateTrip()
     {
-        CurrentTrip.UserId = await getUserId();
-        Context.Travels.Add(CurrentTrip);
-        
-        await Context.SaveChangesAsync();
-        
-        NavigationManager.NavigateTo("/travels");
+        try
+        {
+            if (CurrentTrip.StartDate >= CurrentTrip.EndDate)
+            {
+                Snackbar.Add("End date must be later than the start date", Severity.Error);
+                return;
+            }
 
-        Snackbar.Add("Trip was successfully created");
+            CurrentTrip.UserId = await getUserId();
+            CurrentTrip.Image = await GetGoogleImage(CurrentTrip.City);
+
+            Context.Travels.Add(CurrentTrip);
+            await Context.SaveChangesAsync();
+
+            NavigationManager.NavigateTo("/travels");
+            Snackbar.Add("Trip was successfully created");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error creating trip: {ex.Message}");
+            Snackbar.Add("An error occurred while creating the trip", Severity.Error);
+        }
     }
 }

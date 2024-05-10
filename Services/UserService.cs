@@ -48,7 +48,6 @@ namespace TravelingTrips.Services
 
                 if (user == null)
                 {
-                    // User with the given userId does not exist
                     return false;
                 }
 
@@ -56,13 +55,11 @@ namespace TravelingTrips.Services
 
                 if (result.Succeeded)
                 {
-                    // Password changed successfully
-                    await _context.SaveChangesAsync(); // Save changes to the database
+                    await _context.SaveChangesAsync();
                     return true;
                 }
                 else
                 {
-                    // Handle password change failure
                     foreach (var error in result.Errors)
                     {
                         Console.WriteLine($"Error changing password: {error.Description}");
