@@ -1,0 +1,34 @@
+@inject DataContext Context
+@inject ISnackbar Snackbar
+
+<MudForm @ref="_form" @bind-IsValid="@_success" Model="CurrentTrip" @bind-Errors="@_errors">
+    <MudDialog>
+        <DialogContent>
+            <MudContainer Class="px-0 pt-0 gap-2 d-flex flex-column" Style="width: 350px">
+                <MudFileUpload T="IBrowserFile" FilesChanged="UploadPicture">
+                    <ButtonTemplate>
+                        <MudFab HtmlTag="label"
+                                Color="Color.Primary"
+                                StartIcon="@Icons.Material.Filled.Image"
+                                Label="Upload image"
+                                for="@context.Id"/>
+                    </ButtonTemplate>
+                </MudFileUpload>
+                @if (uploadedImage != null)
+                {
+                    <div>
+                        <p>Image uploaded: @uploadedImage.Name</p>
+                    </div>
+                }
+                <MudTextField Label="Name" @bind-Value="@accommodation.Name" MaxLength="52" Variant="Variant.Outlined" Required="true"/>
+                <MudTextField Label="Description" @bind-Value="@accommodation.Description" MaxLength="165" Variant="Variant.Outlined"/>
+                <MudTextField Label="Location" @bind-Value="@accommodation.Location" MaxLength="70" Variant="Variant.Outlined" Required="true"/>
+                <MudNumericField Label="Price" @bind-Value="@accommodation.Price" MaxLength="10" Format="C2" HideSpinButtons="true" Variant="Variant.Outlined" Required="true"/>
+            </MudContainer>
+        </DialogContent>
+        <DialogActions>
+            <MudButton OnClick="Cancel">Cancel</MudButton>
+            <MudButton Color="Color.Primary" Disabled="@(!_success)" OnClick="SaveAccommodation">Save</MudButton>
+        </DialogActions>
+    </MudDialog>
+</MudForm>

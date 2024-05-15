@@ -1,5 +1,7 @@
 @page "/travelpage/{Id:int}"
 @inject DataContext Context
+@using TravelingTrips.Pages.TravelComponents.TravelPage.TravelPageAccommodation
+@attribute [Authorize]
 
 <MudPaper Style="overflow: hidden; position: relative; min-height: 650px" Class="px-0">
     <MudDrawerContainer>
@@ -21,11 +23,11 @@
         }
         else if (_selectedPage == "Accommodation")
         {
-            <TravelAccommodation/>
+            <TravelAccommodation CurrentTrip="CurrentTrip"/>
         }
         else if (_selectedPage == "Restaurant")
         {
-            <TravelRestaurant/>
+            <TravelRestaurant CurrentTrip="CurrentTrip"/>
         }
         else if (_selectedPage == "Days")
         {

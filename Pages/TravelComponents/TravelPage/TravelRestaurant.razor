@@ -1,9 +1,9 @@
 <div class="d-flex flex-column pa-6">
     <MudText Typo="Typo.h4"><b>Restaurant</b></MudText>
-    <MudContainer Class="px-0 py-2 d-flex justify-space-between align-center">
-        <MudText Typo="Typo.h5"><b>France, Paris</b></MudText>
-        <MudIconButton Icon="@Icons.Material.Filled.MoreVert" aria-label="delete" Size="Size.Small"/>
-    </MudContainer>
+    <div class="d-flex align-center mt-2 gap-3">
+        <MudText Typo="Typo.h5"><b>Restaurants you want to visit in @CurrentTrip.City</b></MudText>
+        <MudButton Variant="Variant.Outlined" Size="Size.Small" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary">Add</MudButton>
+    </div>
     <MudContainer Class="px-0 pt-2 d-inline-flex gap-2 ml-0" Style="width: auto">
         <MudContainer class="pl-0 pr-1">
             <MudImage Src="Images/America.jpg" Alt="America" Class="rounded-lg" Style="height: 130px"/>
@@ -15,3 +15,8 @@
         </MudContainer>
     </MudContainer>
 </div>
+
+@code{
+    [Parameter]
+    public Travel CurrentTrip { get; set; }
+}

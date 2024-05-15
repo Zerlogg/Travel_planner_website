@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\Images\\France.jpg"
     },
     {
+      "Id": "C:\\Work\\Traveling Trips\\wwwroot\\Images\\Hotel.PNG",
+      "PackagePath": "staticwebassets\\Images\\Hotel.PNG"
+    },
+    {
+      "Id": "C:\\Work\\Traveling Trips\\wwwroot\\Images\\Restaurant.PNG",
+      "PackagePath": "staticwebassets\\Images\\Restaurant.PNG"
+    },
+    {
       "Id": "C:\\Work\\Traveling Trips\\wwwroot\\Images\\Travel.jpg",
       "PackagePath": "staticwebassets\\Images\\Travel.jpg"
     },

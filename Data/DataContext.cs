@@ -15,6 +15,8 @@ public class DataContext : IdentityDbContext<User>
     
     public DbSet<Travel> Travels { get; set; }
     
+    public DbSet<Accommodation> Accommodations { get; set; }
+    
     public DbSet<User> Users { get; set; }
     
     public DbSet<TravelFolders> TravelFolders { get; set; }
