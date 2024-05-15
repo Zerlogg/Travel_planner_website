@@ -61,12 +61,17 @@ public partial class TravelAccommodation
     
     private async Task DeleteAccommodation(Accommodation accommodation)
     {
-        if (accommodation != null)
+        var result = await DialogService.ShowMessageBox("Delete Accommodation", "Are you sure you want to delete this accommodation?", yesText: "Yes", cancelText: "Cancel");
+
+        if (result == true)
         {
-            Context.Accommodations.Remove(accommodation);
-            await Context.SaveChangesAsync();
-            await LoadAccommodations();
-            Snackbar.Add("Accommodation deleted successfully");
+            if (accommodation != null)
+            {
+                Context.Accommodations.Remove(accommodation);
+                await Context.SaveChangesAsync();
+                await LoadAccommodations();
+                Snackbar.Add("Accommodation deleted successfully");
+            }
         }
     }
     

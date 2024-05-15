@@ -54,14 +54,20 @@ public partial class FolderPage
 
     private async Task DeleteFolder(int id)
     {
-        var dbFolder = await Context.Folders.FindAsync(id);
-        if (dbFolder != null)
+        var result = await DialogService.ShowMessageBox("Delete Collection", "Are you sure you want to delete this collection?", yesText: "Yes", cancelText: "Cancel");
+
+        if (result == true)
         {
-            Context.Remove(dbFolder);
-            await Context.SaveChangesAsync();
-            Snackbar.Add("Folder was successfully deleted");
+            var dbFolder = await Context.Folders.FindAsync(id);
+            if (dbFolder != null)
+            {
+                Context.Remove(dbFolder);
+                await Context.SaveChangesAsync();
+                Snackbar.Add("Folder was successfully deleted");
+            }
+
+            ReloadPage();
         }
-        ReloadPage();
     }
     
     private void AddFolder()
@@ -108,14 +114,20 @@ public partial class FolderPage
     
     private async Task DeleteTravel(int id)
     {
-        var dbTravel = await Context.Travels.FindAsync(id);
-        if (dbTravel != null)
+        var result = await DialogService.ShowMessageBox("Delete Trip", "Are you sure you want to delete this trip?", yesText: "Yes", cancelText: "Cancel");
+
+        if (result == true)
         {
-            Context.Remove(dbTravel);
-            await Context.SaveChangesAsync();
-            Snackbar.Add("Trip was successfully deleted");
+            var dbTravel = await Context.Travels.FindAsync(id);
+            if (dbTravel != null)
+            {
+                Context.Remove(dbTravel);
+                await Context.SaveChangesAsync();
+                Snackbar.Add("Trip was successfully deleted");
+            }
+
+            ReloadPage();
         }
-        ReloadPage();
     }
     
     private string GetTextColorForBackground(string? backgroundColor)

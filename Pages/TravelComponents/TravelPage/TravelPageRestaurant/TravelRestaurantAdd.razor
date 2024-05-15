@@ -1,0 +1,35 @@
+@inject DataContext Context
+@inject ISnackbar Snackbar
+
+<MudForm @ref="_form" @bind-IsValid="@_success" Model="CurrentTrip" @bind-Errors="@_errors">
+    <MudDialog>
+        <DialogContent>
+            <MudContainer Class="px-0 pt-0 gap-2 d-flex flex-column" Style="width: 350px">
+                <MudFileUpload T="IBrowserFile" FilesChanged="UploadPicture">
+                    <ButtonTemplate>
+                        <MudFab HtmlTag="label"
+                                Color="Color.Primary"
+                                StartIcon="@Icons.Material.Filled.Image"
+                                Label="Upload image"
+                                for="@context.Id"/>
+                    </ButtonTemplate>
+                </MudFileUpload>
+                @if (uploadedImage != null)
+                {
+                <div>
+                    <p>Image uploaded: @uploadedImage.Name</p>
+                </div>
+                }
+                <MudTextField Label="Name" @bind-Value="@restaurant.Name" MaxLength="52" Variant="Variant.Outlined" Required="true"/>
+                <MudTextField Label="Description" @bind-Value="@restaurant.Description" MaxLength="165" Variant="Variant.Outlined"/>
+                <MudTextField Label="Location" @bind-Value="@restaurant.Location" MaxLength="70" Variant="Variant.Outlined" Required="true"/>
+                <MudTimePicker Label="24 hours" @bind-Time="@restaurant.StartHours" Editable="true" Required="true"/>
+                <MudTimePicker Label="24 hours" @bind-Time="@restaurant.EndHours" Editable="true" Required="true"/>
+            </MudContainer>
+        </DialogContent>
+        <DialogActions>
+            <MudButton OnClick="Cancel">Cancel</MudButton>
+            <MudButton Color="Color.Primary" Disabled="@(!_success)" OnClick="SaveRestaurant">Save</MudButton>
+        </DialogActions>
+    </MudDialog>
+</MudForm>

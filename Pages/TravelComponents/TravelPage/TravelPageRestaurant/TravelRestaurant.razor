@@ -1,0 +1,50 @@
+@inject IDialogService DialogService
+@inject DataContext Context
+@inject ISnackbar Snackbar
+
+<div class="d-flex flex-column px-6 pt-6">
+    <MudText Typo="Typo.h4"><b>Restaurant</b></MudText>
+    <div class="d-flex align-center mt-2 gap-3">
+        <MudText Typo="Typo.h5"><b>Restaurants you want to visit in @CurrentTrip.City</b></MudText>
+        <MudButton Variant="Variant.Outlined" Size="Size.Small" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" OnClick="OpenAddDialog">Add</MudButton>
+    </div>
+    <MudContainer Class="px-0 mt-4 d-flex d-inline-flex gap-2 flex-wrap">
+        @if (restaurants != null && restaurants.Any())
+        {
+        @foreach (var restaurant in restaurants)
+        {
+        <MudCard Style="width: 324px" Class="mb-4">
+            <MudToggleIconButton Toggled="@(restaurant.IsSelected ?? false)"
+                                 ToggledChanged="@((bool toggled) => ToggleRestaurant(restaurant, toggled))"
+                                 Size="Size.Small"
+                                 Icon="@Icons.Material.Filled.Clear" ToggledSize="Size.Small" Color="@Color.Error" Title="Off"
+                                 ToggledIcon="@Icons.Material.Filled.Check" Variant="Variant.Filled" ToggledColor="@Color.Success" ToggledTitle="On"
+                                 Style="position: absolute" Class="mt-2 ml-2" />
+            <MudCardMedia Image="@($"data:image/png;base64,{Convert.ToBase64String(restaurant.Image)}")" style="height: 150px"/>
+            <MudCardContent Class="pb-0">
+                <MudText Typo="Typo.h6" Class="mb-2 px-1 text-container text-border" Style="height: 64px"><b>@restaurant.Name</b></MudText>
+                <div class="d-flex gap-1 mb-2" Style="height: 25px">
+                    <MudIcon Icon="@Icons.Material.Filled.AccessTime" Size="Size.Small"/>
+                    <MudText Typo="Typo.body1">@FormatTimeSpan(restaurant.StartHours) - @FormatTimeSpan(restaurant.EndHours)</MudText>
+                </div>
+                <div class="d-flex gap-1" Style="height: 50px">
+                    <MudIcon Icon="@Icons.Material.Filled.LocationOn" Size="Size.Small"/>
+                    <MudText Class="text-container" Typo="Typo.body1">@restaurant.Location</MudText>
+                </div>
+                <MudText Typo="Typo.body1" Class="mt-2 px-1 text-container text-border" Style="height: 126px">@restaurant.Description</MudText>
+            </MudCardContent>
+            <MudCardActions Class="gap-1">
+                <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="Color.Default" OnClick="() => OpenEditDialog(restaurant)" />
+                <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default" OnClick="() => DeleteRestaurant(restaurant)" />
+            </MudCardActions>
+        </MudCard>
+        }
+        }
+        else
+        {
+        <div class="d-flex align-items-center" style="min-height: 450px; width: 100%">
+            <MudText Typo="Typo.h5" Class="ml-auto mr-auto">You haven't created any restaurants yet</MudText>
+        </div>
+        }
+    </MudContainer>
+</div>

@@ -70,14 +70,20 @@ public partial class Home
 
     private async Task DeleteTravel(int id)
     {
-        var dbTravel = await Context.Travels.FindAsync(id);
-        if (dbTravel != null)
+        var result = await DialogService.ShowMessageBox("Delete Trip", "Are you sure you want to delete this trip?", yesText: "Yes", cancelText: "Cancel");
+
+        if (result == true)
         {
-            Context.Remove(dbTravel);
-            await Context.SaveChangesAsync();
-            Snackbar.Add("Trip was successfully deleted");
+            var dbTravel = await Context.Travels.FindAsync(id);
+            if (dbTravel != null)
+            {
+                Context.Remove(dbTravel);
+                await Context.SaveChangesAsync();
+                Snackbar.Add("Trip was successfully deleted");
+            }
+
+            ReloadPage();
         }
-        ReloadPage();
     }
     
     private void NavigateToDetails(int id)
