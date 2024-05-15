@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j6trZMMuLi06nYlny4FX30+0bPQ/jW33UJHsOi553ts=",
+  "Hash": "uxCicM7/vplclNOEidv+9e827SNBy6HgLcD+NfDNwDY=",
   "Source": "TravelingTrips",
   "BasePath": "_content/TravelingTrips",
   "Mode": "Default",
@@ -205,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\googleImageSearch.js"
+    },
+    {
+      "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\js\\JSHelper.js",
+      "SourceId": "TravelingTrips",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Work\\Traveling Trips\\wwwroot\\",
+      "BasePath": "_content/TravelingTrips",
+      "RelativePath": "js/JSHelper.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\JSHelper.js"
     },
     {
       "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\js\\L.timezones.js",

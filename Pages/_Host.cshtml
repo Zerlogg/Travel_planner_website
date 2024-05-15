@@ -1,12 +1,8 @@
 ﻿@page "/"
-@using Microsoft.AspNetCore.Components.Authorization
 @using Microsoft.AspNetCore.Components.Web
 @using Microsoft.AspNetCore.Mvc.TagHelpers
-@using TravelingTrips.Services
 @namespace TravelingTrips.Pages
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-@inject IUserService UserService
-@inject AuthenticationStateProvider AuthenticationStateProvider
 
 <!DOCTYPE html>
 <html lang="en">
@@ -19,11 +15,12 @@
     <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo" crossorigin=""></script>
     <script src="js/L.timezones.js"></script>
     <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
 </head>
-<body>
+<body style="background: #fffeef">
     <component type="typeof(App)" render-mode="ServerPrerendered" />
 
     <div id="blazor-error-ui">
@@ -39,6 +36,7 @@
 
     <script src="_framework/blazor.server.js"></script>
     <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+    <script src="~/js/JSHelper.js"></script>
     <script src="~/js/PDFGenerate.js"></script>
     <script src="~/js/googleImageSearch.js"></script>
     <script async src="https://cse.google.com/cse.js?cx=b3c6c1426b5dd4fb3"></script>

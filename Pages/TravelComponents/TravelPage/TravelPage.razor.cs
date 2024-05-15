@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Components;
 using TravelingTrips.Models;
 
-namespace TravelingTrips.Pages.TravelComponents;
+namespace TravelingTrips.Pages.TravelComponents.TravelPage;
 
 public partial class TravelPage : ComponentBase
 {
@@ -27,13 +27,7 @@ public partial class TravelPage : ComponentBase
 
             if (travel != null)
             {
-                CurrentTrip.City ??= travel.City;
-                CurrentTrip.Description ??= travel.Description;
-                CurrentTrip.StartDate ??= travel.StartDate;
-                CurrentTrip.EndDate ??= travel.EndDate;
-                CurrentTrip.Budget ??= travel.Budget;
-                CurrentTrip.Accommodation ??= travel.Accommodation;
-                CurrentTrip.Preferences ??= travel.Preferences;
+                CurrentTrip = travel;
             }
         }
     }

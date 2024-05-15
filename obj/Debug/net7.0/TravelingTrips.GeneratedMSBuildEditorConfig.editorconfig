@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Work/Traveling Trips/Pages/Components/Chat.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xDaGF0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Work/Traveling Trips/Pages/FolderComponents/FolderDialog.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9sZGVyQ29tcG9uZW50c1xGb2xkZXJEaWFsb2cucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -58,8 +62,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxEaWFsb2cucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Work/Traveling Trips/Pages/TravelComponents/TravelPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxQYWdlLnJhem9y
+[C:/Work/Traveling Trips/Pages/TravelComponents/TravelPage/TravelAccommodation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxQYWdlXFRyYXZlbEFjY29tbW9kYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/Traveling Trips/Pages/TravelComponents/TravelPage/TravelChat.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxQYWdlXFRyYXZlbENoYXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/Traveling Trips/Pages/TravelComponents/TravelPage/TravelDays.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxQYWdlXFRyYXZlbERheXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/Traveling Trips/Pages/TravelComponents/TravelPage/TravelHome.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxQYWdlXFRyYXZlbEhvbWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/Traveling Trips/Pages/TravelComponents/TravelPage/TravelPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxQYWdlXFRyYXZlbFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/Traveling Trips/Pages/TravelComponents/TravelPage/TravelRestaurant.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxQYWdlXFRyYXZlbFJlc3RhdXJhbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Work/Traveling Trips/Shared/IndexLayout.razor]

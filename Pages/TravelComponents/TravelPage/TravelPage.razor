@@ -1,0 +1,46 @@
+@page "/travelpage/{Id:int}"
+@inject DataContext Context
+
+<MudPaper Style="overflow: hidden; position: relative; min-height: 650px" Class="px-0">
+    <MudDrawerContainer>
+        <MudDrawer @bind-Open="@_open" Fixed="false" Elevation="1" Color="Color.Primary" Variant="@DrawerVariant.Mini" OpenMiniOnHover="true">
+            <MudNavMenu>
+                <MudText Typo="Typo.h5" Class="px-5 py-3 text-ellipsis"><b>Trip to @CurrentTrip.City</b></MudText>
+                <MudDivider />
+                <MudNavLink Match="NavLinkMatch.All" IconColor="Color.Inherit" Icon="@Icons.Material.Filled.Home" @onclick="@(e => OnNavLinkClick("Home"))">Home</MudNavLink>
+                <MudNavLink Match="NavLinkMatch.All" IconColor="Color.Inherit" Icon="@Icons.Material.Filled.Hotel" @onclick="@(e => OnNavLinkClick("Accommodation"))">Accommodation</MudNavLink>
+                <MudNavLink Match="NavLinkMatch.All" IconColor="Color.Inherit" Icon="@Icons.Material.Filled.Restaurant" @onclick="@(e => OnNavLinkClick("Restaurant"))">Restaurants</MudNavLink>
+                <MudNavLink Match="NavLinkMatch.All" IconColor="Color.Inherit" Icon="@Icons.Material.Filled.CalendarToday" @onclick="@(e => OnNavLinkClick("Days"))">Days</MudNavLink>
+                <MudDivider Class="my-1" />
+                <MudNavLink Match="NavLinkMatch.All" IconColor="Color.Inherit" Icon="@Icons.Material.Filled.Chat" @onclick="@(e => OnNavLinkClick("Chat"))">Chat</MudNavLink>
+            </MudNavMenu>
+        </MudDrawer>
+        @if (_selectedPage == "Home")
+        {
+            <TravelHome CurrentTrip="CurrentTrip"/>
+        }
+        else if (_selectedPage == "Accommodation")
+        {
+            <TravelAccommodation/>
+        }
+        else if (_selectedPage == "Restaurant")
+        {
+            <TravelRestaurant/>
+        }
+        else if (_selectedPage == "Days")
+        {
+            <TravelDays/>
+        }
+        else if (_selectedPage == "Chat")
+        {
+            if (Id.HasValue)
+            {
+                <TravelChat travelId="@Id.Value" />
+            }
+            else
+            {
+                <p>No valid travel ID found.</p>
+            } 
+        }
+    </MudDrawerContainer>
+</MudPaper>

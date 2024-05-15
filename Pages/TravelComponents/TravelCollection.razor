@@ -16,8 +16,8 @@
 
     <MudContainer Class="gap-2 align-center d-inline-flex pa-0">
         <MudTextField AdornmentIcon="@Icons.Material.Filled.Search" Adornment="Adornment.Start" Margin="Margin.Dense" Placeholder="Search trip" Variant="Variant.Outlined" @bind-Value="TextValue" Class="ma-0" />
-        <MudButton Variant="Variant.Outlined" Color="Color.Primary" StartIcon="@Icons.Material.Filled.Search" OnClick="SearchTravel">Search</MudButton>
-        <MudButton Variant="Variant.Outlined" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" Href="/travelcreate">Add trip</MudButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" StartIcon="@Icons.Material.Filled.Search" OnClick="SearchTravel">Search</MudButton>
+        <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" Href="/travelcreate">Add trip</MudButton>
     </MudContainer>
 </MudContainer>
 
@@ -28,7 +28,7 @@
         {
             @foreach (var travel in _filteredTravels)
             {
-                <MudCard Style="width: 310px;" Class="cursor-pointer" @onclick="() => NavigateToDetails(travel.Id)">
+                <MudCard Style="width: 306px;" Class="cursor-pointer" @onclick="() => NavigateToDetails(travel.Id)">
                     @if (travel != null)
                     {
                         string imageUrl = !string.IsNullOrEmpty(travel.Image) ? travel.Image : "/Images/default-image.jpg";
@@ -36,8 +36,8 @@
                         <MudCardMedia Image="@imageUrl" Height="160" />
                     }
                     <MudCardContent Class="pb-0">
-                        <MudText Typo="Typo.h6">Trip to @travel.City</MudText>
-                        <MudText Typo="Typo.body2" Class="pt-1">@travel.Description</MudText>
+                        <MudText Typo="Typo.h6" Class="text-ellipsis">Trip to @travel.City</MudText>
+                        <MudText Typo="Typo.body2" Class="pt-1 text-ellipsis">@travel.Description</MudText>
                         <MudText Typo="Typo.body2" Class="pt-2">@($"{travel.StartDate:dd.MM.yyyy} - {travel.EndDate:dd.MM.yyyy}")</MudText>
                     </MudCardContent>
                     <MudCardActions>

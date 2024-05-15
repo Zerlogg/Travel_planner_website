@@ -1,0 +1,11 @@
+@using TravelingTrips.Pages.Components
+<div class="d-flex flex-column pa-6">
+    <MudText Typo="Typo.h4"><b>Chat assistant</b></MudText>
+    <MudText Typo="Typo.h5" Class="pt-2"><b>Ask anything about your trip!</b></MudText>
+    <Chat travelId="@travelId"/>
+</div>
+
+@code {
+    [Parameter]
+    public int travelId { get; set; }
+}

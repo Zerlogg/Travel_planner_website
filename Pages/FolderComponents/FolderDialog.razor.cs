@@ -60,7 +60,7 @@ public partial class FolderDialog
         if (dbFolder != null)
         {
             dbFolder.Title = CurrentFolder.Title;
-            dbFolder.Color = ConvertMudColorToHex(_pickerColor); // Convert MudColor to hex string
+            dbFolder.Color = ConvertMudColorToHex(_pickerColor);
 
             await Context.SaveChangesAsync();
 
@@ -80,7 +80,7 @@ public partial class FolderDialog
     private async Task CreateFolder()
     {
         CurrentFolder.UserId = await getUserId();
-        CurrentFolder.Color = ConvertMudColorToHex(_pickerColor); // Convert MudColor to hex string
+        CurrentFolder.Color = ConvertMudColorToHex(_pickerColor);
 
         Context.Folders.Add(CurrentFolder);
         await Context.SaveChangesAsync();

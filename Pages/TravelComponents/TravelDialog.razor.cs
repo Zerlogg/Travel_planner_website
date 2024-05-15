@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.JSInterop;
 using MudBlazor;
 using TravelingTrips.Models;
 
@@ -63,7 +62,6 @@ public partial class TravelDialog
                 CurrentTrip.StartDate ??= travel.StartDate;
                 CurrentTrip.EndDate ??= travel.EndDate;
                 CurrentTrip.Budget ??= travel.Budget;
-                CurrentTrip.Accommodation ??= travel.Accommodation;
                 CurrentTrip.Preferences ??= travel.Preferences;
             }
         }
@@ -84,7 +82,6 @@ public partial class TravelDialog
             dbTrip.City = CurrentTrip.City;
             dbTrip.Description = CurrentTrip.Description;
             dbTrip.Budget = CurrentTrip.Budget;
-            dbTrip.Accommodation = CurrentTrip.Accommodation;
             dbTrip.Preferences = CurrentTrip.Preferences;
 
             foreach (var item in options)

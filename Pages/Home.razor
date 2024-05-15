@@ -1,7 +1,4 @@
 ﻿@page "/home"
-@using System.Security.Claims
-@using TravelingTrips.Pages.TravelComponents
-@using TravelingTrips.Pages.TravelComponents.Print
 @inject IJSRuntime js
 @inject DataContext Context
 @inject AuthenticationStateProvider AuthenticationStateProvider
@@ -43,7 +40,7 @@
         <MudContainer Class="mb-14 pa-0">
             <MudContainer Class="d-flex mb-6 pa-0">
                 <MudText Typo="Typo.h5" Class="pr-4">Your recently created trips</MudText>
-                <MudButton Variant="Variant.Outlined" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" Href="/travelcreate">Create</MudButton>
+                <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" Href="/travelcreate">Create</MudButton>
             </MudContainer>
 
             <MudContainer class="d-inline-flex gap-3 justify-left px-0 flex-wrap" Fixed="true">
@@ -51,7 +48,7 @@
                 {
                     @foreach (var travel in _travels.Take(4))
                     {
-                        <MudCard Style="width: 310px;">
+                        <MudCard Style="width: 308px;" Class="cursor-pointer" @onclick="() => NavigateToDetails(travel.Id)">
                             @if (travel != null)
                             {
                                 string imageUrl = !string.IsNullOrEmpty(travel.Image) ? travel.Image : "/Images/default-image.jpg";
@@ -59,8 +56,8 @@
                                 <MudCardMedia Image="@imageUrl" Height="160" />
                             }
                             <MudCardContent Class="pb-0">
-                                <MudText Typo="Typo.h6">Trip to @travel.City</MudText>
-                                <MudText Typo="Typo.body2" Class="pt-1">@travel.Description</MudText>
+                                <MudText Typo="Typo.h6" Class="text-ellipsis">Trip to @travel.City</MudText>
+                                <MudText Typo="Typo.body2" Class="pt-1 text-ellipsis">@travel.Description</MudText>
                                 <MudText Typo="Typo.body2" Class="pt-2">@($"{travel.StartDate:dd.MM.yyyy} - {travel.EndDate:dd.MM.yyyy}")</MudText>
                             </MudCardContent>
                             <MudCardActions>
@@ -84,84 +81,10 @@
         <MudContainer Class="mb-6 pa-0">
             <MudContainer Class="d-flex pb-4 pa-0 align-center">
                 <MudText Typo="Typo.h5" Class="pr-4">Where you want to go next?</MudText>
-                <MudButton Variant="Variant.Outlined" StartIcon="@Icons.Material.Filled.Explore" Color="Color.Primary" Href="/map">Explore</MudButton>
+                <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Explore" Color="Color.Primary" Href="/map">Explore</MudButton>
             </MudContainer>
             <MudContainer id="map" style="height: 500px; width: 100%;" Class="rounded"/>
         </MudContainer>
     
     </Authorized>
 </AuthorizeView>
-
-
-@code {
-    private User currentUser;
-    private List<Travel> _travels = new List<Travel>();
-    private ElementReference mapElement;
-
-    protected override async Task OnInitializedAsync()
-    {
-        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
-        var userId = authState.User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-        if (!string.IsNullOrEmpty(userId))
-        {
-            currentUser = await Context.Users.FindAsync(userId);
-            if (currentUser != null)
-            {
-                // Fetch travels ordered by Id (assuming Id is auto-incrementing)
-                _travels = await Context.Travels
-                    .Where(x => x.UserId == userId)
-                    .OrderByDescending(x => x.Id)  // Assuming Id is the primary key
-                    .ToListAsync();
-            }
-        }
-    }
-
-    protected override async Task OnAfterRenderAsync(bool firstRender)
-    {
-        if (firstRender)
-        {
-            await InitializeMapAsync();
-        }
-    }
-
-    private async Task InitializeMapAsync()
-    {
-        try {
-            // Call JavaScript function to initialize the map
-            await js.InvokeVoidAsync("initializeMap", mapElement);
-        } catch (Exception ex) {
-            Console.WriteLine($"Error initializing map: {ex.Message}");
-        }
-    }
-
-    private void ReloadPage()
-    {
-        NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
-    }
-
-    private void DownloadFile(string filename)
-    {
-        var pdf = new PDFGenerator();
-        pdf.DownloadPDF(js, filename);
-    }
-
-    private void EditTravel(int id)
-    {
-        var parameters = new DialogParameters { { "Id", id } };
-        var options = new DialogOptions { CloseOnEscapeKey = true };
-        DialogService.Show<TravelDialog>("Edit trip", parameters, options);
-    }
-
-    private async Task DeleteTravel(int id)
-    {
-        var dbTravel = await Context.Travels.FindAsync(id);
-        if (dbTravel != null)
-        {
-            Context.Remove(dbTravel);
-            await Context.SaveChangesAsync();
-            Snackbar.Add("Trip was successfully deleted");
-        }
-        ReloadPage();
-    }
-}

@@ -20,3 +20,33 @@
             -1px 1px 0 #000,
             1px 1px 0 #000;
 }
+
+.text-wrap {
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+    max-width: 50%;
+}
+
+.text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+.spinner-border .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}

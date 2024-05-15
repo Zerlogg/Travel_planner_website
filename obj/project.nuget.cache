@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dkrxhtv6zdbR1XN+SIkhcQI+KdyrJhQqdQFENChwe8KWO5/spF8U45/Zj8hY9gsL82eom4lr7VjZFot+J+qBjA==",
+  "dgSpecHash": "03qBypelOYq4GwFUb/c5SoNskbwVmLzdcRjheMg0qhUVlUeHSQMj+/g0i3/ul/0yx1V5HwJOYQgY+N/uh4qX5g==",
   "success": true,
   "projectFilePath": "C:\\Work\\Traveling Trips\\TravelingTrips.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Emils Mafija\\.nuget\\packages\\azure.ai.openai\\1.0.0-beta.5\\azure.ai.openai.1.0.0-beta.5.nupkg.sha512",
     "C:\\Users\\Emils Mafija\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Emils Mafija\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Emils Mafija\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",

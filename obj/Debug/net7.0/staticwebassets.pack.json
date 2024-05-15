@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Work\\Traveling Trips\\wwwroot\\js\\JSHelper.js",
+      "PackagePath": "staticwebassets\\js\\JSHelper.js"
+    },
+    {
       "Id": "C:\\Work\\Traveling Trips\\wwwroot\\js\\L.timezones.js",
       "PackagePath": "staticwebassets\\js\\L.timezones.js"
     },

@@ -18,10 +18,9 @@
                     <MudDatePicker @bind-Date="CurrentTrip.EndDate" MinDate="_minDate" Class="mud-width-full" Label="End date" Required="true"/>
                 </MudContainer>
                 <MudNumericField @bind-Value="CurrentTrip.Budget" Label="Trip budget" Required="true" Format="F2" Class="mt-4" HideSpinButtons="true" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Euro"/>
-                <MudTextField T="string" Label="Accommodation preferences" HelperText="e.g. hotels, hostels, camping" @bind-Value="CurrentTrip.Accommodation" Required="true"/>
-                <MudTextField T="string" Label="Personal preferences" Variant="Variant.Outlined" Lines="3" Class="mt-4" @bind-Value="CurrentTrip.Preferences"/>
-                <MudButton Variant="Variant.Filled" Color="Color.Primary" Disabled="@(!_success)" OnClick="CreateTrip" Class="mt-4">Create</MudButton>
-                <MudButton Href="/travels" Class="mt-4">Cancel</MudButton>
+                <MudTextField T="string" Label="Personal preferences" MaxLength="500" Variant="Variant.Outlined" Lines="3" Class="mt-4" @bind-Value="CurrentTrip.Preferences"/>
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" Disabled="@(!_success)" OnClick="CreateTrip" Class="mt-2">Create</MudButton>
+                <MudButton Href="/travels" Class="mt-2">Cancel</MudButton>
             </MudForm>   
         </MudPaper> 
     </MudItem>

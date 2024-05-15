@@ -9,7 +9,7 @@ public class Travel
     public DateTime? StartDate { get; set; }
     public DateTime? EndDate { get; set; }
     public double? Budget { get; set; }
-    public string? Accommodation { get; set; }
     public string? Preferences { get; set; }
     public string? Image { get; set; }
+    public string? ChatHistory { get; set; }
 }

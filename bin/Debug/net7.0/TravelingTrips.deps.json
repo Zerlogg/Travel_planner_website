@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "TravelingTrips/1.0.0": {
         "dependencies": {
+          "Azure.AI.OpenAI": "1.0.0-beta.5",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.16",
           "Microsoft.EntityFrameworkCore": "7.0.16",
@@ -18,6 +19,18 @@
         },
         "runtime": {
           "TravelingTrips.dll": {}
+        }
+      },
+      "Azure.AI.OpenAI/1.0.0-beta.5": {
+        "dependencies": {
+          "Azure.Core": "1.35.0",
+          "System.Text.Json": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.AI.OpenAI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.23.17203"
+          }
         }
       },
       "Azure.Core/1.35.0": {
@@ -961,6 +974,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Azure.AI.OpenAI/1.0.0-beta.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wlCf4D6iutnXQXVgNMT9SuO6gFH5e6JHb3yCK4ZF6lL+VtTrTspluqZfySE/C3KK5j2Cqdu6PbsUnZfsu/PPOQ==",
+      "path": "azure.ai.openai/1.0.0-beta.5",
+      "hashPath": "azure.ai.openai.1.0.0-beta.5.nupkg.sha512"
     },
     "Azure.Core/1.35.0": {
       "type": "package",

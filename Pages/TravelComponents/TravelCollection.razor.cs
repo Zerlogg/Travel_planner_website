@@ -2,7 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using MudBlazor;
 using TravelingTrips.Models;
 using TravelingTrips.Pages.TravelComponents.Print;
-using TravelingTrips.Services;
 
 namespace TravelingTrips.Pages.TravelComponents;
 

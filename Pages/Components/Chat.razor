@@ -1,0 +1,196 @@
+@using System.Text
+@using System.Text.Json
+@using TravelingTrips.Services
+@inject IJSRuntime JsRuntime
+@inject ChatService ChatService
+@inject DataContext Context
+@inject IUserService UserService
+
+<hr/>
+<div style="display: flex; flex-direction: column; min-height: 350px;">
+    <div id="scrollbox" style="flex: 1; overflow-y: auto;">
+        @if (_messages.Count == 0)
+        {
+            <div style="min-height: 350px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <div class="p-2 m-0 position-relative text-center">
+                    <p class="text-dark h5">Don’t know what to ask? Try these examples:</p>
+                </div>
+                <div class="button-group p-2 m-0 position-relative text-center">
+                    @if (!string.IsNullOrEmpty(travelCity))
+                    {
+                        <button class="btn btn-secondary m-1" @onclick='() => AskAI($"Best places to visit in {travelCity}")'>Best places to visit in @travelCity</button>
+                        <button class="btn btn-secondary m-1" @onclick='() => AskAI($"Best places to eat in {travelCity}")'>Best places to eat in @travelCity</button>
+                        <button class="btn btn-secondary m-1" @onclick='() => AskAI($"Best places to stay in {travelCity}")'>Best places to stay in @travelCity</button>
+                    }
+                </div>
+            </div>
+        }
+        else
+        {
+            @foreach (var item in _messages)
+            {
+                @if (item.IsRequest)
+                {
+                    <div class="sent p-2 m-0 position-relative d-flex justify-content-end">
+                        <p>@item.Body</p>
+                        <MudIcon Icon="@Icons.Material.Filled.AccountCircle" Class="ml-1"/>
+                    </div>
+                }
+                else
+                {
+                    string formattedMessage = FormatNumberedList(item.Body);
+                    MarkupString markupString = new MarkupString(formattedMessage);
+                    <div class="received p-2 m-0 position-relative d-flex justify-content-start">
+                        <MudIcon Icon="@Icons.Material.Filled.Chat" Class="mr-1"/>
+                        <p>@markupString</p>
+                    </div>
+                }
+            }
+            @if (_isLoading)
+            {
+                <div class="d-flex justify-content-center align-items-center p-2">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+<hr/>
+
+<div class="d-flex mb-3">
+    <button class="btn btn-danger mr-2" @onclick="@ClearChat">Clear Chat</button>
+    <button class="btn btn-success" @onclick="@SubmitChat" disabled="@(string.IsNullOrWhiteSpace(chatinput.Text))">Submit</button>
+</div>
+
+<EditForm Model="chatinput" OnValidSubmit="SubmitChat">
+    <textarea placeholder="Ask some questions.." id="chattextarea" style="width: 100%; height: 100px; max-height: 200px" class="form-control" @bind="@chatinput.Text" @oninput="@((ChangeEventArgs e) => updateTextArea(e))"></textarea>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int travelId { get; set; }
+
+    private ChatInput chatinput = new();
+    private List<Message> _messages = new();
+    private string travelCity = string.Empty;
+    private bool _isLoading = false;
+    private Travel currentTravel;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadTravelDetails();
+        await LoadChatHistory();
+    }
+
+    private async Task LoadTravelDetails()
+    {
+        var userId = await UserService.GetUserId(); 
+        currentTravel = await Context.Travels.FirstOrDefaultAsync(t => t.UserId == userId && t.Id == travelId);
+
+        if (currentTravel != null)
+        {
+            travelCity = currentTravel.City;
+        }
+    }
+    
+    private async Task LoadChatHistory()
+    {
+        if (currentTravel != null && !string.IsNullOrEmpty(currentTravel.ChatHistory))
+        {
+            try
+            {
+                _messages = JsonSerializer.Deserialize<List<Message>>(currentTravel.ChatHistory) ?? new List<Message>();
+            }
+            catch (JsonException)
+            {
+                _messages = new List<Message>();
+            }
+        }
+    }
+    
+    private async Task SaveChatHistory()
+    {
+        if (currentTravel != null)
+        {
+            currentTravel.ChatHistory = JsonSerializer.Serialize(_messages);
+            Context.Travels.Update(currentTravel);
+            await Context.SaveChangesAsync();
+        }
+    }
+    
+    private string FormatNumberedList(string text)
+    {
+        StringBuilder formattedText = new StringBuilder();
+        string[] items = text.Split('\n');
+
+        foreach (string item in items)
+        {
+            if (item.Trim().Length > 2 && char.IsDigit(item[0]) && item[1] == '.')
+            {
+                string number = item.Substring(0, item.IndexOf('.'));
+                string content = item.Substring(item.IndexOf('.') + 2);
+                
+                formattedText.AppendLine($"<div style='margin-bottom: 10px;'><b>{number}</b>. {content}</div>");
+            }
+            else
+            {
+                formattedText.AppendLine(item);
+            }
+        }
+
+        return formattedText.ToString();
+    }
+
+    private async Task ClearChat()
+    {
+        _messages = new List<Message>();
+        await SaveChatHistory();
+        StateHasChanged();
+    }
+    
+    private async Task SubmitChat()
+    {
+        _isLoading = true;
+        Message tosend = new Message(chatinput.Text, true);
+        _messages.Add(tosend);
+        await JsRuntime.InvokeAsync<string>("UpdateScroll", "scrollbox");
+
+        Message response = await ChatService.GetResponse(_messages);
+        _messages.Add(response);
+        await JsRuntime.InvokeAsync<string>("UpdateScroll", "scrollbox");
+
+        chatinput.Text = "";
+        _isLoading = false;
+        await SaveChatHistory();
+    }
+
+    private async Task AskAI(string question)
+    {
+        chatinput.Text = question;
+        await SubmitChat();
+    }
+
+    private void updateTextArea(ChangeEventArgs e)
+    {
+        chatinput.Text = e.Value!.ToString()!;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JsRuntime.InvokeVoidAsync("preventEnterIfEmpty", "chattextarea");
+        }
+    }
+
+    public class ChatInput
+    {
+        public ChatInput()
+        {
+            Text = "";
+        }
+        public string Text { get; set; }
+    }
+}
