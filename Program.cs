@@ -13,8 +13,11 @@ builder.Services.AddMudServices();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddSingleton<ChatService>();
 
-builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(
-    builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<DataContext>(options => 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddDbContextFactory<DataContext>(options => 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")), ServiceLifetime.Scoped);
 
 builder.Services.AddScoped<IUserService, UserService>();
 

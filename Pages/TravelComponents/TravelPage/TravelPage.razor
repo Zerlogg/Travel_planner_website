@@ -2,6 +2,7 @@
 @inject DataContext Context
 @using TravelingTrips.Pages.TravelComponents.TravelPage.TravelPageAccommodation
 @using TravelingTrips.Pages.TravelComponents.TravelPage.TravelPageRestaurant
+@using TravelingTrips.Pages.TravelComponents.TravelPage.TravelPageDays
 @attribute [Authorize]
 
 <MudPaper Style="overflow: hidden; position: relative; min-height: 650px" Class="px-0">
@@ -32,7 +33,14 @@
         }
         else if (_selectedPage == "Days")
         {
-            <TravelDays/>
+            if (Id.HasValue)
+            {
+                <TravelDays travelId="@Id.Value"/>
+            }
+            else
+            {
+                <p>No valid travel ID found.</p>
+            } 
         }
         else if (_selectedPage == "Chat")
         {

@@ -7,10 +7,10 @@
     <MudDialog>
         <DialogContent>
             <MudContainer Class="px-0 gap-4 d-flex flex-column" Style="width: 400px">
-                <MudTextField T="string" Label="City" @bind-Value="@CurrentTrip.City" Variant="Variant.Outlined" Class="mt-0" Required="true"></MudTextField>
-                <MudTextField T="string" Label="Description" @bind-Value="@CurrentTrip.Description" Variant="Variant.Outlined" Class="mt-0"></MudTextField>
-                <MudNumericField T="double?" Label="Budget" @bind-Value="@CurrentTrip.Budget" Format="F2" HideSpinButtons="true" Variant="Variant.Outlined" Required="true" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Euro" />
-                <MudTextField T="string" Label="Personal Preferences" @bind-Value="@CurrentTrip.Preferences" Variant="Variant.Outlined" Class="mt-0"></MudTextField>
+                <MudTextField T="string" Label="City" @bind-Value="@CurrentTrip.City" MaxLength="30" Variant="Variant.Outlined" Class="mt-0" Required="true"></MudTextField>
+                <MudTextField T="string" Label="Description" @bind-Value="@CurrentTrip.Description" MaxLength="120" Variant="Variant.Outlined" Class="mt-0"></MudTextField>
+                <MudNumericField T="double?" Label="Budget" @bind-Value="@CurrentTrip.Budget" MaxLength="12" Format="F2" HideSpinButtons="true" Variant="Variant.Outlined" Required="true" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Euro" />
+                <MudTextField T="string" Label="Personal Preferences" @bind-Value="@CurrentTrip.Preferences" MaxLength="600" Lines="3" Variant="Variant.Outlined" Class="mt-0"></MudTextField>
                 <MudSelect Label="Folder" Variant="Variant.Outlined" @bind-SelectedValues="@options" MultiSelection="true" AnchorOrigin="Origin.BottomCenter">
                     @foreach (var folder in _folders)
                     {

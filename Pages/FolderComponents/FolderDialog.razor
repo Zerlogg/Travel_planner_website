@@ -7,7 +7,7 @@
     <MudDialog>
         <DialogContent>
             <MudContainer Class="px-0 gap-2 align-center d-flex flex-column">
-                <MudTextField T="string" Label="Title" Required="true" @bind-Value="@CurrentFolder.Title" Variant="Variant.Outlined" Class="mt-0" Style="width: 300px"/>
+                <MudTextField T="string" Label="Title" Required="true" @bind-Value="@CurrentFolder.Title" MaxLength="30" Variant="Variant.Outlined" Class="mt-0" Style="width: 300px"/>
                 <MudColorPicker Rounded="true" Class="rounded-tr-0" PickerVariant="PickerVariant.Static" Value="_pickerColor" ValueChanged="UpdateSelectedColor" 
                                 DisableModeSwitch="true"
                                 DisableColorField="true"

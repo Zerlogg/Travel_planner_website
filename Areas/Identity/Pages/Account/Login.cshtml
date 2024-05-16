@@ -15,12 +15,12 @@
                 <hr style="height: 2px; color: white" />
                 <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
                 <div class="form-floating mb-3">
-                    <input asp-for="Input.Username" class="form-control" autocomplete="username" aria-required="true" placeholder="Username" />
+                    <input asp-for="Input.Username" maxlength="30" class="form-control" autocomplete="username" aria-required="true" placeholder="Username" />
                     <label asp-for="Input.Username" class="form-label">Username</label>
                     <span asp-validation-for="Input.Username" class="text-danger"></span>
                 </div>
                 <div class="form-floating mb-3">
-                    <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+                    <input asp-for="Input.Password" maxlength="20" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
                     <label asp-for="Input.Password" class="form-label">Password</label>
                     <span asp-validation-for="Input.Password" class="text-danger"></span>
                 </div>

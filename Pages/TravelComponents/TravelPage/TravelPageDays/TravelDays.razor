@@ -1,0 +1,27 @@
+@inject IDbContextFactory<DataContext> ContextFactory
+@inject ISnackbar Snackbar
+@inject IDialogService DialogService
+@inject NavigationManager NavigationManager
+@using TravelingTrips.Pages.TravelComponents.TravelPage.TravelPageDays.TravelDaysObjects
+
+<div class="d-flex flex-column pa-6">
+    <MudText Typo="Typo.h4"><b>Days</b></MudText>
+
+    @if (travelDays == null || !travelDays.Any())
+    {
+        <MudText Typo="Typo.h5">You don't have any days created</MudText>
+    }
+    else
+    {
+        @foreach (var day in travelDays)
+        {
+            <div class="d-flex align-center my-2 gap-3">
+                <MudText Typo="Typo.h5"><b>@day.Date?.ToString("dd MMMM, dddd")</b></MudText>
+                <MudButton Variant="Variant.Outlined" Size="Size.Small" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" OnClick="() => OpenAddDialog(day.Id)">Add</MudButton>
+            </div>
+            <MudContainer Class="px-0 mb-4 mt-1 d-inline-flex gap-2 flex-wrap">
+                <TravelTourismObjects TravelDayId="@day.Id"/>
+            </MudContainer>
+        }
+    }
+</div>

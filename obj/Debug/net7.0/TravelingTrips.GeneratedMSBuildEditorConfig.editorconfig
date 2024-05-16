@@ -66,10 +66,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxQYWdlXFRyYXZlbENoYXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Work/Traveling Trips/Pages/TravelComponents/TravelPage/TravelDays.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxQYWdlXFRyYXZlbERheXMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Work/Traveling Trips/Pages/TravelComponents/TravelPage/TravelHome.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxQYWdlXFRyYXZlbEhvbWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -88,6 +84,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Work/Traveling Trips/Pages/TravelComponents/TravelPage/TravelPageAccommodation/TravelAccommodationEdit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxQYWdlXFRyYXZlbFBhZ2VBY2NvbW1vZGF0aW9uXFRyYXZlbEFjY29tbW9kYXRpb25FZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/Traveling Trips/Pages/TravelComponents/TravelPage/TravelPageDays/TravelDays.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxQYWdlXFRyYXZlbFBhZ2VEYXlzXFRyYXZlbERheXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/Traveling Trips/Pages/TravelComponents/TravelPage/TravelPageDays/TravelDaysObjects/TravelTourismObjects.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxQYWdlXFRyYXZlbFBhZ2VEYXlzXFRyYXZlbERheXNPYmplY3RzXFRyYXZlbFRvdXJpc21PYmplY3RzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/Traveling Trips/Pages/TravelComponents/TravelPage/TravelPageDays/TravelDaysObjects/TravelTourismObjectsAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxQYWdlXFRyYXZlbFBhZ2VEYXlzXFRyYXZlbERheXNPYmplY3RzXFRyYXZlbFRvdXJpc21PYmplY3RzQWRkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/Traveling Trips/Pages/TravelComponents/TravelPage/TravelPageDays/TravelDaysObjects/TravelTourismObjectsEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsQ29tcG9uZW50c1xUcmF2ZWxQYWdlXFRyYXZlbFBhZ2VEYXlzXFRyYXZlbERheXNPYmplY3RzXFRyYXZlbFRvdXJpc21PYmplY3RzRWRpdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Work/Traveling Trips/Pages/TravelComponents/TravelPage/TravelPageRestaurant/TravelRestaurant.razor]

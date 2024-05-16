@@ -1,7 +1,7 @@
-@inject DataContext Context
+@inject IDbContextFactory<DataContext> ContextFactory
 @inject ISnackbar Snackbar
 
-<MudForm @ref="_form" @bind-IsValid="@_success" Model="CurrentTrip" @bind-Errors="@_errors">
+<MudForm @ref="_form" @bind-IsValid="@_success" Model="tourismObject" @bind-Errors="@_errors">
     <MudDialog>
         <DialogContent>
             <MudContainer Class="px-0 pt-0 gap-2 d-flex flex-column" Style="width: 350px">
@@ -20,15 +20,15 @@
                         <p>Image uploaded: @uploadedImage.Name</p>
                     </div>
                 }
-                <MudTextField Label="Name" @bind-Value="@accommodation.Name" MaxLength="52" Variant="Variant.Outlined" Required="true"/>
-                <MudTextField Label="Description" @bind-Value="@accommodation.Description" MaxLength="165" Variant="Variant.Outlined"/>
-                <MudTextField Label="Location" @bind-Value="@accommodation.Location" MaxLength="70" Variant="Variant.Outlined" Required="true"/>
-                <MudNumericField Label="Price" @bind-Value="@accommodation.Price" MaxLength="12" Format="C2" HideSpinButtons="true" Variant="Variant.Outlined" Required="true"/>
+                <MudTextField Label="Name" @bind-Value="@tourismObject.Name" MaxLength="52" Variant="Variant.Outlined" Required="true"/>
+                <MudTextField Label="Description" @bind-Value="@tourismObject.Description" MaxLength="99" Variant="Variant.Outlined"/>
+                <MudTextField Label="Location" @bind-Value="@tourismObject.Location" MaxLength="70" Variant="Variant.Outlined" Required="true"/>
+                <MudNumericField Label="Price" @bind-Value="@tourismObject.Price" MaxLength="12" Format="C2" HideSpinButtons="true" Variant="Variant.Outlined" Required="true"/>
             </MudContainer>
         </DialogContent>
         <DialogActions>
             <MudButton OnClick="Cancel">Cancel</MudButton>
-            <MudButton Color="Color.Primary" Disabled="@(!_success)" OnClick="SaveAccommodation">Save</MudButton>
+            <MudButton Color="Color.Primary" Disabled="@(!_success)" OnClick="SaveTourismObject">Save</MudButton>
         </DialogActions>
     </MudDialog>
 </MudForm>

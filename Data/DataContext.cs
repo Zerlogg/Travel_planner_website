@@ -19,6 +19,10 @@ public class DataContext : IdentityDbContext<User>
     
     public DbSet<Restaurant> Restaurants { get; set; }
     
+    public DbSet<TravelDay> TravelDays { get; set; }
+    
+    public DbSet<TourismObject> TourismObjects { get; set; }
+    
     public DbSet<User> Users { get; set; }
     
     public DbSet<TravelFolders> TravelFolders { get; set; }

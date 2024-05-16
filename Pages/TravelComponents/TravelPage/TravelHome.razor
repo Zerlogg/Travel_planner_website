@@ -17,7 +17,7 @@
             <MudButton OnClick="SavePreferences" Color="Color.Success" Class="ml-auto">Save</MudButton>
             <MudButton OnClick="ClearPreferences" Color="Color.Error" Class="ml-1">Clear</MudButton>
         </MudContainer>
-        <MudTextField T="string" Variant="Variant.Outlined" Lines="6" MaxLength="500" @bind-Value="@CurrentTrip.Preferences"/>
+        <MudTextField T="string" Variant="Variant.Outlined" Lines="6" MaxLength="600" @bind-Value="@CurrentTrip.Preferences"/>
     </div>
     <div class="px-0 d-inline-flex" style="width: 35%">
         <MudPaper Style="width: 100%" Class="pa-3">
@@ -26,7 +26,7 @@
                 <MudButton OnClick="SaveBudget" Color="Color.Success" Class="ml-auto">Save</MudButton>
                 <MudButton OnClick="ClearBudget" Color="Color.Error" Class="ml-1">Clear</MudButton>
             </MudContainer>
-            <MudNumericField @bind-Value="@CurrentTrip.Budget" Variant="Variant.Outlined" Format="F2"/>
+            <MudNumericField @bind-Value="@CurrentTrip.Budget" MaxLength="12" Variant="Variant.Outlined" Format="F2"/>
             <MudContainer Class="px-0 mt-3 d-flex justify-space-between align-center">
                 <MudButton Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" OnClick="@(() => IncreaseBudget(100.00m))">+100.00</MudButton>
                 <MudButton Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" OnClick="@(() => IncreaseBudget(10.00m))">+10.00</MudButton>

@@ -1,0 +1,37 @@
+@inject IDbContextFactory<DataContext> ContextFactory
+@inject IDialogService DialogService
+@inject DataContext Context
+@inject ISnackbar Snackbar
+@inherits ComponentBase
+
+@if (tourismObjects != null && tourismObjects.Any())
+{
+    @foreach (var tourismObject in tourismObjects)
+    {
+        <MudCard Style="width: 324px" Class="mb-4">
+            <MudCardMedia Image="@($"data:image/png;base64,{Convert.ToBase64String(tourismObject.Image)}")" style="height: 150px"/>
+            <MudCardContent Class="pb-0">
+                <MudText Typo="Typo.h6" Class="mb-2 px-1 text-container text-border" Style="height: 64px"><b>@tourismObject.Name</b></MudText>
+                <div class="d-flex gap-1 mb-2" Style="height: 25px">
+                    <MudIcon Icon="@Icons.Material.Filled.Euro" Size="Size.Small"/>
+                    <MudText Typo="Typo.body1">@tourismObject.Price / per person</MudText>
+                </div>
+                <div class="d-flex gap-1" Style="height: 50px">
+                    <MudIcon Icon="@Icons.Material.Filled.LocationOn" Size="Size.Small"/>
+                    <MudText Class="text-container" Typo="Typo.body1">@tourismObject.Location</MudText>
+                </div>
+                <MudText Typo="Typo.body1" Class="mt-2 px-1 text-container text-border" Style="height: 76px">@tourismObject.Description</MudText>
+            </MudCardContent>
+            <MudCardActions Class="gap-1">
+                <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="Color.Default" OnClick="() => OpenEditDialog(tourismObject)" />
+                <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default" OnClick="() => DeleteTourismObject(tourismObject)" />
+            </MudCardActions>
+        </MudCard>
+    }
+}
+else
+{
+    <div class="d-flex align-items-center" style="min-height: 100px; width: 100%">
+        <MudText Typo="Typo.h5" Class="ml-auto mr-auto">You haven't created any tourism objects yet</MudText>
+    </div>
+}
