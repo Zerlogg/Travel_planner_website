@@ -99,11 +99,7 @@ public partial class FolderPage
         NavigationManager.NavigateTo($"travelpage/{id}");
     }
     
-    private void DownloadFile(string filename)
-    {
-        var pdf = new PDFGenerator();
-        pdf.DownloadPDF(js, filename);
-    }
+ 
     
     private void EditTravel(int id)
     {

@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Components;
 using Microsoft.EntityFrameworkCore;
 using MudBlazor;
 using TravelingTrips.Models;
@@ -8,6 +9,9 @@ namespace TravelingTrips.Pages.TravelComponents;
 public partial class TravelCollection 
 {
     private string? TextValue { get; set; }
+    
+    [Parameter]
+    public Travel CurrentTrip { get; set; }
 
     private List<Travel> _travels = new List<Travel>();
     
@@ -30,10 +34,48 @@ public partial class TravelCollection
         ApplySearchFilter();
     }
     
-    private void DownloadFile(string filename)
+    private async Task DownloadFile(int travelId, string filename)
     {
         var pdf = new PDFGenerator();
-        pdf.DownloadPDF(js, filename);
+        var currentTrip = await Context.Travels.FindAsync(travelId);
+        var accommodations = await LoadAccommodations(travelId);
+        var restaurants = await LoadRestaurants(travelId);
+        var tourismObjects = await LoadTourismObjects(travelId);
+        pdf.DownloadPDF(js, currentTrip, accommodations, restaurants, tourismObjects, filename);
+    }
+    
+    private async Task<List<Accommodation>> LoadAccommodations(int travelId)
+    {
+        return await Context.Accommodations
+            .Where(a => a.TravelId == travelId.ToString())
+            .ToListAsync();
+    }
+    
+    private async Task<List<Restaurant>> LoadRestaurants(int travelId)
+    {
+        return await Context.Restaurants
+            .Where(a => a.TravelId == travelId.ToString())
+            .ToListAsync();
+    }
+    
+    private async Task<List<List<TourismObject>>> LoadTourismObjects(int travelId)
+    {
+        var travelDays = await Context.TravelDays
+            .Where(td => td.TravelId == travelId.ToString())
+            .ToListAsync();
+
+        var tourismObjectsList = new List<List<TourismObject>>();
+
+        foreach (var day in travelDays)
+        {
+            var tourismObjects = await Context.TourismObjects
+                .Where(to => to.TravelDayId == day.Id.ToString())
+                .ToListAsync();
+        
+            tourismObjectsList.Add(tourismObjects);
+        }
+
+        return tourismObjectsList;
     }
     
     private void EditTravel(int id)

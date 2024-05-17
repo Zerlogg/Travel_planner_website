@@ -33,7 +33,7 @@ public partial class TravelTourismObjectsAdd : ComponentBase
 
             if (uploadedImage == null)
             {
-                using (var defaultImageStream = new FileStream("wwwroot/Images/Travel.jpg", FileMode.Open))
+                using (var defaultImageStream = new FileStream("wwwroot/Images/TourismObject.jpg", FileMode.Open))
                 {
                     imageBytes = new byte[defaultImageStream.Length];
                     await defaultImageStream.ReadAsync(imageBytes);

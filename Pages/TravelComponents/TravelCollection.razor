@@ -41,7 +41,7 @@
                         <MudText Typo="Typo.body2" Class="pt-2">@($"{travel.StartDate:dd.MM.yyyy} - {travel.EndDate:dd.MM.yyyy}")</MudText>
                     </MudCardContent>
                     <MudCardActions>
-                        <MudIconButton Icon="@Icons.Material.Filled.PictureAsPdf" Color="Color.Default" @onclick="@(p=>DownloadFile("YourTrip.pdf"))"/>
+                        <MudIconButton Icon="@Icons.Material.Filled.PictureAsPdf" Color="Color.Default" @onclick='@( () => DownloadFile(travel.Id, $"Your trip to {travel.City}.pdf") )'/>
                         <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Default" @onclick="() => DeleteTravel(travel.Id)"/>
                         <MudSpacer/>
                         <MudIconButton Icon="@Icons.Material.Filled.Edit" Color="Color.Default" @onclick="() => EditTravel(travel.Id)"/>

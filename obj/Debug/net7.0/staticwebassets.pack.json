@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\Images\\Restaurant.PNG"
     },
     {
+      "Id": "C:\\Work\\Traveling Trips\\wwwroot\\Images\\TourismObject.jpg",
+      "PackagePath": "staticwebassets\\Images\\TourismObject.jpg"
+    },
+    {
       "Id": "C:\\Work\\Traveling Trips\\wwwroot\\Images\\Travel.jpg",
       "PackagePath": "staticwebassets\\Images\\Travel.jpg"
     },

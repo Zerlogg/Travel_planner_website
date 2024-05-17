@@ -55,11 +55,7 @@ public partial class Home
         NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
     }
 
-    private void DownloadFile(string filename)
-    {
-        var pdf = new PDFGenerator();
-        pdf.DownloadPDF(js, filename);
-    }
+
 
     private void EditTravel(int id)
     {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YJDNWJ7z3A0jtR6Q0WeWORCPNXnsbF8wz1bbkino59Q=",
+  "Hash": "yMxPkIx68wBzguLMcm1KX9Qvmi3oeJeyl4CWP+iqUEI=",
   "Source": "TravelingTrips",
   "BasePath": "_content/TravelingTrips",
   "Mode": "Default",
@@ -205,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Restaurant.PNG"
+    },
+    {
+      "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\Images\\TourismObject.jpg",
+      "SourceId": "TravelingTrips",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Work\\Traveling Trips\\wwwroot\\",
+      "BasePath": "_content/TravelingTrips",
+      "RelativePath": "Images/TourismObject.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\TourismObject.jpg"
     },
     {
       "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\Images\\Travel.jpg",
