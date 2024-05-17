@@ -1,13 +1,41 @@
 @page "/"
 @layout IndexLayout
+@inject IJSRuntime JSRuntime
 
 <MudMainContent class="full-page-background d-flex justify-center align-center">
     <div class="full-page-background">
-        <MudImage Src="Images/Travel.jpg" Alt="Travel" Class="full-page-image" />
+        @if (showMap)
+        {
+            <div id="map" class="full-page-image"></div>
+        }
+        else
+        {
+            <MudImage Src="Images/Travel.jpg" Alt="Travel" Class="full-page-image" />
+        }
     </div>
     <div class="d-flex flex-column align-center">
         <MudText Typo="Typo.h1" Style="position: relative; color: white; outline: none" Class="outline-text"><b>Welcome to Traveling Trips!</b></MudText>
         <MudText Typo="Typo.h3" Style="position: relative; color: white" Class="mt-2 outline-text">Create unforgettable memories, and plan your next trip today!</MudText>
-        <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" Href="/register" Class="mt-6 px-6 py-3">Start planning</MudButton>
+        <div class="d-flex gap-3">
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" Href="/register" Class="mt-6 px-6 py-3">Start planning</MudButton>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" @onclick="ToggleMap" Class="mt-6 px-6 py-3">See the map</MudButton>
+        </div>
     </div>
 </MudMainContent>
+
+@code {
+    private bool showMap = false;
+    
+    private void ToggleMap()
+    {
+        showMap = !showMap;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (showMap)
+        {
+            await JSRuntime.InvokeVoidAsync("initializeMap");
+        }
+    }
+}

@@ -49,7 +49,7 @@ public partial class TravelAccommodation
         if (CurrentTrip != null)
         {
             accommodations = await Context.Accommodations
-                .Where(a => a.TravelId == CurrentTrip.Id.ToString())
+                .Where(a => a.TravelId == CurrentTrip.Id)
                 .ToListAsync();
             
             foreach (var accommodation in accommodations)

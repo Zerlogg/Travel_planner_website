@@ -19,4 +19,8 @@
     </PackageReference>
     <PackageReference Include="MudBlazor" Version="6.17.0" />
   </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\sample-data\weather.json" />
+  </ItemGroup>
 </Project>

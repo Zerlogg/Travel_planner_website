@@ -49,16 +49,16 @@
       "PackagePath": "staticwebassets\\js\\L.timezones.js"
     },
     {
+      "Id": "C:\\Work\\Traveling Trips\\wwwroot\\js\\Map.js",
+      "PackagePath": "staticwebassets\\js\\Map.js"
+    },
+    {
       "Id": "C:\\Work\\Traveling Trips\\wwwroot\\js\\PDFGenerate.js",
       "PackagePath": "staticwebassets\\js\\PDFGenerate.js"
     },
     {
       "Id": "C:\\Work\\Traveling Trips\\wwwroot\\js\\googleImageSearch.js",
       "PackagePath": "staticwebassets\\js\\googleImageSearch.js"
-    },
-    {
-      "Id": "C:\\Work\\Traveling Trips\\wwwroot\\sample-data\\weather.json",
-      "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TravelingTrips.Microsoft.AspNetCore.StaticWebAssets.props",

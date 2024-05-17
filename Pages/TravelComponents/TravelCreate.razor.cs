@@ -77,7 +77,7 @@ public partial class TravelCreate : ComponentBase
             {
                 travelDays.Add(new TravelDay
                 {
-                    TravelId = trip.Id.ToString(),
+                    TravelId = trip.Id,
                     Date = currentDate
                 });
                 currentDate = currentDate.AddDays(1);

@@ -1,59 +1,57 @@
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using TravelingTrips.Models;
 
-namespace TravelingTrips.Areas.Identity.Pages.Account
+namespace TravelingTrips.Areas.Identity.Pages.Account;
+
+public class RegisterModel : PageModel
 {
-    public class RegisterModel : PageModel
+    private readonly UserManager<User> _userManager;
+    private readonly SignInManager<User> _signInManager;
+
+    public RegisterModel(UserManager<User> userManager, SignInManager<User> signInManager)
     {
-        private readonly UserManager<User> _userManager;
-        private readonly SignInManager<User> _signInManager;
+        _userManager = userManager;
+        _signInManager = signInManager;
+    }
 
-        public RegisterModel(UserManager<User> userManager, SignInManager<User> signInManager)
+    [BindProperty]
+    public InputModel Input { get; set; }
+
+    public string ReturnUrl { get; set; }
+
+    public class InputModel
+    {
+        public string Username { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
+
+    public async Task<IActionResult> OnPostAsync(string returnUrl = null)
+    {
+        returnUrl = returnUrl ?? Url.Content("~/home");
+
+        if (ModelState.IsValid)
         {
-            _userManager = userManager;
-            _signInManager = signInManager;
-        }
+            var user = new User { UserName = Input.Username, Email = Input.Email };
+            var result = await _userManager.CreateAsync(user, Input.Password);
 
-        [BindProperty]
-        public InputModel Input { get; set; }
-
-        public string ReturnUrl { get; set; }
-
-        public class InputModel
-        {
-            public string Username { get; set; }
-            public string Email { get; set; }
-            public string Password { get; set; }
-        }
-
-        public async Task<IActionResult> OnPostAsync(string returnUrl = null)
-        {
-            returnUrl = returnUrl ?? Url.Content("~/home");
-
-            if (ModelState.IsValid)
+            if (result.Succeeded)
             {
-                var user = new User { UserName = Input.Username, Email = Input.Email };
-                var result = await _userManager.CreateAsync(user, Input.Password);
-
-                if (result.Succeeded)
-                {
-                    await _signInManager.SignInAsync(user, isPersistent: false);
-                    return LocalRedirect(returnUrl);
-                }
-                else
-                {
-                    foreach (var error in result.Errors)
-                    {
-                        ModelState.AddModelError(string.Empty, error.Description);
-                    }
-                    return Page();
-                }
+                await _signInManager.SignInAsync(user, isPersistent: false);
+                return LocalRedirect(returnUrl);
             }
-
-            return Page();
+            else
+            {
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
+                return Page();
+            }
         }
+
+        return Page();
     }
 }

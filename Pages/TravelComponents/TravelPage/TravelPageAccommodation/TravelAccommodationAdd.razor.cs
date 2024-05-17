@@ -48,7 +48,7 @@ public partial class TravelAccommodationAdd
                 await uploadedImage.OpenReadStream().ReadAsync(imageBytes);
             }
 
-            accommodation.TravelId = CurrentTrip.Id.ToString();
+            accommodation.TravelId = CurrentTrip.Id;
             accommodation.Image = imageBytes;
             accommodation.IsSelected = false;
 

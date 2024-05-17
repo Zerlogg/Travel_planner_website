@@ -12,4 +12,7 @@ public class Travel
     public string? Preferences { get; set; }
     public string? Image { get; set; }
     public string? ChatHistory { get; set; }
+    public ICollection<Accommodation> Accommodations { get; set; }
+    public ICollection<Restaurant> Restaurants { get; set; }
+    public ICollection<TravelDay> TravelDays { get; set; }
 }

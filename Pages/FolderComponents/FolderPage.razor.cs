@@ -99,7 +99,49 @@ public partial class FolderPage
         NavigationManager.NavigateTo($"travelpage/{id}");
     }
     
- 
+    private async Task DownloadFile(int travelId, string filename)
+    {
+        var pdf = new PDFGenerator();
+        var currentTrip = await Context.Travels.FindAsync(travelId);
+        var accommodations = await LoadAccommodations(travelId);
+        var restaurants = await LoadRestaurants(travelId);
+        var tourismObjects = await LoadTourismObjects(travelId);
+        pdf.DownloadPDF(js, currentTrip, accommodations, restaurants, tourismObjects, filename);
+    }
+    
+    private async Task<List<Accommodation>> LoadAccommodations(int travelId)
+    {
+        return await Context.Accommodations
+            .Where(a => a.TravelId == travelId)
+            .ToListAsync();
+    }
+    
+    private async Task<List<Restaurant>> LoadRestaurants(int travelId)
+    {
+        return await Context.Restaurants
+            .Where(a => a.TravelId == travelId)
+            .ToListAsync();
+    }
+    
+    private async Task<List<List<TourismObject>>> LoadTourismObjects(int travelId)
+    {
+        var travelDays = await Context.TravelDays
+            .Where(td => td.TravelId == travelId)
+            .ToListAsync();
+
+        var tourismObjectsList = new List<List<TourismObject>>();
+
+        foreach (var day in travelDays)
+        {
+            var tourismObjects = await Context.TourismObjects
+                .Where(to => to.TravelDayId == day.Id)
+                .ToListAsync();
+        
+            tourismObjectsList.Add(tourismObjects);
+        }
+
+        return tourismObjectsList;
+    }
     
     private void EditTravel(int id)
     {

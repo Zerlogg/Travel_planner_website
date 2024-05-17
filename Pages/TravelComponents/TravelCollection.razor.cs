@@ -47,21 +47,21 @@ public partial class TravelCollection
     private async Task<List<Accommodation>> LoadAccommodations(int travelId)
     {
         return await Context.Accommodations
-            .Where(a => a.TravelId == travelId.ToString())
+            .Where(a => a.TravelId == travelId)
             .ToListAsync();
     }
     
     private async Task<List<Restaurant>> LoadRestaurants(int travelId)
     {
         return await Context.Restaurants
-            .Where(a => a.TravelId == travelId.ToString())
+            .Where(a => a.TravelId == travelId)
             .ToListAsync();
     }
     
     private async Task<List<List<TourismObject>>> LoadTourismObjects(int travelId)
     {
         var travelDays = await Context.TravelDays
-            .Where(td => td.TravelId == travelId.ToString())
+            .Where(td => td.TravelId == travelId)
             .ToListAsync();
 
         var tourismObjectsList = new List<List<TourismObject>>();
@@ -69,7 +69,7 @@ public partial class TravelCollection
         foreach (var day in travelDays)
         {
             var tourismObjects = await Context.TourismObjects
-                .Where(to => to.TravelDayId == day.Id.ToString())
+                .Where(to => to.TravelDayId == day.Id)
                 .ToListAsync();
         
             tourismObjectsList.Add(tourismObjects);

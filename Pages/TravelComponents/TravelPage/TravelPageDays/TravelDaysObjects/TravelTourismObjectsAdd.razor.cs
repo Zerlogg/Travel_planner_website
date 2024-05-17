@@ -51,7 +51,7 @@ public partial class TravelTourismObjectsAdd : ComponentBase
                 await uploadedImage.OpenReadStream().ReadAsync(imageBytes);
             }
 
-            tourismObject.TravelDayId = TravelDayId.ToString();
+            tourismObject.TravelDayId = TravelDayId;
             tourismObject.Image = imageBytes;
 
             await using var context = ContextFactory.CreateDbContext();

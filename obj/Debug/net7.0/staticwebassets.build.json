@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yMxPkIx68wBzguLMcm1KX9Qvmi3oeJeyl4CWP+iqUEI=",
+  "Hash": "HDQF6a0h7AtbHGvupti6xNXrpzbWvXcdy6aiRLS9a1Y=",
   "Source": "TravelingTrips",
   "BasePath": "_content/TravelingTrips",
   "Mode": "Default",
@@ -302,6 +302,25 @@
       "OriginalItemSpec": "wwwroot\\js\\L.timezones.js"
     },
     {
+      "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\js\\Map.js",
+      "SourceId": "TravelingTrips",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Work\\Traveling Trips\\wwwroot\\",
+      "BasePath": "_content/TravelingTrips",
+      "RelativePath": "js/Map.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Map.js"
+    },
+    {
       "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\js\\PDFGenerate.js",
       "SourceId": "TravelingTrips",
       "SourceType": "Discovered",
@@ -319,25 +338,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\PDFGenerate.js"
-    },
-    {
-      "Identity": "C:\\Work\\Traveling Trips\\wwwroot\\sample-data\\weather.json",
-      "SourceId": "TravelingTrips",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Work\\Traveling Trips\\wwwroot\\",
-      "BasePath": "_content/TravelingTrips",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
     }
   ]
 }

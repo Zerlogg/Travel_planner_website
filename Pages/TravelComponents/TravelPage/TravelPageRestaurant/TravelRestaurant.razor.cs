@@ -61,7 +61,7 @@ public partial class TravelRestaurant
         if (CurrentTrip != null)
         {
             restaurants = await Context.Restaurants
-                .Where(a => a.TravelId == CurrentTrip.Id.ToString())
+                .Where(a => a.TravelId == CurrentTrip.Id)
                 .ToListAsync();
             
             foreach (var restaurant in restaurants)

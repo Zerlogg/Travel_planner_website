@@ -48,7 +48,7 @@ public partial class TravelRestaurantAdd
                 await uploadedImage.OpenReadStream().ReadAsync(imageBytes);
             }
 
-            restaurant.TravelId = CurrentTrip.Id.ToString();
+            restaurant.TravelId = CurrentTrip.Id;
             restaurant.Image = imageBytes;
             restaurant.IsSelected = false;
 

@@ -21,7 +21,7 @@ public partial class TravelTourismObjects : ComponentBase
     {
         await using var context = ContextFactory.CreateDbContext();
         tourismObjects = await context.TourismObjects
-            .Where(to => to.TravelDayId == TravelDayId.ToString())
+            .Where(to => to.TravelDayId == TravelDayId)
             .ToListAsync();
     }
 

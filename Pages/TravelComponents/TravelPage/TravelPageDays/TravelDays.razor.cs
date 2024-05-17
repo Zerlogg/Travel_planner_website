@@ -22,7 +22,7 @@ public partial class TravelDays
     {
         await using var context = ContextFactory.CreateDbContext();
         travelDays = await context.TravelDays
-            .Where(td => td.TravelId == TravelId.ToString())
+            .Where(td => td.TravelId == TravelId)
             .ToListAsync();
     }
 

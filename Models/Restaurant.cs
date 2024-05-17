@@ -3,7 +3,7 @@ namespace TravelingTrips.Models;
 public class Restaurant
 {
     public int Id { get; set; }
-    public string? TravelId { get; set; }
+    public int? TravelId { get; set; }
     public string? Name { get; set; }
     public string? Description { get; set; }
     public string? Location { get; set; }
@@ -11,4 +11,5 @@ public class Restaurant
     public TimeSpan? EndHours { get; set; }
     public bool? IsSelected { get; set; }
     public byte[] Image { get; set; }
+    public Travel Travel { get; set; }
 }
